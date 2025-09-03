@@ -132,37 +132,37 @@ const Header = () => {
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="ser-photography.php">
+                          <a className="dropdown-item" href="#">
                             Photography
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="ser-videography.php">
+                          <a className="dropdown-item" href="#">
                             Videography
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="ser-catering.php">
+                          <a className="dropdown-item" href="#">
                             Catering
                           </a>
                         </li>
                         <li>
                           <a
                             className="dropdown-item"
-                            href="ser-bridal-makeover.php"
+                            href="#"
                           >
                             Bridal Makeover
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="ser-sound-light.php">
+                          <a className="dropdown-item" href="#">
                             Sounds &amp; Lights
                           </a>
                         </li>
                         <li>
                           <a
                             className="dropdown-item"
-                            href="ser-furniture-fabrication.php"
+                            href="#"
                           >
                             Furniture &amp; Fabrications
                           </a>
@@ -170,7 +170,7 @@ const Header = () => {
                         <li>
                           <a
                             className="dropdown-item"
-                            href="ser-transport-logistics.php"
+                            href="#"
                           >
                             Guest Transportation &amp; Logistics
                           </a>
@@ -178,54 +178,54 @@ const Header = () => {
                       </div>
                       <div className="col-md-6">
                         <li>
-                          <a className="dropdown-item" href="ser-hospitality.php">
+                          <a className="dropdown-item" href="#">
                             Hospitality &amp; Guest Welcome Services
                           </a>
                         </li>
                         <li>
                           <a
                             className="dropdown-item"
-                            href="ser-live-streaming.php"
+                            href="#"
                           >
                             Wedding Live Streaming
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="ser-return-gifts.php">
+                          <a className="dropdown-item" href="#">
                             Return Gifts &amp; Wedding Favours
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="ser-photo-booth.php">
+                          <a className="dropdown-item" href="">
                             Trending Photo Booth Setups
                           </a>
                         </li>
                         <li>
                           <a
                             className="dropdown-item"
-                            href="ser-special-effects.php"
+                            href="#"
                           >
                             Cold Pyro, CO₂ Jet, Fog Effect, Confetti &amp;
                             Firecracker Shows
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="ser-dj-band.php">
+                          <a className="dropdown-item" href="#">
                             DJ, Live Band &amp; Musical Arrangements
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="ser-artists.php">
+                          <a className="dropdown-item" href="#">
                             Live Canvas Painting, Sketching &amp; Caricature Artists
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="ser-fun-games.php">
+                          <a className="dropdown-item" href="#">
                             Fun Games &amp; Interactive Activities
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="ser-ganga-aarti.php">
+                          <a className="dropdown-item" href="#">
                             Ganga Aarti Ceremony
                           </a>
                         </li>
@@ -245,7 +245,7 @@ const Header = () => {
                     <li>
                       <a
                         className="dropdown-item"
-                        href="ser_venue-management.php"
+                        href="#"
                       >
                         Wedding 
                       </a>
@@ -253,7 +253,7 @@ const Header = () => {
                     <li>
                       <a
                         className="dropdown-item"
-                        href="ser_venue-management.php"
+                        href="#"
                       >
 
                         Engagement 
@@ -262,7 +262,7 @@ const Header = () => {
                     <li>
                       <a
                         className="dropdown-item"
-                        href="ser_venue-management.php"
+                        href="#"
                       >
                         Birthday 
                       </a>
@@ -270,7 +270,7 @@ const Header = () => {
                     <li>
                       <a
                         className="dropdown-item"
-                        href="ser_venue-management.php"
+                        href="#"
                       >
                         Anniversary 
                       </a>
@@ -278,7 +278,7 @@ const Header = () => {
                     <li>
                       <a
                         className="dropdown-item"
-                        href="ser_venue-management.php"
+                        href="#"
                       >
                         Kids' Birthday Party
                       </a>
@@ -286,7 +286,7 @@ const Header = () => {
                     <li>
                       <a
                         className="dropdown-item"
-                        href="ser_venue-management.php"
+                        href="#"
                       >
                         Corporate 
 
@@ -364,45 +364,45 @@ const Header = () => {
                       <li>
                         <a
                           className="dropdown-item"
-                          href="ser-venue-management.php"
+                          href="#"
                         >
                           Venue Management
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="ser-floral-decor.php">
+                        <a className="dropdown-item" href="#">
                           Floral Décor
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="ser-photography.php">
+                        <a className="dropdown-item" href="#">
                           Photography
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="ser-videography.php">
+                        <a className="dropdown-item" href="#">
                           Videography
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="ser-catering.php">
+                        <a className="dropdown-item" href="#">
                           Catering
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="ser-bridal-makeover.php">
+                        <a className="dropdown-item" href="#">
                           Bridal Makeover
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="ser-sound-light.php">
+                        <a className="dropdown-item" href="#">
                           Sounds &amp; Lights
                         </a>
                       </li>
                       <li>
                         <a
                           className="dropdown-item"
-                          href="ser-furniture-fabrication.php"
+                          href="#"
                         >
                           Furniture &amp; Fabrications
                         </a>
@@ -410,54 +410,54 @@ const Header = () => {
                       <li>
                         <a
                           className="dropdown-item"
-                          href="ser-transport-logistics.php"
+                          href="#"
                         >
                           Guest Transportation &amp; Logistics
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="ser-hospitality.php">
+                        <a className="dropdown-item" href="#">
                           Hospitality &amp; Guest Welcome Services
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="ser-live-streaming.php">
+                        <a className="dropdown-item" href="#">
                           Wedding Live Streaming
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="ser-return-gifts.php">
+                        <a className="dropdown-item" href="#">
                           Return Gifts &amp; Wedding Favours
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="ser-photo-booth.php">
+                        <a className="dropdown-item" href="#">
                           Trending Photo Booth Setups
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="ser-special-effects.php">
+                        <a className="dropdown-item" href="#">
                           Cold Pyro, CO₂ Jet, Fog Effect, Confetti &amp; Firecracker
                           Shows
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="ser-dj-band.php">
+                        <a className="dropdown-item" href="#">
                           DJ, Live Band &amp; Musical Arrangements
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="ser-artists.php">
+                        <a className="dropdown-item" href="#">
                           Live Canvas Painting, Sketching &amp; Caricature Artists
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="ser-fun-games.php">
+                        <a className="dropdown-item" href="#">
                           Fun Games &amp; Interactive Activities
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="ser-ganga-aarti.php">
+                        <a className="dropdown-item" href="#">
                           Ganga Aarti Ceremony
                         </a>
                       </li>

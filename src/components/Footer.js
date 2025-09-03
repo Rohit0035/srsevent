@@ -107,54 +107,54 @@ const Footer = () => {
                                         <div className="row">
                                             <div className="col-md-6">
                                                 <li>
-                                                    <a href="ser_venue-management.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" />
                                                         Venue Management
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-floral-decor.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" /> Floral Décor
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-photography.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" />
                                                         Photography
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-videography.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" />
                                                         Videography
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-catering.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" />
                                                         Catering
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-bridal-makeover.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" />
                                                         Bridal Makeover
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-sound-light.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" /> Sounds &amp;
                                                         Lights
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-furniture-fabrication.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" /> Furniture
                                                         &amp; Fabrications
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-transport-logistics.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" />
                                                         Guest Transportation &amp; Logistics
                                                     </a>
@@ -162,55 +162,55 @@ const Footer = () => {
                                             </div>
                                             <div className="col-md-6">
                                                 <li>
-                                                    <a href="ser-hospitality.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" />
                                                         Hospitality &amp; Guest Welcome Services
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-live-streaming.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" />
                                                         Wedding Live Streaming
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-return-gifts.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" /> Return Gifts
                                                         &amp; Wedding Favours
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-photo-booth.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" /> Trending
                                                         Photo Booth Setups
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-special-effects.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" /> Cold Pyro,
                                                         CO₂ Jet, Fog Effect, Confetti &amp; Firecracker Shows
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-dj-band.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" /> DJ, Live
                                                         Band &amp; Musical Arrangements
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-artists.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" /> Live Canvas
                                                         Painting, Sketching &amp; Caricature Artists
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-fun-games.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" /> Fun Games
                                                         &amp; Interactive Activities
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="ser-ganga-aarti.php">
+                                                    <a href="#">
                                                         <i className="fas fa-angle-double-right" /> Ganga Aarti
                                                         Ceremony
                                                     </a>
