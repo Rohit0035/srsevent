@@ -1,0 +1,285 @@
+.logo{
+    width:120px;
+}
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.about-hero-section {
+    padding-top: 60px !important;
+    padding-bottom: 50px !important;
+}
+
+p.service-text {
+    font-size: 14px ;
+}
+
+.text-pink{
+  color: rgb(214 57 129) !important;
+}
+
+.gal-i {
+    width: 300px;
+    height: 200px;
+}
+.str-mn {
+    min-width: 600px;
+}
+
+.dropdown-item {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.footer-list li a {
+    color: #5880A2;
+    transition: all .5s ease-in-out;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.str-bi {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+.st-height {
+    height: 200px !important;
+}
+
+.slide-1{
+  background-image: url(../img/slider/slider-1.jpg);
+}
+
+.slide-2{
+  background-image: url(../img/slider/slider-2.jpg);
+}
+.sr-1 {
+  background-image: url(../img/common/ev-3.jpg);
+}
+.sr-2 {
+  background-image: url(../img/common/ser-furn.jpg);
+}
+.sr-3 {
+  background-image: url(../img/common/ser-photograp.jpg);
+}
+.sr-4 {
+  background-image: url(../img/common/ser-videograph.jpg);
+}
+.sr-5 {
+  background-image: url(../img/common/ser-cating.jpg);
+}
+.sr-6 {
+  background-image: url(../img/common/ser-bridal-m.jpeg);
+}
+.sr-7 {
+  background-image: url(../img/common/ser-sound.jpg);
+}
+.sr-8 {
+  background-image: url(../img/common/ser-furn.jpg);
+}
+.sr-9 {
+  background-image: url(../img/common/ser-gestt.jpg);
+}
+.sr-10 {
+  background-image: url(../img/common/ser-gestwel.jpg);
+}
+.sr-11 {
+  background-image: url(../img/common/ser-wedlive.png);
+}
+.sr-12 {
+  background-image: url(../img/common/ser-gift.webp);
+}
+.sr-13 {
+  background-image: url(../img/common/ser-trending.jpg);
+}
+.sr-14 {
+  background-image: url(../img/common/ser-cryo.jpg);
+}
+.sr-15 {
+  background-image: url(../img/common/ser-liveband.jpg);
+}
+.sr-16 {
+  background-image: url(../img/common/ser-drwa.jpg);
+}
+.sr-17 {
+  background-image: url(../img/common/ser-games.jpg);
+}
+.sr-18 {
+  background-image: url(../img/common/ser-arrti.jpg);
+}
+
+.animate-marquee {
+        display: inline-flex;
+        animation: marquee 25s linear infinite;
+    }
+
+    .animate-marquee-reverse {
+        display: inline-flex;
+        animation: marquee-reverse 30s linear infinite;
+    }
+
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    @keyframes marquee-reverse {
+        0% {
+            transform: translateX(-50%);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+/* Positioning */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff !important; /* Default arrow color */
+  background: rgba(0, 0, 0, 0.5) !important; /* Background circle */
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.3s ease !important;
+}
+
+/* Hover effect */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: #9c2356 !important; /* Custom hover background */
+  color: #fff !important;
+  transform: scale(1.1) !important;
+}
+
+/* Icon size */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px !important; /* Change arrow size */
+  font-weight: bold !important;
+}
+
+/* Move buttons slightly outside */
+.swiper-button-next {
+  right: 20px !important;
+}
+
+.swiper-button-prev {
+  left: 20px !important;
+}
+
+.request-btn {
+    position: fixed;
+    background: #2196F3;
+    right: -44px;
+    top: 47%;
+    transform: rotate(90deg) translateY(-50%);
+    z-index: 2;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+.whatsapp-float {
+  position: fixed;
+  top: 80%;
+  right: 2px;
+  transform: translateY(-50%);
+  background-color: #25d366;
+  color: #fff;
+  font-size: 28px;
+  padding: 1px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+  width: 50px;
+  height: 50px;
+}
+
+.whatsapp-float:hover {
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.whatsapp-float i {
+  animation: pulse 1.5s infinite;
+}
+
+/* Animation */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+/* Optional: hide on small screens */
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+  .site-title{
+    font-size: 32px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+  .navbar {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .list-unstyled li {
+    font-size: 12px;
+  }
+  .breadcrumb-title{
+    font-size: 32px !important;
+  }
+  .site-breadcrumb {
+    padding-top: 166px;
+  }
+  .st-b{
+    padding-top: 140px  !important;
+  }
+  .st-2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  ul.footer-social {
+    display: none;
+  }
+  .copyright .copyright-text {
+    font-size: 12px;
+    text-align: center;
+ }
+ .gal-i {
+    width: 200px;
+    height: 200px;
+  }  
+  .about-hero-section {
+    padding-top: 150px !important;
+    padding-bottom: 50px !important;
+  }
+  img.logo-st {
+    width: 150px;
+  }
+}
