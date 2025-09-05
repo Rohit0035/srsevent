@@ -26,6 +26,12 @@ import LiveCanvasPainting from './pages/service/LiveCanvasPainting';
 import FunGamesInteractive from './pages/service/FunGamesInteractive';
 import GangaAarti from './pages/service/GangaAarti';
 import ColdCyro from './pages/service/ColdCyro';
+import CorporateManagement from './pages/event/CorporateManagement';
+import InaugurationPlanners from './pages/event/InaugurationPlanners';
+import ConferencesSeminar from './pages/event/ConferencesSeminar';
+import CorporateOutdoor from './pages/event/CorporateOutdoor';
+import HospitalityWellness from './pages/event/HospitalityWellness';
+import AwardCeremony from './pages/event/AwardCeremony';
 
 
 
@@ -65,6 +71,13 @@ function App() {
 
                 {/* events */}
                 <Route path="/wedding" element={<Wedding />} />
+                <Route path="/corporatemanagement" element={<CorporateManagement />} />
+                <Route path="/inaugurationplanners" element={<InaugurationPlanners />} />
+                <Route path="/conferencesseminar" element={<ConferencesSeminar />} />
+                <Route path="/corporateoutdoor" element={<CorporateOutdoor />} />
+                <Route path="/hospitalitywellness" element={<HospitalityWellness />} />
+                <Route path="/awardCeremony" element={<AwardCeremony />} />
+
 
 
 

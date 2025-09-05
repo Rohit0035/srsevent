@@ -13,6 +13,7 @@ import './assets/css/custom.css';
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+
 import { HelmetProvider } from "react-helmet-async";
 
 const RootApp = () => {

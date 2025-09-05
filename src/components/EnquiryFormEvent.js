@@ -1,57 +1,99 @@
-import React from 'react';
+import React from "react";
 
 const EnquiryFormEvent = () => {
     return (
         <>
-            <form action="#">
+            <form action="#" className="rounded">
                 <div className="row">
-                    <div className="col-md-12">
-                        <div className="form-group">
+                    {/* Full Name */}
+                    <div className="col-md-12 mb-3">
+                        {/* <label style={{fontSize:'12px'}} className="form-label text-white mb-1 text-start w-100">Full Name</label> */}
+                        <input
+                            type="text"
+                            name="name"
+                            className="form-control rounded-4"
+                            placeholder="Enter your Full Name"
+                        />
+                    </div>
+
+                    {/* Email */}
+                    <div className="col-md-12 mb-3">
+                        {/* <label style={{fontSize:'12px'}} className="form-label text-white mb-1 text-start w-100">Email Address</label> */}
+                        <input
+                            type="email"
+                            name="email"
+                            className="form-control rounded-4"
+                            placeholder="Enter your Email"
+                        />
+                    </div>
+
+                    {/* Phone Number */}
+                    <div className="col-md-12 mb-3">
+                        {/* <label style={{fontSize:'12px'}} className="form-label text-white mb-1 text-start w-100">Phone Number</label> */}
+                        <input
+                            type="text"
+                            name="phone"
+                            className="form-control rounded-4"
+                            placeholder="Enter Phone Number"
+                        />
+                    </div>
+
+                    {/* Event Date */}
+                    <div className="col-md-12 mb-3">
+                        {/* <label style={{fontSize:'12px'}} className="form-label text-white mb-1 text-start w-100">Event Date</label> */}
+                        <input
+                            type="date"
+                            name="event_date"
+                            className="form-control rounded-4"
+                            placeholder="dd-mm-yyyy"
+                        />
+                    </div>
+
+                    {/* Event Location */}
+                    <div className="col-md-12 mb-3">
+                        {/* <label style={{fontSize:'12px'}} className="form-label text-white mb-1 text-start w-100">Event Location</label> */}
+                        <input
+                            type="text"
+                            name="event_location"
+                            className="form-control rounded-4"
+                            placeholder="Enter your Event Location "
+                        />
+                    </div>
+
+                    {/* Relation */}
+                    <div className="col-md-12 mb-3">
+                        {/* <label style={{fontSize:'12px'}} className="form-label text-white mb-1 text-start w-100">Relation</label> */}
+                        <select name="relation" className="form-select rounded-4">
+                            <option>Select a Relation</option>
+                            <option>Friend</option>
+                            <option>Family</option>
+                            <option>Colleague</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+
+                    {/* WhatsApp Checkbox */}
+                    <div className="col-md-12 mb-3">
+                        <div className="form-check">
                             <input
-                                type="text"
-                                name="name"
-                                className="form-control"
-                                placeholder="Your Name"
+                                type="checkbox"
+                                className="form-check-input"
+                                id="whatsapp"
                             />
+                            <label className="form-check-label text-start w-100 text-white" htmlFor="whatsapp">
+                                Send me updates on WhatsApp
+                            </label>
                         </div>
                     </div>
+
+                    {/* Submit Button */}
                     <div className="col-md-12">
-                        <div className="form-group">
-                            <input
-                                type="email"
-                                name="email"
-                                className="form-control"
-                                placeholder="Email Address"
-                            />
-                        </div>
-                    </div>
-                    <div className="col-md-12">
-                        <div className="form-group">
-                            <input
-                                type="text"
-                                name="phone"
-                                className="form-control"
-                                placeholder="Phone"
-                            />
-                        </div>
-                    </div>
-                     <div className="col-md-12">
-                        <div className="form-group">
-                            <input
-                                type="text"
-                                name="phone"
-                                className="form-control"
-                                placeholder="Phone"
-                            />
-                        </div>
+                        <button type="submit" className="btn theme-btn bg-black w-100">
+                            Submit
+                        </button>
                     </div>
                 </div>
-                <button className="theme-btn bg-black w-100">
-                    Submit Now
-                    <i className="fas fa-arrow-right" />
-                </button>
             </form>
-
         </>
     );
 };

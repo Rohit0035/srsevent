@@ -80,14 +80,14 @@ const Header = () => {
             {/* Mobile Toggle Button (only shows on small screens) */}
             <div className="d-lg-none mobile-menu-right">
               <button
-                className="navbar-toggler"
+                className="navbar-toggler bg-pink text-white px-2 py-1"
                 type="button"
                 data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNav"
                 aria-controls="offcanvasNav"
               >
                 <span className="navbar-toggler-btn-icon">
-                  <i className="fas fa-bars" />
+                  <i className="fas fa-bars text-white" />
                 </span>
               </button>
             </div>
@@ -234,58 +234,87 @@ const Header = () => {
                   >
                     Events
                   </a>
-                  <ul className="dropdown-menu  fade-down">
-                    <li>
-                      <a
-                        className="dropdown-item"
-                        href="/"
-                      >
-                        Wedding
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="dropdown-item"
-                        href="#"
-                      >
+                  <ul className="dropdown-menu str-mn fade-down">
+                    <div className="row">
+                      {/* Corporate Events */}
+                      <div className="col-md-6 mb-2">
+                        <h4 className="mb-0 text-pink p-2"> <i className="fas fa-briefcase "></i>  Corporate Events</h4>
+                        <hr className="mt-2 mb-2" />
+                        <li>
+                          <a className="dropdown-item" href="/corporatemanagement">
+                            Corporate Management
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="/inaugurationplanners">
+                            Inauguration Planners
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="/conferencesseminar">
+                            Conferences and Seminar Event
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="/corporateoutdoor">
+                            Corporate Outdoor Events
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="/hospitalitywellness">
+                            Hospitality and Wellness Management
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="/awardCeremony">
+                            Award Ceremony
+                          </a>
+                        </li>
+                      </div>
 
-                        Engagement
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="dropdown-item"
-                        href="#"
-                      >
-                        Birthday
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="dropdown-item"
-                        href="#"
-                      >
-                        Anniversary
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="dropdown-item"
-                        href="#"
-                      >
-                        Kids' Birthday Party
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="dropdown-item"
-                        href="#"
-                      >
-                        Corporate
-
-                      </a>
-                    </li>
+                      {/* Personal Events */}
+                      <div className="col-md-6"> 
+                        <h4 className="mb-0 text-pink p-2"> <i className="fas fa-birthday-cake "></i> Personal Events</h4>
+                        <hr className="mt-2 mb-2" />
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Wedding Planners
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Destination Wedding
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Engagement Planners
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Birthday Planners
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Baby Shower
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Wedding Anniversary
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Housewarming Event
+                          </a>
+                        </li>
+                      </div>
+                    </div>
                   </ul>
+
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="/whyus">
@@ -469,39 +498,81 @@ const Header = () => {
                       Events
                     </a>
                     <ul className="dropdown-menu fade-down border-0">
-                      <li>
-                        <a
-                          className="dropdown-item"
-                          href="/"
-                        >
-                          Wedding
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          Engagement
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          Birthday
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          Anniversary
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          Kids' Birthday Party
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="#">
-                          Corporate
-                        </a>
-                      </li>
+                      <div className="row">
+                        <div className="col-md-6 mb-3">
+                          <h5 className="mb-0 text-pink">Corporate Events</h5>
+                          <hr className="mt-2" />
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Corporate Management
+                            </a>
+                          </li>
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Inauguration Planners
+                            </a>
+                          </li>
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Conferences and Seminar Event
+                            </a>
+                          </li>
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Corporate Outdoor Events
+                            </a>
+                          </li>
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Hospitality and Wellness Management
+                            </a>
+                          </li>
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Award Ceremony
+                            </a>
+                          </li>
+                        </div>
+                        <div className="col-md-6 mb-3">
+                          <h5 className="mb-0 text-pink">Personal Events</h5>
+                          <hr className="mt-2" />
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Wedding Planners
+                            </a>
+                          </li>
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Destination Wedding
+                            </a>
+                          </li>
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Engagement Planners
+                            </a>
+                          </li>
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Birthday Planners
+                            </a>
+                          </li>
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Baby Shower
+                            </a>
+                          </li>
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Wedding Anniversary
+                            </a>
+                          </li>
+                          <li>
+                            <a className="dropdown-item" href="#">
+                              Housewarming Event
+                            </a>
+                          </li>
+                        </div>
+                      </div>
                     </ul>
                   </li>
                   <li className="nav-item">

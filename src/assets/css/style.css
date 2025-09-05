@@ -981,7 +981,7 @@ label {
     text-transform: capitalize;
     transition: all .5s ease-in-out;
     z-index: 1;
-    line-height: 20px;
+    line-height: 30px;
   }
 
   .navbar .nav-item .dropdown-menu .dropdown-item:hover {
