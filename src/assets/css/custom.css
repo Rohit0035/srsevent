@@ -18,6 +18,9 @@ p.service-text {
 .text-pink{
   color: rgb(214 57 129) !important;
 }
+.bg-pink{
+  background-color: #9c2356;
+}
 
 .gal-i {
     width: 300px;
@@ -222,6 +225,22 @@ p.service-text {
   animation: pulse 1.5s infinite;
 }
 
+.st-color-card {
+    border-radius: 25px;
+    background-color: #9c2356;
+}
+
+/* event css start */
+.event1-bg{
+   background-image: url(../img/events/wed-bg.jpg);
+   background-position: center;
+   background-size: cover;
+   padding: 70px 0px 70px 0px;
+}
+
+
+/* event css close */
+
 /* Animation */
 @keyframes pulse {
   0% { transform: scale(1); }
@@ -281,5 +300,8 @@ p.service-text {
   }
   img.logo-st {
     width: 150px;
+  }
+  .event1-bg {
+    padding: 150px 0px 50px 0px;
   }
 }

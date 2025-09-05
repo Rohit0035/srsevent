@@ -7,7 +7,7 @@ const Counter = () => {
                 {/* counter area */}
                 <div
                     className="counter-area counter-wrapper py-5"
-                    style={{ background: "#433357" }}
+                    style={{ background: "#9c2356" }}
                 >
                     <div className="container">
                         <div className="row text-center">

@@ -13,7 +13,7 @@ import vnC from "../../assets/img/common/ph-3.jpg";
 import vnD from "../../assets/img/common/ph-4.jpg";
 import { Helmet } from "react-helmet-async";
 
-const Photography = () => {
+const DjLiveBandMusical = () => {
     const [open, setOpen] = useState(false);
     const [index, setIndex] = useState(0);
 
@@ -266,4 +266,4 @@ const Photography = () => {
     );
 };
 
-export default Photography;
+export default DjLiveBandMusical;

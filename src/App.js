@@ -9,6 +9,23 @@ import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
 import SerVenueManagement from './pages/service/SerVenueManagement';
 import FloralDecor from './pages/service/FloralDecor';
+import Wedding from './pages/event/Wedding';
+import BridalMakeover from './pages/service/BridalMakeover';
+import Catering from './pages/service/Catering';
+import FurnitureFabrications from './pages/service/FurnitureFabrications';
+import GuestTransportation from './pages/service/GuestTransportation';
+import Photography from './pages/service/Photography';
+import SoundsLights from './pages/service/SoundsLights';
+import Videography from './pages/service/Videography';
+import HospitalityGuest from './pages/service/HospitalityGuest';
+import WeddingLive from './pages/service/WeddingLive';
+import ReturnGiftsWedding from './pages/service/ReturnGiftsWedding';
+import TrendingPhoto from './pages/service/TrendingPhoto';
+import DjLiveBandMusical from './pages/service/DjLiveBandMusical';
+import LiveCanvasPainting from './pages/service/LiveCanvasPainting';
+import FunGamesInteractive from './pages/service/FunGamesInteractive';
+import GangaAarti from './pages/service/GangaAarti';
+import ColdCyro from './pages/service/ColdCyro';
 
 
 
@@ -25,8 +42,29 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/gallery" element={<Gallery />} />
 
+                {/* services */}
                 <Route path="/venuemanagement" element={<SerVenueManagement />} />
                 <Route path="/floraldecor" element={<FloralDecor />} />
+                <Route path="/bridalmakeover" element={<BridalMakeover />} />
+                <Route path="/catering" element={<Catering />} />
+                <Route path="/furniturefabrications" element={<FurnitureFabrications />} />
+                <Route path="/guesttransportation" element={<GuestTransportation />} />
+                <Route path="/photography" element={<Photography />} />
+                <Route path="/soundsLights" element={<SoundsLights />} />
+                <Route path="/videography" element={<Videography />} />
+
+                <Route path="/hospitalityguest" element={<HospitalityGuest />} />
+                <Route path="/weddinglive" element={<WeddingLive />} />
+                <Route path="/returngiftswedding" element={<ReturnGiftsWedding />} />
+                <Route path="/trendingphoto" element={<TrendingPhoto />} />
+                <Route path="/coldpyro" element={<ColdCyro />} />
+                <Route path="/djlivebandmusical" element={<DjLiveBandMusical />} />
+                <Route path="/livecanvaspainting" element={<LiveCanvasPainting />} />
+                <Route path="/fungamesinteractive" element={<FunGamesInteractive />} />
+                <Route path="/gangaaarti" element={<GangaAarti />} />
+
+                {/* events */}
+                <Route path="/wedding" element={<Wedding />} />
 
 
 

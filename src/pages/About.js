@@ -211,7 +211,7 @@ const About = () => {
                         <div className="col-6 col-md-4 col-lg-2">
                             <i
                                 className="fas fa-hands-helping fa-2x mb-2"
-                                style={{ color: "#433357" }}
+                                style={{ color: "#9c2356" }}
                             />
                             <h6 className="fw-bold">Integrity</h6>
                             <p className="small text-muted">
@@ -222,7 +222,7 @@ const About = () => {
                         <div className="col-6 col-md-4 col-lg-2">
                             <i
                                 className="fas fa-brain fa-2x  mb-2"
-                                style={{ color: "#433357" }}
+                                style={{ color: "#9c2356" }}
                             />
                             <h6 className="fw-bold">Creativity</h6>
                             <p className="small text-muted">
@@ -233,7 +233,7 @@ const About = () => {
                         <div className="col-6 col-md-4 col-lg-2">
                             <i
                                 className="fas fa-user-friends fa-2x mb-2"
-                                style={{ color: "#433357" }}
+                                style={{ color: "#9c2356" }}
                             />
                             <h6 className="fw-bold">Teamwork</h6>
                             <p className="small text-muted">
@@ -243,7 +243,7 @@ const About = () => {
                         </div>
                         {/* Value 4 */}
                         <div className="col-6 col-md-4 col-lg-2">
-                            <i className="fas fa-star fa-2x  mb-2" style={{ color: "#433357" }} />
+                            <i className="fas fa-star fa-2x  mb-2" style={{ color: "#9c2356" }} />
                             <h6 className="fw-bold">Excellence</h6>
                             <p className="small text-muted">
                                 Our goal is to exceed expectations at every stage of the event
@@ -252,7 +252,7 @@ const About = () => {
                         </div>
                         {/* Value 5 */}
                         <div className="col-6 col-md-4 col-lg-2">
-                            <i className="fas fa-heart fa-2x mb-2" style={{ color: "#433357" }} />
+                            <i className="fas fa-heart fa-2x mb-2" style={{ color: "#9c2356" }} />
                             <h6 className="fw-bold">Passion</h6>
                             <p className="small text-muted">
                                 We love what we do—and it shows in every detail of our work.
@@ -262,7 +262,7 @@ const About = () => {
                         <div className="col-6 col-md-4 col-lg-2">
                             <i
                                 className="fas fa-clock fa-2x  mb-2"
-                                style={{ color: "#433357" }}
+                                style={{ color: "#9c2356" }}
                             />
                             <h6 className="fw-bold">Reliability</h6>
                             <p className="small text-muted">

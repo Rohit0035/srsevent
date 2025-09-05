@@ -107,115 +107,100 @@ const Footer = () => {
                                         <div className="row">
                                             <div className="col-md-6">
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" />
-                                                        Venue Management
+                                                    <a href="/venuemanagement">
+                                                        <i className="fas fa-angle-double-right" /> Venue Management
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="/floraldecor">
                                                         <i className="fas fa-angle-double-right" /> Floral Décor
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" />
-                                                        Photography
+                                                    <a href="/photography">
+                                                        <i className="fas fa-angle-double-right" /> Photography
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" />
-                                                        Videography
+                                                    <a href="/videography">
+                                                        <i className="fas fa-angle-double-right" /> Videography
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" />
-                                                        Catering
+                                                    <a href="/catering">
+                                                        <i className="fas fa-angle-double-right" /> Catering
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" />
-                                                        Bridal Makeover
+                                                    <a href="/bridalmakeover">
+                                                        <i className="fas fa-angle-double-right" /> Bridal Makeover
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" /> Sounds &amp;
-                                                        Lights
+                                                    <a href="/soundsLights">
+                                                        <i className="fas fa-angle-double-right" /> Sounds &amp; Lights
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" /> Furniture
-                                                        &amp; Fabrications
+                                                    <a href="/furniturefabrications">
+                                                        <i className="fas fa-angle-double-right" /> Furniture &amp; Fabrications
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" />
-                                                        Guest Transportation &amp; Logistics
+                                                    <a href="/guesttransportation">
+                                                        <i className="fas fa-angle-double-right" /> Guest Transportation &amp; Logistics
                                                     </a>
                                                 </li>
                                             </div>
+
                                             <div className="col-md-6">
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" />
-                                                        Hospitality &amp; Guest Welcome Services
+                                                    <a href="/hospitalityguest">
+                                                        <i className="fas fa-angle-double-right" /> Hospitality &amp; Guest Welcome Services
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" />
-                                                        Wedding Live Streaming
+                                                    <a href="/weddinglive">
+                                                        <i className="fas fa-angle-double-right" /> Wedding Live Streaming
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" /> Return Gifts
-                                                        &amp; Wedding Favours
+                                                    <a href="/returngiftswedding">
+                                                        <i className="fas fa-angle-double-right" /> Return Gifts &amp; Wedding Favours
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" /> Trending
-                                                        Photo Booth Setups
+                                                    <a href="/trendingphoto">
+                                                        <i className="fas fa-angle-double-right" /> Trending Photo Booth Setups
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" /> Cold Pyro,
-                                                        CO₂ Jet, Fog Effect, Confetti &amp; Firecracker Shows
+                                                    <a href="/coldpyro">
+                                                        <i className="fas fa-angle-double-right" /> Cold Pyro, CO₂ Jet, Fog Effect, Confetti &amp; Firecracker Shows
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" /> DJ, Live
-                                                        Band &amp; Musical Arrangements
+                                                    <a href="/djlivebandmusical">
+                                                        <i className="fas fa-angle-double-right" /> DJ, Live Band &amp; Musical Arrangements
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" /> Live Canvas
-                                                        Painting, Sketching &amp; Caricature Artists
+                                                    <a href="/livecanvaspainting">
+                                                        <i className="fas fa-angle-double-right" /> Live Canvas Painting, Sketching &amp; Caricature Artists
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" /> Fun Games
-                                                        &amp; Interactive Activities
+                                                    <a href="/fungamesinteractive">
+                                                        <i className="fas fa-angle-double-right" /> Fun Games &amp; Interactive Activities
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i className="fas fa-angle-double-right" /> Ganga Aarti
-                                                        Ceremony
+                                                    <a href="/gangaaarti">
+                                                        <i className="fas fa-angle-double-right" /> Ganga Aarti Ceremony
                                                     </a>
                                                 </li>
                                             </div>
+
                                         </div>
                                     </ul>
                                 </div>
@@ -230,7 +215,7 @@ const Footer = () => {
                                         <li>
                                             <a href="tel:+971504418336">
                                                 <i className="fas fa-phone" />
-                                                +97 1504418336
+                                                +971 504418336
                                             </a>
                                         </li>
                                         <li>

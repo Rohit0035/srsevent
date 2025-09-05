@@ -82,13 +82,13 @@ const FloralDecor = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-md-6">
-                                <div className="card">
+                            <div className="col-md-6" id="contact">
+                                <div className="card st-color-card">
                                     <div className="card-body">
                                         <div className="card-header">
-                                            <h5 className="text-dark">Enquiry Now</h5>
+                                            <h5 className="text-white">Enquiry Now</h5>
                                         </div>
-                                        <div className="quote-content p-2">
+                                        <div className="quote-content p-2" style={{backgroundColor:'#9c2356'}}>
                                             <EnquiryFormServices/>
                                         </div>
                                     </div>
@@ -279,14 +279,14 @@ const FloralDecor = () => {
                 {/* Call to Action */}
                 <section
                     className="py-5 text-white text-center"
-                    style={{ backgroundColor: "#433357" }}
+                    style={{ backgroundColor: "#9c2356" }}
                 >
                     <div className="container">
                         <h2 className="fw-bold text-white st-2">Want Stunning Floral Décor?</h2>
                         <p className="mb-4">
                             Let SrsEvent design mesmerizing floral arrangements for your big day.
                         </p>
-                        <a href="contact.php" className="theme-btn">
+                        <a href="#contact" className="theme-btn bg-black">
                             Book a Free Consultation
                         </a>
                     </div>

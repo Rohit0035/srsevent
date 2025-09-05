@@ -97,20 +97,9 @@ const HomeAbout = () => {
                                     </ul>
                                 </div>
                                 <div className="about-bottom">
-                                    <a href="about.php" className="theme-btn">
+                                    <a href="/about" className="theme-btn">
                                         Read More <i className="fas fa-arrow-right" />
                                     </a>
-                                    <div className="about-call">
-                                        <div className="about-call-icon">
-                                            <i className="fas fa-headset" />
-                                        </div>
-                                        <div className="about-call-content">
-                                            <span>Call Us Anytime</span>
-                                            <h5 className="about-call-number">
-                                                <a href="tel:+2123654789">+2 123 654 789</a>
-                                            </h5>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>

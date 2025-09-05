@@ -132,37 +132,37 @@ const Header = () => {
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/photography">
                             Photography
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/videography">
                             Videography
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/catering">
                             Catering
                           </a>
                         </li>
                         <li>
                           <a
                             className="dropdown-item"
-                            href="#"
+                            href="/bridalmakeover"
                           >
                             Bridal Makeover
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/soundsLights">
                             Sounds &amp; Lights
                           </a>
                         </li>
                         <li>
                           <a
                             className="dropdown-item"
-                            href="#"
+                            href="/furniturefabrications"
                           >
                             Furniture &amp; Fabrications
                           </a>
@@ -170,7 +170,7 @@ const Header = () => {
                         <li>
                           <a
                             className="dropdown-item"
-                            href="#"
+                            href="/guesttransportation"
                           >
                             Guest Transportation &amp; Logistics
                           </a>
@@ -178,54 +178,47 @@ const Header = () => {
                       </div>
                       <div className="col-md-6">
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/hospitalityguest">
                             Hospitality &amp; Guest Welcome Services
                           </a>
                         </li>
                         <li>
-                          <a
-                            className="dropdown-item"
-                            href="#"
-                          >
+                          <a className="dropdown-item" href="/weddinglive">
                             Wedding Live Streaming
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/returngiftswedding">
                             Return Gifts &amp; Wedding Favours
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="">
+                          <a className="dropdown-item" href="/trendingphoto">
                             Trending Photo Booth Setups
                           </a>
                         </li>
                         <li>
-                          <a
-                            className="dropdown-item"
-                            href="#"
-                          >
-                            Cold Pyro, CO₂ Jet, Fog Effect, Confetti &amp;
-                            Firecracker Shows
+                          <a className="dropdown-item" href="/coldpyro">
+                            Cold Pyro, CO₂ Jet, Fog Effect, Confetti &amp; Firecracker Shows
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/djlivebandmusical">
                             DJ, Live Band &amp; Musical Arrangements
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/livecanvaspainting">
                             Live Canvas Painting, Sketching &amp; Caricature Artists
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/fungamesinteractive">
                             Fun Games &amp; Interactive Activities
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/gangaaarti">
                             Ganga Aarti Ceremony
                           </a>
                         </li>
@@ -245,9 +238,9 @@ const Header = () => {
                     <li>
                       <a
                         className="dropdown-item"
-                        href="#"
+                        href="/"
                       >
-                        Wedding 
+                        Wedding
                       </a>
                     </li>
                     <li>
@@ -256,7 +249,7 @@ const Header = () => {
                         href="#"
                       >
 
-                        Engagement 
+                        Engagement
                       </a>
                     </li>
                     <li>
@@ -264,7 +257,7 @@ const Header = () => {
                         className="dropdown-item"
                         href="#"
                       >
-                        Birthday 
+                        Birthday
                       </a>
                     </li>
                     <li>
@@ -272,7 +265,7 @@ const Header = () => {
                         className="dropdown-item"
                         href="#"
                       >
-                        Anniversary 
+                        Anniversary
                       </a>
                     </li>
                     <li>
@@ -288,7 +281,7 @@ const Header = () => {
                         className="dropdown-item"
                         href="#"
                       >
-                        Corporate 
+                        Corporate
 
                       </a>
                     </li>
@@ -364,45 +357,48 @@ const Header = () => {
                       <li>
                         <a
                           className="dropdown-item"
-                          href="#"
+                          href="/venuemanagement"
                         >
                           Venue Management
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/floraldecor">
                           Floral Décor
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/photography">
                           Photography
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/videography">
                           Videography
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/catering">
                           Catering
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a
+                          className="dropdown-item"
+                          href="/bridalmakeover"
+                        >
                           Bridal Makeover
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/soundsLights">
                           Sounds &amp; Lights
                         </a>
                       </li>
                       <li>
                         <a
                           className="dropdown-item"
-                          href="#"
+                          href="/furniturefabrications"
                         >
                           Furniture &amp; Fabrications
                         </a>
@@ -410,7 +406,7 @@ const Header = () => {
                       <li>
                         <a
                           className="dropdown-item"
-                          href="#"
+                          href="/guesttransportation"
                         >
                           Guest Transportation &amp; Logistics
                         </a>
@@ -459,6 +455,51 @@ const Header = () => {
                       <li>
                         <a className="dropdown-item" href="#">
                           Ganga Aarti Ceremony
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li className="nav-item dropdown">
+                    <a
+                      className="nav-link dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                    >
+                      Events
+                    </a>
+                    <ul className="dropdown-menu fade-down border-0">
+                      <li>
+                        <a
+                          className="dropdown-item"
+                          href="/"
+                        >
+                          Wedding
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          Engagement
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          Birthday
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          Anniversary
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          Kids' Birthday Party
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="#">
+                          Corporate
                         </a>
                       </li>
                     </ul>

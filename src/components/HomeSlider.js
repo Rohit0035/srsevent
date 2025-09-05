@@ -8,7 +8,7 @@ const HomeSlider = () => {
     return (
         <div className="hero-section">
             <Swiper
-                modules={[Autoplay, Pagination, Navigation]}
+                modules={[Autoplay, Navigation]}
                 spaceBetween={0}
                 slidesPerView={1}
                 loop={true}
@@ -16,7 +16,7 @@ const HomeSlider = () => {
                     delay: 4000,
                     disableOnInteraction: false,
                 }}
-                pagination={{ clickable: true }}
+                // pagination={{ clickable: true }}
                 navigation={true}
                 className="hero-slider"
             >
