@@ -55,7 +55,7 @@ const HospitalityGuest = () => {
         >
           <div className="container">
             <div className="row">
-              <div className="col-md-6 mb-3">
+              <div className="col-12 col-md-12 col-lg-6 mb-3">
                 <h1 className="fw-bold site-title">
                   Hospitality & Event Management
                 </h1>
@@ -82,7 +82,7 @@ const HospitalityGuest = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-md-6" id="contact">
+              <div className="col-12 col-md-12 col-lg-6" id="contact">
                 <div className="card st-color-card">
                   <div className="card-body">
                     <div className="card-header">
@@ -105,14 +105,14 @@ const HospitalityGuest = () => {
         <section className="py-5">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-md-6 mb-4 mb-md-0">
+              <div className="col-12 col-md-12 col-lg-6 mb-4">
                 <img
                   src={svnimg}
                   alt="Hospitality and Event Management Overview"
                   className="w-100"
                 />
               </div>
-              <div className="col-md-6">
+              <div className="col-12 col-md-12 col-lg-6">
                 <h2 className="fw-bold st-2">
                   Build a Career in Hospitality & Event Management
                 </h2>

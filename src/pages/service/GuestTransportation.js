@@ -51,7 +51,7 @@ const GuestTransportation = () => {
                 >
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6 mb-3">
+                            <div className="col-12 col-md-12 col-lg-6 mb-3">
                                 <h1 className="fw-bold site-title">Guest Transportation & Logistics</h1>
                                 <p className="mt-3">
                                     At <strong>SrsEvent</strong>, we ensure that your guests arrive comfortably
@@ -72,7 +72,7 @@ const GuestTransportation = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-md-6" id="contact">
+                            <div className="col-12 col-md-12 col-lg-6" id="contact">
                                 <div className="card st-color-card">
                                     <div className="card-body">
                                         <div className="card-header">
@@ -95,10 +95,10 @@ const GuestTransportation = () => {
                 <section className="py-5">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-md-6 mb-4 mb-md-0">
+                            <div className="col-12 col-md-12 col-lg-6 mb-4 ">
                                 <img src={svnimg} alt="Wedding Guest Transportation" className="w-100" />
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-12 col-md-12 col-lg-6">
                                 <h2 className="fw-bold st-2">Seamless Travel for Your Guests</h2>
                                 <p>
                                     Whether it’s a <strong>destination wedding</strong>, <strong>corporate event</strong>,
@@ -130,42 +130,42 @@ const GuestTransportation = () => {
                         <h2 className="fw-bold mb-4 st-2">Our Guest Transportation Services</h2>
                         <div className="row g-4">
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-bus fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Shuttle Services</h5>
                                     <p className="text-muted">Comfortable shuttle buses and mini coaches for groups of guests.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-car-side fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Luxury Cars</h5>
                                     <p className="text-muted">Premium cars for the bride, groom, family & VIP guests.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-plane-arrival fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Airport Transfers</h5>
                                     <p className="text-muted">Pick-up and drop-off services for guests arriving by air.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-map-marked-alt fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Destination Wedding Logistics</h5>
                                     <p className="text-muted">End-to-end transport planning for outstation weddings.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-users fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Corporate Event Transport</h5>
                                     <p className="text-muted">Professional transportation services for business events & conferences.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-cogs fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Custom Logistics Planning</h5>
                                     <p className="text-muted">Tailored transport solutions to fit your event needs.</p>

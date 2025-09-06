@@ -20,7 +20,7 @@ const GallerySection = ({ title, highlight, images }) => {
               <img
                 src={img}
                 alt={`Gallery ${i}`}
-                className="img-fluid rounded shadow-sm"
+                className="img-fluid rounded shadow-sm h-100"
                 style={{ cursor: "pointer" }}
                 onClick={() => setIndex(i)}
               />

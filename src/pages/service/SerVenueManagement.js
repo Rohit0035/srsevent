@@ -50,7 +50,7 @@ const SerVenueManagement = () => {
                 >
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6 mb-3">
+                            <div className="col-12 col-md-12 col-lg-6  mb-3">
                                 <h1 className="fw-bold site-title">Venue Management</h1>
                                 <p className="mt-3">
                                     Finding and managing the perfect venue for your event is our
@@ -72,7 +72,7 @@ const SerVenueManagement = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-md-6" id="contact">
+                            <div className="col-12 col-md-12 col-lg-6" id="contact">
                                 <div className="card st-color-card">
                                     <div className="card-body">
                                         <div className="card-header">
@@ -91,14 +91,14 @@ const SerVenueManagement = () => {
                 <section className="py-5">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-md-6 mb-4 mb-md-0">
+                            <div className="col-12 col-md-12 col-lg-6  mb-3">
                                 <img
                                     src={svnimg}
                                     alt="Venue Overview"
                                     className="w-100"
                                 />
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-12 col-md-12 col-lg-6">
                                 <h2 className="fw-bold st-2">Perfect Venues, Seamlessly Managed</h2>
                                 <p>
                                     From banquet halls and resorts to outdoor spaces and corporate
@@ -130,7 +130,7 @@ const SerVenueManagement = () => {
                         <h2 className="fw-bold mb-4 st-2">What’s Included</h2>
                         <div className="row g-4">
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i
                                         className="fas fa-map-marker-alt fa-2x mb-3"
                                         style={{ color: "#9c2356" }}
@@ -142,7 +142,7 @@ const SerVenueManagement = () => {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i
                                         className="fas fa-handshake fa-2x mb-3"
                                         style={{ color: "#9c2356" }}
@@ -154,7 +154,7 @@ const SerVenueManagement = () => {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i
                                         className="fas fa-cogs fa-2x mb-3"
                                         style={{ color: "#9c2356" }}
@@ -166,7 +166,7 @@ const SerVenueManagement = () => {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i
                                         className="fas fa-chair fa-2x mb-3"
                                         style={{ color: "#9c2356" }}
@@ -178,7 +178,7 @@ const SerVenueManagement = () => {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i
                                         className="fas fa-shuttle-van fa-2x mb-3"
                                         style={{ color: "#9c2356" }}
@@ -190,7 +190,7 @@ const SerVenueManagement = () => {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i
                                         className="fas fa-calendar-check fa-2x mb-3"
                                         style={{ color: "#9c2356" }}

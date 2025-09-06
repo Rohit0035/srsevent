@@ -14,7 +14,7 @@ const WhyChooseUsSection = ({ title, subtitle, description, items }) => {
         {/* Items */}
         <div className="row">
           {items.map((item, index) => (
-            <div className="col-md-4 mb-4" key={index}>
+            <div className="col-12 col-md-6 col-lg-4 mb-4" key={index}>
               <div className="card border-0 h-100 shadow-sm">
                 <div className="card-body">
                   {/* Number */}

@@ -14,7 +14,7 @@ const WhyChoose = () => {
                 </div>
                 <div className="row align-items-center">
                     {/* Left Content */}
-                    <div className="col-md-6">
+                    <div className="col-12 col-md-12 col-lg-6">
                         <div className="d-flex mb-4">
                             <div className="me-3 fs-3 text-pink">
                                 <i className="fas fa-gem" />
@@ -53,7 +53,7 @@ const WhyChoose = () => {
                         </div>
                     </div>
                     {/* Right Image */}
-                    <div className="col-md-6 text-center">
+                    <div className="col-12 col-md-12 col-lg-6 text-center">
                         <img
                             src={Cop1}
                             className="img-fluid rounded-3 shadow"

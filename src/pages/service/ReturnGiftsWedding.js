@@ -51,7 +51,7 @@ const ReturnGiftsWedding = () => {
                 >
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6 mb-3">
+                            <div className="col-12 col-md-12 col-lg-6 mb-3">
                                 <h1 className="fw-bold site-title">Unique Return Gift Ideas</h1>
                                 <p className="mt-3">
                                     At SrsEvent, we make your celebrations memorable with thoughtfully curated{" "}
@@ -64,7 +64,7 @@ const ReturnGiftsWedding = () => {
                                     <li><i className="fas fa-check-circle text-pink me-2" /> Creative return gifts for housewarming</li>
                                 </ul>
                             </div>
-                            <div className="col-md-6" id="contact">
+                            <div className="col-12 col-md-12 col-lg-6" id="contact">
                                 <div className="card st-color-card">
                                     <div className="card-body">
                                         <div className="card-header">
@@ -84,10 +84,10 @@ const ReturnGiftsWedding = () => {
                 <section className="py-5">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-md-6 mb-4 mb-md-0">
+                            <div className="col-12 col-md-12 col-lg-6 mb-4 ">
                                 <img src={svnimg} alt="Return Gift Collection" className="w-100" />
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-12 col-md-12 col-lg-6">
                                 <h2 className="fw-bold st-2">Affordable & Memorable Return Gifts</h2>
                                 <p>
                                     Whether you are planning a birthday party, a wedding, or a housewarming,
@@ -111,35 +111,35 @@ const ReturnGiftsWedding = () => {
                         <h2 className="fw-bold mb-4 st-2">Types of Return Gifts We Offer</h2>
                         <div className="row g-4">
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-birthday-cake fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Birthday Return Gifts</h5>
                                     <p className="text-muted">Unique ideas for kids & adults – from toys to thoughtful keepsakes.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-ring fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Wedding Return Gifts</h5>
                                     <p className="text-muted">Elegant souvenirs for guests to cherish your big day.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-home fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Housewarming Return Gifts</h5>
                                     <p className="text-muted">Memorable & practical gifts to thank your guests for joining.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-gift fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Budget Gifts Under 50 Rs</h5>
                                     <p className="text-muted">Affordable yet meaningful gifts that fit any celebration.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-lightbulb fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Unique Gift Ideas</h5>
                                     <p className="text-muted">Creative, customized, and trendy return gift ideas.</p>

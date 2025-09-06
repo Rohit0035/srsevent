@@ -51,7 +51,7 @@ const FurnitureFabrications = () => {
                 >
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6 mb-3">
+                            <div className="col-12 col-md-12 col-lg-6 mb-3">
                                 <h1 className="fw-bold site-title">Furniture & Fabrication</h1>
                                 <p className="mt-3">
                                     At <strong>SrsEvent</strong>, we bring elegance and functionality together with our 
@@ -72,7 +72,7 @@ const FurnitureFabrications = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-md-6" id="contact">
+                            <div className="col-12 col-md-12 col-lg-6" id="contact">
                                 <div className="card st-color-card">
                                     <div className="card-body">
                                         <div className="card-header">
@@ -95,10 +95,10 @@ const FurnitureFabrications = () => {
                 <section className="py-5">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-md-6 mb-4 mb-md-0">
+                            <div className="col-12 col-md-12 col-lg-6 mb-4">
                                 <img src={svnimg} alt="Event Furniture & Fabrication" className="w-100" />
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-12 col-md-12 col-lg-6">
                                 <h2 className="fw-bold st-2">Stylish Furniture & Elegant Fabrics</h2>
                                 <p>
                                     From <strong>cheap round table cloths</strong> for budget-friendly setups to 

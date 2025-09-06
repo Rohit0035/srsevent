@@ -19,7 +19,7 @@ const EventServicesSlider = ({ title, highlight, services }) => {
                         spaceBetween={20}
                         slidesPerView={1}
                         breakpoints={{
-                            768: { slidesPerView: 2 },
+                            768: { slidesPerView: 1 },
                             1200: { slidesPerView: 2 },
                         }}
                         className="pb-5"
@@ -69,7 +69,7 @@ const EventServicesSlider = ({ title, highlight, services }) => {
                         spaceBetween={20}
                         slidesPerView={1}
                         breakpoints={{
-                            768: { slidesPerView: 2 },
+                            768: { slidesPerView: 1 },
                             1200: { slidesPerView: 2 },
                         }}
                         className="pb-5"

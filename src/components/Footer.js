@@ -10,94 +10,49 @@ const Footer = () => {
                 <div className="footer-widget">
                     <div className="container">
                         <div className="row footer-widget-wrapper pt-5 pb-5">
-                            <div className="col-md-6 col-lg-3">
+                            <div className="col-md-6 col-lg-2">
                                 <div className="footer-widget-box about-us">
                                     <a href="#" className="footer-logo">
                                         <img src={Logo} alt="" />
                                     </a>
-                                    <p className="mb-4">
-                                        We organize events with meticulous attention to every detail.
-                                        From venue selection to décor, catering, and entertainment, we
-                                        ensure that your special day is memorable and flawless, leaving
-                                        you free to enjoy every moment.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="col-md-6 col-lg-2">
-                                <div className="footer-widget-box list">
-                                    <h4 className="footer-widget-title">Quick Links</h4>
-                                    <ul className="footer-list">
-                                        <li>
-                                            <a href="/">
-                                                <i className="fas fa-angle-double-right" />
-                                                Home{" "}
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/about">
-                                                <i className="fas fa-angle-double-right" /> About
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/whyus">
-                                                <i className="fas fa-angle-double-right" /> Why Choose us
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/gallery">
-                                                <i className="fas fa-angle-double-right" /> Gallery
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fas fa-angle-double-right" /> Events
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/contact">
-                                                <i className="fas fa-angle-double-right" /> Contact Us
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fas fa-angle-double-right" />
-                                                <b>Our Events</b>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/contact">
-                                                <i className="fas fa-angle-double-right" /> Wedding
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/contact">
-                                                <i className="fas fa-angle-double-right" /> Engagement
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/contact">
-                                                <i className="fas fa-angle-double-right" /> Birthday
+                                    <div className="footer-widget-box list">
+                                        <h4 className="footer-widget-title">Quick Links</h4>
+                                        <ul className='footer-list'>
+                                            <li>
+                                                <a href="/contact">
+                                                    <i className="fas fa-angle-double-right" /> Wedding
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/contact">
+                                                    <i className="fas fa-angle-double-right" /> Engagement
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/contact">
+                                                    <i className="fas fa-angle-double-right" /> Birthday
 
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/contact">
-                                                <i className="fas fa-angle-double-right" /> Anniversary
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/contact">
+                                                    <i className="fas fa-angle-double-right" /> Anniversary
 
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/contact">
-                                                <i className="fas fa-angle-double-right" /> Kids' Birthday Party
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/contact">
+                                                    <i className="fas fa-angle-double-right" /> Kids' Birthday Party
 
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/contact">
-                                                <i className="fas fa-angle-double-right" /> Corporate
-                                            </a>
-                                        </li>
-                                    </ul>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/contact">
+                                                    <i className="fas fa-angle-double-right" /> Corporate
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-4">
@@ -205,7 +160,93 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-lg-3">
+                            <div className="col-md-6 col-lg-4">
+                                <div className="footer-widget-box list">
+                                    <h4 className="footer-widget-title">Our Events</h4>
+                                    <ul className="footer-list">
+                                        <div className="row">
+                                            <div className="col-md-6">
+                                                <li>
+                                                    <a href="/corporatemanagement">
+                                                        <i className="fas fa-angle-double-right" /> Corporate Management
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/inaugurationplanners">
+                                                        <i className="fas fa-angle-double-right" /> Inauguration Planners
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/">
+                                                        <i className="fas fa-angle-double-right" /> Conferences and Seminar Event
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/">
+                                                        <i className="fas fa-angle-double-right" /> Corporate Outdoor Events
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/">
+                                                        <i className="fas fa-angle-double-right" /> Hospitality and Wellness Management
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/">
+                                                        <i className="fas fa-angle-double-right" />Award Ceremony
+                                                    </a>
+                                                </li>
+                                            </div>
+
+                                            <div className="col-md-6">
+                                                <li>
+                                                    <a href="/weddingplanners">
+                                                        <i className="fas fa-angle-double-right" /> Wedding Planners
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="/destinationwedding">
+                                                        <i className="fas fa-angle-double-right" /> Destination Wedding
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="/engagementplanners">
+                                                        <i className="fas fa-angle-double-right" /> Engagement Planners
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="/birthdayplanners">
+                                                        <i className="fas fa-angle-double-right" /> Birthday Planners
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="/babyshower">
+                                                        <i className="fas fa-angle-double-right" /> Baby Shower
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="/weddinganniversary">
+                                                        <i className="fas fa-angle-double-right" /> Wedding Anniversary
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="/housewarming">
+                                                        <i className="fas fa-angle-double-right" /> Housewarming Event
+                                                    </a>
+                                                </li>
+                                            </div>
+
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-lg-2">
                                 <div className="footer-widget-box list">
                                     <h4 className="footer-widget-title">Our Location </h4>
                                     <ul className="footer-contact">

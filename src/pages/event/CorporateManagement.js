@@ -4,8 +4,8 @@ import Footer from '../../components/Footer';
 import { Helmet } from "react-helmet-async";
 import EnquiryFormEvent from '../../components/EnquiryFormEvent';
 import EventDetailAbout from '../../components/EventDetailAbout';
-import wedimg from "../../assets/img/events/cop-ev-abt.jpeg"
-import bannerImg from "../../assets/img/events/wed-bg.jpg"
+import wedimg from "../../assets/img/events/cop-ev-bgg.jpg"
+import bannerImg from "../../assets/img/events/cop-ev-bgg.jpg"
 import EventServicesSlider from '../../components/EventServicesSlider';
 import ImageTextBlock from '../../components/ImageTextBlock';
 import TextImageBlock from '../../components/TextImageBlock';
@@ -165,7 +165,7 @@ const CorporateManagement = () => {
                     name="keywords"
                     content="crowd management services, destination management company, event arrangement, event management events, strategic meetings management, corporate bonding, event planning, event management companies, event organisers near me"
                 />
-                <link rel="canonical" href="https://srsevent.com/corporate-event-management" />
+                <link rel="canonical" href="https://srsevent.com/corporatemanagement" />
             </Helmet>
 
             <Header />
@@ -175,14 +175,14 @@ const CorporateManagement = () => {
                 heading="Crafting Excellence in Corporate Event Management"
                 description="From strategic meetings management and corporate bonding activities to flawless event arrangement and large-scale event management events — SRS Events ensures every detail is handled with precision. Whether you need a destination management company or event organisers near you, we are your trusted partner."
                 buttonText="Plan Your Corporate Event"
-                buttonLink="#book"
+                buttonLink="#enquirynow"
                 bottomText="500+ Successful Events | Trusted by Leading Brands"
             />
 
             <section className='py-5'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-md-7 mb-2'>
+                        <div className='col-12 col-md-12 col-lg-7 mb-2'>
                             <div className='pt-sm-3'>
                                 <ScrollAnimation animateIn='bounceInUp'>
                                     <h2 className="fw-bold mb-3">
@@ -201,10 +201,10 @@ const CorporateManagement = () => {
                                 </ScrollAnimation>
                             </div>
                         </div>
-                        <div className='col-md-5 mb-2 text-center'>
+                        <div className='col-12 col-md-12 col-lg-5 mb-2 text-center' id="enquirynow">
                             <div className='bg-pink py-4 rounded-5'>
                                 <ScrollAnimation animateIn='fadeInRight'>
-                                    <h2 className='text-white fs-3'>Plan your event now with us!</h2>
+                                    <h2 className='text-white fs-4'>Plan your event now with us!</h2>
                                     <hr style={{ borderColor: '#fff' }} />
                                     <div className="quote-content pt-0" style={{ backgroundColor: '#9c2356' }}>
                                         <EnquiryFormEvent />
@@ -222,7 +222,7 @@ const CorporateManagement = () => {
                     highlight="Corporate Event Management Services"
                     description="SRS Events specializes in strategic meetings management, destination events, and corporate bonding solutions tailored for businesses."
                     extraText="As one of India’s leading event management companies, we provide everything from event arrangement to crowd management services, ensuring flawless execution every time."
-                    buttonText="Read More About Us"
+                    buttonText="Plan Your Conference"
                     image={wedimg}
                     theme="#000"
                 />
@@ -294,7 +294,7 @@ const CorporateManagement = () => {
                 title="Looking for Corporate Event Excellence?"
                 subtitle="Let us manage your next event with seamless planning, innovative ideas, and expert execution. From strategic meetings management to destination events — we deliver perfection."
                 buttonText="Book Your Corporate Event"
-                buttonLink="/contact"
+                buttonLink="#enquirynow"
             />
 
             <Footer />

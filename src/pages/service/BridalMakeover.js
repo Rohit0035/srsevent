@@ -51,7 +51,7 @@ const BridalMakeover = () => {
                 >
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6 mb-3">
+                            <div className="col-12 col-md-12 col-lg-6 mb-3">
                                 <h1 className="fw-bold site-title">Bridal Makeup</h1>
                                 <p className="mt-3">
                                     Your wedding day is the most special day of your life, and at
@@ -75,7 +75,7 @@ const BridalMakeover = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-md-6" id="contact">
+                            <div className="col-12 col-md-12 col-lg-6" id="contact">
                                 <div className="card st-color-card">
                                     <div className="card-body">
                                         <div className="card-header">
@@ -98,14 +98,14 @@ const BridalMakeover = () => {
                 <section className="py-5">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-md-6 mb-4 mb-md-0">
+                            <div className="col-12 col-md-12 col-lg-6 mb-4">
                                 <img
                                     src={bridalImg}
                                     alt="Bridal Makeup Overview"
                                     className="w-100"
                                 />
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-12 col-md-12 col-lg-6">
                                 <h2 className="fw-bold st-2">Professional Bridal Makeover</h2>
                                 <p>
                                     Whether you want a traditional bridal makeup look or a modern
@@ -138,7 +138,7 @@ const BridalMakeover = () => {
                         <h2 className="fw-bold mb-4 st-2">What’s Included in Our Bridal Makeup Services</h2>
                         <div className="row g-4">
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i
                                         className="fas fa-magic fa-2x mb-3"
                                         style={{ color: "#9c2356" }}
@@ -151,7 +151,7 @@ const BridalMakeover = () => {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i
                                         className="fas fa-female fa-2x mb-3"
                                         style={{ color: "#9c2356" }}
@@ -163,7 +163,7 @@ const BridalMakeover = () => {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i
                                         className="fas fa-gem fa-2x mb-3"
                                         style={{ color: "#9c2356" }}
@@ -176,7 +176,7 @@ const BridalMakeover = () => {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i
                                         className="fas fa-star fa-2x mb-3"
                                         style={{ color: "#9c2356" }}
@@ -189,7 +189,7 @@ const BridalMakeover = () => {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i
                                         className="fas fa-leaf fa-2x mb-3"
                                         style={{ color: "#9c2356" }}
@@ -201,7 +201,7 @@ const BridalMakeover = () => {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i
                                         className="fas fa-rupee-sign fa-2x mb-3"
                                         style={{ color: "#9c2356" }}

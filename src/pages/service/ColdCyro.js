@@ -51,7 +51,7 @@ const ColdCyro = () => {
                 >
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6 mb-3">
+                            <div className="col-12 col-md-12 col-lg-6 mb-3">
                                 <h1 className="fw-bold site-title">Cold Pyro & Event Effects</h1>
                                 <p className="mt-3">
                                     Create unforgettable experiences with our premium event special effects —
@@ -71,7 +71,7 @@ const ColdCyro = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-md-6" id="contact">
+                            <div className="col-12 col-md-12 col-lg-6" id="contact">
                                 <div className="card st-color-card">
                                     <div className="card-body">
                                         <div className="card-header">
@@ -94,10 +94,10 @@ const ColdCyro = () => {
                 <section className="py-5">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-md-6 mb-4 mb-md-0">
+                            <div className="col-12 col-md-12 col-lg-6 mb-4">
                                 <img src={svnimg} alt="Event Effects Overview" className="w-100" />
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-12 col-md-12 col-lg-6">
                                 <h2 className="fw-bold st-2">Magical Moments with Special Effects</h2>
                                 <p>
                                     Whether it’s a wedding entry, a concert stage, or a birthday celebration,
@@ -126,35 +126,35 @@ const ColdCyro = () => {
                         <h2 className="fw-bold mb-4 st-2">Our Special Effects Services</h2>
                         <div className="row g-4">
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-fire fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Cold Pyro</h5>
                                     <p className="text-muted">Safe, smokeless fireworks perfect for indoor & outdoor events.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-wind fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>CO₂ Jet Effects</h5>
                                     <p className="text-muted">High-energy stage entrances with CO₂ smoke blasts.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-cloud fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Fog Machine</h5>
                                     <p className="text-muted">Dramatic low-lying fog for dance floors and weddings.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-star fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Confetti Blasts</h5>
                                     <p className="text-muted">Colorful confetti showers for celebrations and concerts.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-bolt fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Firecracker Shows</h5>
                                     <p className="text-muted">Outdoor fireworks for weddings, parties & corporate events.</p>

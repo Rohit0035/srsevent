@@ -51,7 +51,7 @@ const TrendingPhoto = () => {
         >
           <div className="container">
             <div className="row">
-              <div className="col-md-6 mb-3">
+              <div className="col-12 col-md-12 col-lg-6 mb-3">
                 <h1 className="fw-bold site-title">Photo Booth Rental</h1>
                 <p className="mt-3">
                   Make your celebrations unforgettable with our{" "}
@@ -75,7 +75,7 @@ const TrendingPhoto = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-md-6" id="contact">
+              <div className="col-12 col-md-12 col-lg-6" id="contact">
                 <div className="card st-color-card">
                   <div className="card-body">
                     <div className="card-header">
@@ -98,14 +98,14 @@ const TrendingPhoto = () => {
         <section className="py-5">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-md-6 mb-4 mb-md-0">
+              <div className="col-12 col-md-12 col-lg-6 mb-4">
                 <img
                   src={svnimg}
                   alt="Photo Booth Rental Overview"
                   className="w-100"
                 />
               </div>
-              <div className="col-md-6">
+              <div className="col-12 col-md-12 col-lg-6">
                 <h2 className="fw-bold st-2">Unforgettable Photo Booth Fun</h2>
                 <p>
                   Our <strong>photo booth rental services</strong> are designed to
@@ -141,7 +141,7 @@ const TrendingPhoto = () => {
             </h2>
             <div className="row g-4">
               <div className="col-md-4">
-                <div className="p-2 bg-white">
+                <div className="p-2 bg-white  h-100">
                   <i
                     className="fas fa-camera-retro fa-2x mb-3"
                     style={{ color: "#9c2356" }}
@@ -153,7 +153,7 @@ const TrendingPhoto = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="p-2 bg-white">
+                <div className="p-2 bg-white  h-100">
                   <i
                     className="fas fa-magic fa-2x mb-3"
                     style={{ color: "#9c2356" }}
@@ -166,7 +166,7 @@ const TrendingPhoto = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="p-2 bg-white">
+                <div className="p-2 bg-white  h-100">
                   <i
                     className="fas fa-mobile-alt fa-2x mb-3"
                     style={{ color: "#9c2356" }}
@@ -179,7 +179,7 @@ const TrendingPhoto = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="p-2 bg-white">
+                <div className="p-2 bg-white  h-100">
                   <i
                     className="fas fa-users fa-2x mb-3"
                     style={{ color: "#9c2356" }}
@@ -191,7 +191,7 @@ const TrendingPhoto = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="p-2 bg-white">
+                <div className="p-2 bg-white  h-100">
                   <i
                     className="fas fa-gift fa-2x mb-3"
                     style={{ color: "#9c2356" }}
@@ -203,7 +203,7 @@ const TrendingPhoto = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="p-2 bg-white">
+                <div className="p-2 bg-white  h-100">
                   <i
                     className="fas fa-share-alt fa-2x mb-3"
                     style={{ color: "#9c2356" }}

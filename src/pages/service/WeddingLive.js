@@ -51,7 +51,7 @@ const WeddingLive = () => {
                 >
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6 mb-3">
+                            <div className="col-12 col-md-12 col-lg-6 mb-3">
                                 <h1 className="fw-bold site-title">Wedding Live Streaming</h1>
                                 <p className="mt-3">
                                     Can’t have all your loved ones attend your wedding? With{" "}
@@ -77,7 +77,7 @@ const WeddingLive = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-md-6" id="contact">
+                            <div className="col-12 col-md-12 col-lg-6" id="contact">
                                 <div className="card st-color-card">
                                     <div className="card-body">
                                         <div className="card-header">
@@ -100,10 +100,10 @@ const WeddingLive = () => {
                 <section className="py-5">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-md-6 mb-4 mb-md-0">
+                            <div className="col-12 col-md-12 col-lg-6 mb-4">
                                 <img src={svnimg} alt="Wedding Live Streaming Setup" className="w-100" />
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-12 col-md-12 col-lg-6">
                                 <h2 className="fw-bold st-2">Stream Your Wedding Anywhere</h2>
                                 <p>
                                     Our <strong>live stream wedding services</strong> are perfect for

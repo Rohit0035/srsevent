@@ -251,22 +251,22 @@ const Header = () => {
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/conferencesseminar">
+                          <a className="dropdown-item" href="/">
                             Conferences and Seminar Event
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/corporateoutdoor">
+                          <a className="dropdown-item" href="/">
                             Corporate Outdoor Events
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/hospitalitywellness">
+                          <a className="dropdown-item" href="/">
                             Hospitality and Wellness Management
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/awardCeremony">
+                          <a className="dropdown-item" href="/">
                             Award Ceremony
                           </a>
                         </li>
@@ -441,27 +441,27 @@ const Header = () => {
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/hospitalityguest">
                           Hospitality &amp; Guest Welcome Services
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/weddinglive">
                           Wedding Live Streaming
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/returngiftswedding">
                           Return Gifts &amp; Wedding Favours
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/trendingphoto">
                           Trending Photo Booth Setups
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/coldpyro">
                           Cold Pyro, CO₂ Jet, Fog Effect, Confetti &amp; Firecracker
                           Shows
                         </a>
@@ -503,22 +503,22 @@ const Header = () => {
                           <h5 className="mb-0 text-pink">Corporate Events</h5>
                           <hr className="mt-2" />
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <a className="dropdown-item" href="/corporatemanagement">
                               Corporate Management
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <a className="dropdown-item" href="/inaugurationplanners">
                               Inauguration Planners
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <a className="dropdown-item" href="/">
                               Conferences and Seminar Event
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <a className="dropdown-item" href="/">
                               Corporate Outdoor Events
                             </a>
                           </li>

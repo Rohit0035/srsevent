@@ -51,7 +51,7 @@ const SoundsLights = () => {
                 >
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6 mb-3">
+                            <div className="col-12 col-md-12 col-lg-6 mb-3">
                                 <h1 className="fw-bold site-title">Sound & Light </h1>
                                 <p className="mt-3">
                                     Music and lights bring life to every celebration. At SrsEvent,
@@ -72,7 +72,7 @@ const SoundsLights = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-md-6" id="contact">
+                            <div className="col-12 col-md-12 col-lg-6" id="contact">
                                 <div className="card st-color-card">
                                     <div className="card-body">
                                         <div className="card-header">
@@ -95,10 +95,10 @@ const SoundsLights = () => {
                 <section className="py-5">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-md-6 mb-4 mb-md-0">
+                            <div className="col-12 col-md-12 col-lg-6 mb-4">
                                 <img src={svnimg} alt="Sound and Light Setup" className="w-100" />
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-12 col-md-12 col-lg-6">
                                 <h2 className="fw-bold st-2">Perfect Sound & Lighting for Every Occasion</h2>
                                 <p>
                                     Whether it’s a <strong>wedding reception, DJ night, birthday party,
@@ -128,21 +128,21 @@ const SoundsLights = () => {
                         <h2 className="fw-bold mb-4 st-2">Our Sound & Light Services</h2>
                         <div className="row g-4">
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-music fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>DJ Speakers & Sound Systems</h5>
                                     <p className="text-muted">Crystal-clear sound for weddings, parties, and events.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-lightbulb fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Event Lighting</h5>
                                     <p className="text-muted">LED, disco, stage & mood lighting to set the tone.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-headphones fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Customized Packages</h5>
                                     <p className="text-muted">Tailored sound & lighting solutions for every event size.</p>

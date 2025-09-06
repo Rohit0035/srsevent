@@ -50,7 +50,7 @@ const FloralDecor = () => {
                 >
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6 mb-3">
+                            <div className="col-12 col-md-12 col-lg-6  mb-3">
                                 <h1 className="fw-bold site-title">Floral Décor</h1>
                                 <p className="mt-3">
                                     Flowers bring life, color, and freshness to every celebration. At
@@ -82,7 +82,7 @@ const FloralDecor = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-md-6" id="contact">
+                            <div className="col-12 col-md-12 col-lg-6" id="contact">
                                 <div className="card st-color-card">
                                     <div className="card-body">
                                         <div className="card-header">
@@ -101,14 +101,14 @@ const FloralDecor = () => {
                 <section className="py-5">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-md-6 mb-4 mb-md-0">
+                            <div className="col-12 col-md-12 col-lg-6 mb-4">
                                 <img
                                     src={floordecor}
                                     alt="Floral Décor Overview"
                                     className="w-100 rounded shadow"
                                 />
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-12 col-md-12 col-lg-6">
                                 <h2 className="fw-bold st-2">Elegant Floral Arrangements</h2>
                                 <p>
                                     Our floral décor is designed to match your theme and style. From

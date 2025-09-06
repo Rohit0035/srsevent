@@ -247,6 +247,11 @@ p.service-text {
   50% { transform: scale(1.2); }
   100% { transform: scale(1); }
 }
+
+img.logo-st {
+    width: 150px;
+}
+
 /* Optional: hide on small screens */
 @media (max-width: 768px) {
   .swiper-button-next,
@@ -255,6 +260,8 @@ p.service-text {
   }
 }
 
+
+/* Extra small devices (phones, 600px and down) */
 /* mobile */
 @media only screen and (max-width: 600px) {
   .site-title{
@@ -275,9 +282,6 @@ p.service-text {
   }
   .site-breadcrumb {
     padding-top: 166px;
-  }
-  .st-b{
-    padding-top: 140px  !important;
   }
   .st-2 {
     font-size: 28px;
@@ -304,4 +308,38 @@ p.service-text {
   .event1-bg {
     padding: 150px 0px 50px 0px;
   }
+  .st-b {
+    padding: 120px 0px 50px 0px !important;
+  }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .about-hero-section {
+    padding-top: 150px !important;
+    padding-bottom: 50px !important;
+  }
+  .st-b {
+    padding: 150px 0px 50px 0px !important;
+  }
+  .event1-bg {
+    padding: 200px 0px 50px 0px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .st-b {
+    padding: 60px 0px 50px 0px !important;
+  }
+  .event1-bg {
+    padding: 70px 0px 50px 0px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
+

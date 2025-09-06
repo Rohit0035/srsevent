@@ -125,42 +125,42 @@ const DjLiveBandMusical = () => {
                         <h2 className="fw-bold mb-4 st-2">What’s Included in Our Photography Services</h2>
                         <div className="row g-4">
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-camera-retro fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Pre-Wedding Shoots</h5>
                                     <p className="text-muted">Stylish and romantic photo sessions before your big day.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-heart fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Candid Moments</h5>
                                     <p className="text-muted">Natural, emotion-filled captures you’ll cherish forever.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-users fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Full Wedding Coverage</h5>
                                     <p className="text-muted">From rituals to reception, we cover every special moment.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-gift fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Reception Highlights</h5>
                                     <p className="text-muted">Memorable photos of your celebration & loved ones.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-photo-video fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Album & Editing</h5>
                                     <p className="text-muted">Premium retouching & handcrafted wedding albums.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-cloud-download-alt fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Digital Delivery</h5>
                                     <p className="text-muted">Fast delivery of wedding photos in digital format.</p>

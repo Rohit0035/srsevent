@@ -19,7 +19,7 @@ const EventDetailAbout = ({
                             <img
                                 src={image}
                                 alt={title}
-                                className="img-fluid rounded"
+                                className="img-fluid rounded w-100"
                             />
                         </div>
 
@@ -30,9 +30,9 @@ const EventDetailAbout = ({
                             </h2>
                             <p className="mt-3">{description}</p>
                             {extraText && <p className="text-muted">{extraText}</p>}
-                            <button className={`theme-btn mt-3`}>
+                            <a href="#enquirynow" className={`theme-btn mt-3`}>
                                 {buttonText}
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -51,7 +51,7 @@ const Photography = () => {
                 >
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6 mb-3">
+                            <div className="col-12 col-md-12 col-lg-6 mb-3">
                                 <h1 className="fw-bold site-title">Wedding Photography</h1>
                                 <p className="mt-3">
                                     At SrsEvent, we believe every smile, every tear, and every moment deserves to be
@@ -70,7 +70,7 @@ const Photography = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-md-6" id="contact">
+                            <div className="col-12 col-md-12 col-lg-6" id="contact">
                                 <div className="card st-color-card">
                                     <div className="card-body">
                                         <div className="card-header">
@@ -93,10 +93,10 @@ const Photography = () => {
                 <section className="py-5">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-md-6 mb-4 mb-md-0">
+                            <div className="col-12 col-md-12 col-lg-6 mb-4 ">
                                 <img src={svnimg} alt="Wedding Photography Overview" className="w-100" />
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-12 col-md-12 col-lg-6">
                                 <h2 className="fw-bold st-2">Timeless Wedding Memories</h2>
                                 <p>
                                     From intimate wedding villa photos to grand reception shoots, our team
@@ -125,42 +125,42 @@ const Photography = () => {
                         <h2 className="fw-bold mb-4 st-2">What’s Included in Our Photography Services</h2>
                         <div className="row g-4">
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-camera-retro fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Pre-Wedding Shoots</h5>
                                     <p className="text-muted">Stylish and romantic photo sessions before your big day.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-heart fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Candid Moments</h5>
                                     <p className="text-muted">Natural, emotion-filled captures you’ll cherish forever.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-users fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Full Wedding Coverage</h5>
                                     <p className="text-muted">From rituals to reception, we cover every special moment.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-gift fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Reception Highlights</h5>
                                     <p className="text-muted">Memorable photos of your celebration & loved ones.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-photo-video fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Album & Editing</h5>
                                     <p className="text-muted">Premium retouching & handcrafted wedding albums.</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="p-2 bg-white">
+                                <div className="p-2 bg-white  h-100">
                                     <i className="fas fa-cloud-download-alt fa-2x mb-3" style={{ color: "#9c2356" }} />
                                     <h5>Digital Delivery</h5>
                                     <p className="text-muted">Fast delivery of wedding photos in digital format.</p>
