@@ -76,7 +76,7 @@ function App() {
                 <Route path="/conferencesseminar" element={<ConferencesSeminar />} />
                 <Route path="/corporateoutdoor" element={<CorporateOutdoor />} />
                 <Route path="/hospitalitywellness" element={<HospitalityWellness />} />
-                <Route path="/awardCeremony" element={<AwardCeremony />} />
+                <Route path="/awardCeremonyss" element={<AwardCeremony />} />
 
 
 

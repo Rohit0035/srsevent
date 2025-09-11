@@ -251,22 +251,22 @@ const Header = () => {
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/">
+                          <a className="dropdown-item" href="/conferencesseminar">
                             Conferences and Seminar Event
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/">
+                          <a className="dropdown-item" href="/corporateoutdoor">
                             Corporate Outdoor Events
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/">
+                          <a className="dropdown-item" href="/hospitalitywellness">
                             Hospitality and Wellness Management
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/">
+                          <a className="dropdown-item" href="/awardCeremony">
                             Award Ceremony
                           </a>
                         </li>
@@ -513,22 +513,22 @@ const Header = () => {
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="/">
+                            <a className="dropdown-item" href="/conferencesseminar">
                               Conferences and Seminar Event
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="/">
+                            <a className="dropdown-item" href="/corporateoutdoor">
                               Corporate Outdoor Events
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <a className="dropdown-item" href="/hospitalitywellness">
                               Hospitality and Wellness Management
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <a className="dropdown-item" href="/awardCeremony">
                               Award Ceremony
                             </a>
                           </li>
