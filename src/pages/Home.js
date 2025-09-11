@@ -11,21 +11,36 @@ import WhyChoose from '../components/WhyChoose';
 import HomeGallery from '../components/HomeGallery';
 import HomeReviews from '../components/HomeReviews';
 import FreeQuote from '../components/FreeQuote';
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
     <>
+
+      <Helmet>
+        <title>SrsEvent – Your Celebration, Your Style</title>
+        <meta
+          name="description"
+          content="SrsEvent – Your Celebration, Your Style. Plan your perfect event with us."
+        />
+        <meta
+          name="keywords"
+          content="event planner, wedding, birthday, Bangalore events"
+        />
+        <link rel="canonical" href="https://srsevent.com/weddingplanners" />
+      </Helmet>
+
       <Header />
       <HomeSlider />
-      <HomeFeature/>
-      <HomeAbout/>
-      <HomeServices/>
-      <HomeEvent/>
-      <Counter/>
-      <WhyChoose/>
-      <HomeGallery/>
-      <HomeReviews/>
-      <FreeQuote/>
+      <HomeFeature />
+      <HomeAbout />
+      <HomeServices />
+      <HomeEvent />
+      <Counter />
+      <WhyChoose />
+      <HomeGallery />
+      <HomeReviews />
+      <FreeQuote />
       <Footer />
     </>
   );

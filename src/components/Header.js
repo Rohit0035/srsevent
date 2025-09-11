@@ -273,48 +273,47 @@ const Header = () => {
                       </div>
 
                       {/* Personal Events */}
-                      <div className="col-md-6"> 
+                      <div className="col-md-6">
                         <h4 className="mb-0 text-pink p-2"> <i className="fas fa-birthday-cake "></i> Personal Events</h4>
                         <hr className="mt-2 mb-2" />
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/weddingplanner">
                             Wedding Planners
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/destinationwedding">
                             Destination Wedding
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/engagementplanne">
                             Engagement Planners
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/birthdayplanners">
                             Birthday Planners
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/babyshower">
                             Baby Shower
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/weddinganniversary">
                             Wedding Anniversary
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <a className="dropdown-item" href="/housewarmingevent">
                             Housewarming Event
                           </a>
                         </li>
                       </div>
                     </div>
                   </ul>
-
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="/whyus">
@@ -537,37 +536,37 @@ const Header = () => {
                           <h5 className="mb-0 text-pink">Personal Events</h5>
                           <hr className="mt-2" />
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <a className="dropdown-item" href="/weddingplanner">
                               Wedding Planners
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <a className="dropdown-item" href="/destinationwedding">
                               Destination Wedding
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <a className="dropdown-item" href="/engagementplanne">
                               Engagement Planners
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <a className="dropdown-item" href="/birthdayplanners">
                               Birthday Planners
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <a className="dropdown-item" href="/babyshower">
                               Baby Shower
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <a className="dropdown-item" href="/weddinganniversary">
                               Wedding Anniversary
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <a className="dropdown-item" href="/housewarmingevent">
                               Housewarming Event
                             </a>
                           </li>

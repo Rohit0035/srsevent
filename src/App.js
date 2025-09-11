@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
 import SerVenueManagement from './pages/service/SerVenueManagement';
 import FloralDecor from './pages/service/FloralDecor';
-import Wedding from './pages/event/Wedding';
+import Wedding from './pages/event/WeddingPlanners';
 import BridalMakeover from './pages/service/BridalMakeover';
 import Catering from './pages/service/Catering';
 import FurnitureFabrications from './pages/service/FurnitureFabrications';
@@ -32,6 +32,13 @@ import ConferencesSeminar from './pages/event/ConferencesSeminar';
 import CorporateOutdoor from './pages/event/CorporateOutdoor';
 import HospitalityWellness from './pages/event/HospitalityWellness';
 import AwardCeremony from './pages/event/AwardCeremony';
+import WeddingPlanners from './pages/event/WeddingPlanners';
+import DestinationWedding from './pages/event/DestinationWedding';
+import EngagementPlanne from './pages/event/EngagementPlanne';
+import BirthdayPlanners from './pages/event/BirthdayPlanners';
+import BabyShower from './pages/event/BabyShower';
+import WeddingAnniversary from './pages/event/WeddingAnniversary';
+import HousewarmingEvent from './pages/event/HousewarmingEvent';
 
 
 
@@ -76,10 +83,14 @@ function App() {
                 <Route path="/conferencesseminar" element={<ConferencesSeminar />} />
                 <Route path="/corporateoutdoor" element={<CorporateOutdoor />} />
                 <Route path="/hospitalitywellness" element={<HospitalityWellness />} />
-                <Route path="/awardCeremonyss" element={<AwardCeremony />} />
-
-
-
+                <Route path="/awardCeremony" element={<AwardCeremony />} />
+                <Route path="/weddingplanner" element={<WeddingPlanners />} />
+                <Route path="/destinationwedding" element={<DestinationWedding />} />
+                <Route path="/engagementplanne" element={<EngagementPlanne />} />
+                <Route path="/birthdayplanners" element={<BirthdayPlanners />} />
+                <Route path="/babyshower" element={<BabyShower />} />
+                <Route path="/housewarmingevent" element={<HousewarmingEvent />} />
+                <Route path="/weddinganniversary" element={<WeddingAnniversary />} />
 
             </Routes>
 
