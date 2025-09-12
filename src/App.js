@@ -39,7 +39,8 @@ import BirthdayPlanners from './pages/event/BirthdayPlanners';
 import BabyShower from './pages/event/BabyShower';
 import WeddingAnniversary from './pages/event/WeddingAnniversary';
 import HousewarmingEvent from './pages/event/HousewarmingEvent';
-
+import BlogDetail from './pages/BlogDetail';
+import BlogList from './pages/BlogList';
 
 
 function App() {
@@ -91,7 +92,8 @@ function App() {
                 <Route path="/babyshower" element={<BabyShower />} />
                 <Route path="/housewarmingevent" element={<HousewarmingEvent />} />
                 <Route path="/weddinganniversary" element={<WeddingAnniversary />} />
-
+                <Route path="/blogdetail" element={<BlogDetail />} />
+                <Route path="/blog" element={<BlogList />} />
             </Routes>
 
             {/* <Footer /> */}

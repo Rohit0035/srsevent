@@ -200,7 +200,7 @@ const Footer = () => {
 
                                             <div className="col-md-6">
                                                 <li>
-                                                    <a href="/weddingplanners">
+                                                    <a href="/weddingplanner">
                                                         <i className="fas fa-angle-double-right" /> Wedding Planners
                                                     </a>
                                                 </li>

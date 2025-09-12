@@ -316,8 +316,8 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/whyus">
-                    Why Choose us
+                  <a className="nav-link" href="/blog">
+                     Blog
                   </a>
                 </li>
                 <li className="nav-item">
@@ -466,22 +466,22 @@ const Header = () => {
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/djlivebandmusical">
                           DJ, Live Band &amp; Musical Arrangements
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/livecanvaspainting">
                           Live Canvas Painting, Sketching &amp; Caricature Artists
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/fungamesinteractive">
                           Fun Games &amp; Interactive Activities
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/gangaaarti">
                           Ganga Aarti Ceremony
                         </a>
                       </li>
@@ -575,8 +575,8 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/whyus">
-                      Why Choose us
+                    <a className="nav-link" href="/blog">
+                       Blog
                     </a>
                   </li>
                   <li className="nav-item">

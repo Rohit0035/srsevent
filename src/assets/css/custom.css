@@ -238,6 +238,24 @@ p.service-text {
    padding: 70px 0px 70px 0px;
 }
 
+.img-fit {
+  width: 100%;       
+  height: 400px;      
+  object-fit: cover;  
+  border-radius: 8px; 
+}
+.img-fit2{
+  width: 100%;       
+  height: 230px;      
+  object-fit: cover;  
+  border-radius: 8px; 
+}
+.blog-title {
+  white-space: nowrap;
+  width: 95%;
+  overflow: hidden;
+  text-overflow: ellipsis;     
+}
 
 /* event css close */
 
@@ -311,6 +329,9 @@ img.logo-st {
   .st-b {
     padding: 120px 0px 50px 0px !important;
   }
+  .blog-de-sec {
+    padding-top: 150px !important;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -325,6 +346,9 @@ img.logo-st {
   .event1-bg {
     padding: 200px 0px 50px 0px;
   }
+  .blog-de-sec {
+    padding-top: 150px !important;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -337,6 +361,13 @@ img.logo-st {
   }
   .event1-bg {
     padding: 70px 0px 50px 0px;
+  }
+  .blog-de-sec {
+    padding-top: 50px !important;
+  }
+  .about-hero-section{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
   }
 }
 
