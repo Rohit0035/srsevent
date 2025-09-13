@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Helmet } from "react-helmet-async";
+import EnquiryFormEvent from '../components/EnquiryFormEvent';
 
 const Contact = () => {
     return (
@@ -101,79 +102,17 @@ const Contact = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-8 align-self-center">
-                                    <div className="contact-form">
+                                    <div className="contact-form bg-pink">
                                         <div className="contact-form-header">
-                                            <h2>Get In Touch</h2>
-                                            <p>
-                                                It is a long established fact that a reader will be distracted
-                                                by the readable content of a page randomised words which don't
-                                                look even slightly when looking at its layout.{" "}
+                                            <h2 className='text-white'>Get In Touch</h2>
+                                            <p className='text-white'>
+                                                Have an upcoming event or celebration? We’re here to make it memorable.
+                                                Whether it’s a wedding, birthday, or a corporate gathering, our team is ready
+                                                to plan, design, and execute every detail with perfection. Connect with us today
+                                                and let’s bring your vision to life.
                                             </p>
                                         </div>
-                                        <form
-                                            method="post"
-                                            action="https://live.themewild.com/loveo/assets/php/contact.php"
-                                            id="contact-form"
-                                        >
-                                            <div className="row">
-                                                <div className="col-md-6">
-                                                    <div className="form-group">
-                                                        <input
-                                                            type="text"
-                                                            className="form-control"
-                                                            name="name"
-                                                            placeholder="Your Name"
-                                                            required=""
-                                                        />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="form-group">
-                                                        <input
-                                                            type="email"
-                                                            className="form-control"
-                                                            name="email"
-                                                            placeholder="Your Email"
-                                                            required=""
-                                                        />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="form-group">
-                                                <input
-                                                    type="number"
-                                                    className="form-control"
-                                                    name="phone"
-                                                    placeholder="Phone number"
-                                                    required=""
-                                                />
-                                            </div>
-                                            <div className="form-group">
-                                                <input
-                                                    type="text"
-                                                    className="form-control"
-                                                    name="subject"
-                                                    placeholder="Your Subject"
-                                                    required=""
-                                                />
-                                            </div>
-                                            <div className="form-group">
-                                                <textarea
-                                                    name="message"
-                                                    cols={30}
-                                                    rows={5}
-                                                    className="form-control"
-                                                    placeholder="Write Your Message"
-                                                    defaultValue={""}
-                                                />
-                                            </div>
-                                            <button type="submit" className="theme-btn">
-                                                Send Message <i className="fas-paper-plane" />
-                                            </button>
-                                            <div className="col-md-12 mt-3">
-                                                <div className="form-messege text-success" />
-                                            </div>
-                                        </form>
+                                        <EnquiryFormEvent />
                                     </div>
                                 </div>
                             </div>

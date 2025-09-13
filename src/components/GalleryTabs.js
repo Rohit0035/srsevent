@@ -3,7 +3,6 @@ import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 
-// Imported images
 import ser1 from "../assets/img/common/ser-1.jpg";
 import ser2 from "../assets/img/common/ser-2.jpg";
 import ser3 from "../assets/img/common/ser-3.jpg";
@@ -20,7 +19,6 @@ const GalleryTabs = () => {
     const [open, setOpen] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    // Gallery images with categories
     const images = [
         { src: ser1, category: "wedding" },
         { src: ser2, category: "wedding" },
@@ -74,7 +72,7 @@ const GalleryTabs = () => {
             <div className="row g-3">
                 {filteredImages.map((img, index) => (
                     <div className="col-6 col-md-2 col-lg-3" key={index}>
-                        <div className="gallery-item">
+                        <div className="gallery-item mb-0">
                             <img
                                 src={img.src}
                                 alt="event"
@@ -82,8 +80,8 @@ const GalleryTabs = () => {
                                 style={{
                                     cursor: "pointer",
                                     width: "100%",
-                                    height: "220px", // fixed height
-                                    objectFit: "cover", // crop to fit
+                                    height: "220px", 
+                                    objectFit: "cover", 
                                 }}
                                 onClick={() => {
                                     setCurrentIndex(index);

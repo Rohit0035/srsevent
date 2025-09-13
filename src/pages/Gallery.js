@@ -112,37 +112,45 @@ const Gallery = () => {
 
                     {/* gallery tabs close */}
 
-                    {/* Top marquee */}
-                    <div className="overflow-hidden mb-2  mt-4">
-                        <div className="d-inline-flex gap-3 animate-marquee">
-                            {allImages.slice(0, 10).map((img, i) => (
-                                <img
-                                    key={i}
-                                    src={img}
-                                    className="rounded shadow gal-i"
-                                    alt=""
-                                    style={{ cursor: "pointer" }}
-                                    onClick={() => handleOpen(i)}
-                                />
-                            ))}
+
+                    <div className="bg-light py-5 mt-5 ">
+                        <h2 className="site-title text-center">
+                            Our Captured <span>Moments</span>
+                        </h2>
+                        {/* Top marquee */}
+                        <div className="overflow-hidden mb-2  mt-4">
+                            <div className="d-inline-flex gap-3 animate-marquee">
+                                {allImages.slice(0, 10).map((img, i) => (
+                                    <img
+                                        key={i}
+                                        src={img}
+                                        className="rounded shadow gal-i"
+                                        alt=""
+                                        style={{ cursor: "pointer" }}
+                                        onClick={() => handleOpen(i)}
+                                    />
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* Bottom marquee */}
+                        <div className="overflow-hidden">
+                            <div className="d-inline-flex gap-3 animate-marquee-reverse">
+                                {allImages.slice(10).map((img, i) => (
+                                    <img
+                                        key={i + 10}
+                                        src={img}
+                                        className="rounded shadow gal-i"
+                                        alt=""
+                                        style={{ cursor: "pointer" }}
+                                        onClick={() => handleOpen(i + 10)}
+                                    />
+                                ))}
+                            </div>
                         </div>
                     </div>
 
-                    {/* Bottom marquee */}
-                    <div className="overflow-hidden">
-                        <div className="d-inline-flex gap-3 animate-marquee-reverse">
-                            {allImages.slice(10).map((img, i) => (
-                                <img
-                                    key={i + 10}
-                                    src={img}
-                                    className="rounded shadow gal-i"
-                                    alt=""
-                                    style={{ cursor: "pointer" }}
-                                    onClick={() => handleOpen(i + 10)}
-                                />
-                            ))}
-                        </div>
-                    </div>
+
                 </div>
                 {/* gallery-area end */}
             </main>
