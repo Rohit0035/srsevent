@@ -10,7 +10,7 @@ import ct4 from "../../assets/img/common/ct-4.jpg";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { Helmet } from "react-helmet-async";
-import EnquiryFormServices from "../../components/EnquiryFormServices";
+import EnquiryFormEvent from "../../components/EnquiryFormEvent";
 
 const Catering = () => {
   const [open, setOpen] = useState(false);
@@ -83,7 +83,7 @@ const Catering = () => {
                       className="quote-content p-2"
                       style={{ backgroundColor: "#9c2356" }}
                     >
-                      <EnquiryFormServices />
+                     <EnquiryFormEvent />
                     </div>
                   </div>
                 </div>

@@ -32,6 +32,7 @@ import ev3 from "../assets/img/common/ev-3.jpg";
 import ev4 from "../assets/img/common/ev-4.jpg";
 import ev5 from "../assets/img/common/ev-5.jpg";
 import divider from "../assets/img/icon/divider.png"
+import GalleryTabs from "../components/GalleryTabs";
 
 const Gallery = () => {
     const [open, setOpen] = useState(false);
@@ -92,7 +93,7 @@ const Gallery = () => {
                                 data-wow-duration="1s"
                                 data-wow-delay=".25s"
                             >
-                                <div className="site-heading text-center">
+                                <div className="site-heading text-center mb-3">
                                     <span className="site-title-tagline">Our Gallery</span>
                                     <h2 className="site-title">
                                         Our Captured <span>Moments</span>
@@ -105,8 +106,14 @@ const Gallery = () => {
                         </div>
                     </div>
 
+                    {/* gallery tabs */}
+
+                    <GalleryTabs />
+
+                    {/* gallery tabs close */}
+
                     {/* Top marquee */}
-                    <div className="overflow-hidden mb-2">
+                    <div className="overflow-hidden mb-2  mt-4">
                         <div className="d-inline-flex gap-3 animate-marquee">
                             {allImages.slice(0, 10).map((img, i) => (
                                 <img

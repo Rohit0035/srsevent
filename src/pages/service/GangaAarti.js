@@ -3,7 +3,6 @@ import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import EnquiryFormServices from '../../components/EnquiryFormServices';
 import svnimg from "../../assets/img/common/ser-gag-abt.jpg";
 
 import vnA from "../../assets/img/common/ser-gag-g1.jpg";
@@ -11,6 +10,7 @@ import vnB from "../../assets/img/common/ser-gag-g2.jpeg";
 import vnC from "../../assets/img/common/ser-gag-g3.jpeg";
 import vnD from "../../assets/img/common/ser-gag-g4.jpeg";
 import { Helmet } from "react-helmet-async";
+import EnquiryFormEvent from "../../components/EnquiryFormEvent";
 
 const GangaAarti = () => {
   const [open, setOpen] = useState(false);
@@ -80,7 +80,7 @@ const GangaAarti = () => {
                       className="quote-content p-2"
                       style={{ backgroundColor: "#9c2356" }}
                     >
-                      <EnquiryFormServices />
+                      <EnquiryFormEvent />
                     </div>
                   </div>
                 </div>

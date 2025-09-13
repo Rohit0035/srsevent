@@ -3,7 +3,6 @@ import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import EnquiryFormServices from "../../components/EnquiryFormServices";
 import bridalImg from "../../assets/img/common/bdr-grid.png";
 
 // Import bridal makeup images
@@ -12,6 +11,8 @@ import bm2 from "../../assets/img/common/bdr-2.jpg";
 import bm3 from "../../assets/img/common/bdr-3.jpg";
 import bm4 from "../../assets/img/common/bdr-4.jpg";
 import { Helmet } from "react-helmet-async";
+import EnquiryFormEvent from "../../components/EnquiryFormEvent";
+
 
 const BridalMakeover = () => {
     const [open, setOpen] = useState(false);
@@ -85,7 +86,7 @@ const BridalMakeover = () => {
                                             className="quote-content p-2"
                                             style={{ backgroundColor: "#9c2356" }}
                                         >
-                                            <EnquiryFormServices />
+                                            <EnquiryFormEvent />
                                         </div>
                                     </div>
                                 </div>

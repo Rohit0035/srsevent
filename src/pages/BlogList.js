@@ -135,7 +135,7 @@ const BlogList = () => {
                                             <div className="blog-item-meta">
                                                 <ul>
                                                     <li><i className="fas fa-user-circle" /> {post.author}</li>
-                                                    <li><i className="fas fa-calendar-alt" /> {post.date}</li>
+                                                    {/* <li><i className="fas fa-calendar-alt" /> {post.date}</li> */}
                                                 </ul>
                                             </div>
                                             <h4 className="blog-title blg-title">

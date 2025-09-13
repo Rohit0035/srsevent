@@ -3,7 +3,6 @@ import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import EnquiryFormServices from '../../components/EnquiryFormServices';
 import svnimg from "../../assets/img/common/ser-art-abt.jpg";
 
 import vnA from "../../assets/img/common/ser-art-g1.jpeg";
@@ -11,6 +10,7 @@ import vnB from "../../assets/img/common/ser-art-g2.jpeg";
 import vnC from "../../assets/img/common/ser-art-g3.jpeg";
 import vnD from "../../assets/img/common/ser-art-g4.jpeg";
 import { Helmet } from "react-helmet-async";
+import EnquiryFormEvent from "../../components/EnquiryFormEvent";
 
 const LiveCanvasPainting = () => {
     const [open, setOpen] = useState(false);
@@ -79,7 +79,7 @@ const LiveCanvasPainting = () => {
                                             className="quote-content p-2"
                                             style={{ backgroundColor: "#9c2356" }}
                                         >
-                                            <EnquiryFormServices />
+                                            <EnquiryFormEvent />
                                         </div>
                                     </div>
                                 </div>

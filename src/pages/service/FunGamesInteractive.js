@@ -3,7 +3,6 @@ import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import EnquiryFormServices from '../../components/EnquiryFormServices';
 import svnimg from "../../assets/img/common/ser-fun-abt.jpg";
 
 import vnA from "../../assets/img/common/ser-fun-g1.jpg";
@@ -11,6 +10,7 @@ import vnB from "../../assets/img/common/ser-fun-g2.jpg";
 import vnC from "../../assets/img/common/ser-fun-g3.jpg";
 import vnD from "../../assets/img/common/ser-fun-g4.jpg";
 import { Helmet } from "react-helmet-async";
+import EnquiryFormEvent from "../../components/EnquiryFormEvent";
 
 const FunGamesInteractive = () => {
   const [open, setOpen] = useState(false);
@@ -79,7 +79,7 @@ const FunGamesInteractive = () => {
                       className="quote-content p-2"
                       style={{ backgroundColor: "#9c2356" }}
                     >
-                      <EnquiryFormServices />
+                      <EnquiryFormEvent />
                     </div>
                   </div>
                 </div>

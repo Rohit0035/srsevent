@@ -270,6 +270,11 @@ img.logo-st {
     width: 150px;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color:#9c2356 !important;
+}
+
 /* Optional: hide on small screens */
 @media (max-width: 768px) {
   .swiper-button-next,

@@ -3,7 +3,6 @@ import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import EnquiryFormServices from '../../components/EnquiryFormServices';
 import svnimg from "../../assets/img/common/col-grid.jpg";
 
 // Import effect images
@@ -12,6 +11,7 @@ import vnB from "../../assets/img/common/col-2.jpg";
 import vnC from "../../assets/img/common/col-3.jpg";
 import vnD from "../../assets/img/common/col-4.jpg";
 import { Helmet } from "react-helmet-async";
+import EnquiryFormEvent from "../../components/EnquiryFormEvent";
 
 const ColdCyro = () => {
     const [open, setOpen] = useState(false);
@@ -81,7 +81,7 @@ const ColdCyro = () => {
                                             className="quote-content p-2"
                                             style={{ backgroundColor: "#9c2356" }}
                                         >
-                                            <EnquiryFormServices />
+                                           <EnquiryFormEvent />
                                         </div>
                                     </div>
                                 </div>

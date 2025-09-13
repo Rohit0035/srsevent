@@ -3,7 +3,6 @@ import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import EnquiryFormServices from "../../components/EnquiryFormServices";
 import svnimg from "../../assets/img/common/ph-grid.png";
 import { Helmet } from "react-helmet-async";
 
@@ -12,6 +11,7 @@ import vnA from "../../assets/img/common/vd-1.mp4";
 import vnB from "../../assets/img/common/vd-2.mp4";
 import vnC from "../../assets/img/common/vd-3.mp4";
 import vnD from "../../assets/img/common/vd-4.mp4";
+import EnquiryFormEvent from "../../components/EnquiryFormEvent";
 
 const Videography = () => {
   const [open, setOpen] = useState(false);
@@ -84,7 +84,7 @@ const Videography = () => {
                       className="quote-content p-2"
                       style={{ backgroundColor: "#9c2356" }}
                     >
-                      <EnquiryFormServices />
+                      <EnquiryFormEvent />
                     </div>
                   </div>
                 </div>

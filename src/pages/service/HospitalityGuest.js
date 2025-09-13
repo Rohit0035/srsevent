@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import EnquiryFormServices from "../../components/EnquiryFormServices";
 import { Helmet } from "react-helmet-async";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -11,6 +10,7 @@ import vnA from "../../assets/img/common/hoges-1.jpg";
 import vnB from "../../assets/img/common/hoges-2.jpg";
 import vnC from "../../assets/img/common/hoges-3.jpg";
 import vnD from "../../assets/img/common/hoges-4.jpg";
+import EnquiryFormEvent from "../../components/EnquiryFormEvent";
 
 const HospitalityGuest = () => {
   const [open, setOpen] = useState(false);
@@ -92,7 +92,7 @@ const HospitalityGuest = () => {
                       className="quote-content p-2"
                       style={{ backgroundColor: "#9c2356" }}
                     >
-                      <EnquiryFormServices />
+                      <EnquiryFormEvent />
                     </div>
                   </div>
                 </div>

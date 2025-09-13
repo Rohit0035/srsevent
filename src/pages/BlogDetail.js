@@ -42,7 +42,7 @@ const BlogDetail = () => {
                     <div className="blog-info">
                       <div className="blog-meta">
                         <div className="blog-meta-left">
-                          <ul>
+                          {/* <ul>
                             <li>
                               <i className="fas fa-user" />
                               <a href="#">SrsEvent Team</a>
@@ -55,14 +55,14 @@ const BlogDetail = () => {
                               <i className="fas fa-thumbs-up" />
                               540 Likes
                             </li>
-                          </ul>
+                          </ul> */}
                         </div>
-                        <div className="blog-meta-right">
+                        {/* <div className="blog-meta-right">
                           <a href="#" className="share-btn">
                             <i className="fas fa-share-alt" />
                             Share
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="blog-details">
                         <h3 className="blog-details-title mb-20">
@@ -122,7 +122,7 @@ const BlogDetail = () => {
 
                     {/* Blog Comments */}
                     <div className="blog-comments">
-                      <h3>Comments (20)</h3>
+                      {/* <h3>Comments (20)</h3>
                       <div className="blog-comments-wrapper">
                         <div className="blog-comments-single">
                           <div className="blog-comments-img">
@@ -179,8 +179,6 @@ const BlogDetail = () => {
                           </div>
                         </div>
                       </div>
-
-                      {/* Comment Form */}
                       <div className="blog-comments-form">
                         <h3>Leave A Comment</h3>
                         <form action="#">
@@ -218,7 +216,7 @@ const BlogDetail = () => {
                             </div>
                           </div>
                         </form>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -228,34 +226,34 @@ const BlogDetail = () => {
               <div className="col-lg-4">
                 <aside className="sidebar">
                   {/* category */}
-                  <div className="widget category">
+                  <div className="widget category bg-white">
                     <h5 className="widget-title">Categories</h5>
                     <div className="category-list">
                       <a href="#">
                         <i className="fas fa-arrow-right" />
-                        Wedding Planning<span>(25)</span>
+                        Wedding Planning
                       </a>
                       <a href="#">
                         <i className="fas fa-arrow-right" />
-                        Destination Weddings<span>(12)</span>
+                        Destination Weddings
                       </a>
                       <a href="#">
                         <i className="fas fa-arrow-right" />
-                        Luxury Decor<span>(18)</span>
+                        Luxury Decor
                       </a>
                       <a href="#">
                         <i className="fas fa-arrow-right" />
-                        Bridal Styling<span>(15)</span>
+                        Bridal Styling
                       </a>
                       <a href="#">
                         <i className="fas fa-arrow-right" />
-                        Event Management<span>(30)</span>
+                        Event Management
                       </a>
                     </div>
                   </div>
 
                   {/* social share */}
-                  <div className="widget social-share">
+                  <div className="widget social-share bg-white">
                     <h5 className="widget-title">Follow Us</h5>
                     <div className="social-share-link">
                       <a href="#">
@@ -277,7 +275,7 @@ const BlogDetail = () => {
                   </div>
 
                   {/* Popular Tags */}
-                  <div className="widget sidebar-tag">
+                  <div className="widget sidebar-tag bg-white">
                     <h5 className="widget-title">Popular Tags</h5>
                     <div className="tag-list">
                       <a href="#">Wedding Planner</a>
