@@ -1,124 +1,210 @@
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 const EnquiryFormEvent = () => {
-    return (
-        <>
-            <form action="#" className="rounded">
-                <div className="row">
-                    {/* Full Name */}
-                    <div className="col-md-6 mb-3">
-                        {/* <label style={{fontSize:'12px'}} className="form-label text-white mb-1 text-start w-100">Full Name</label> */}
-                        <input
-                            type="text"
-                            name="name"
-                            className="form-control rounded-4"
-                            placeholder="Enter your Full Name"
-                        />
-                    </div>
+  const navigate = useNavigate();
 
-                    {/* Email */}
-                    <div className="col-md-6 mb-3">
-                        {/* <label style={{fontSize:'12px'}} className="form-label text-white mb-1 text-start w-100">Email Address</label> */}
-                        <input
-                            type="email"
-                            name="email"
-                            className="form-control rounded-4"
-                            placeholder="Enter your Email"
-                        />
-                    </div>
+  const [formData, setFormData] = useState({
+    full_name: "",
+    email: "",
+    phone_number: "",
+    date: "",
+    event_type: "",
+    event_location: "",
+    relation: "",
+    whatsapp: false,
+  });
 
-                    {/* Phone Number */}
-                    <div className="col-md-6 mb-3">
-                        {/* <label style={{fontSize:'12px'}} className="form-label text-white mb-1 text-start w-100">Phone Number</label> */}
-                        <input
-                            type="text"
-                            name="phone"
-                            className="form-control rounded-4"
-                            placeholder="Enter Phone Number"
-                        />
-                    </div>
+  const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState("");
 
-                    {/* Event Date */}
-                    <div className="col-md-6 mb-3">
-                        {/* <label style={{fontSize:'12px'}} className="form-label text-white mb-1 text-start w-100">Event Date</label> */}
-                        <input
-                            type="date"
-                            name="event_date"
-                            className="form-control rounded-4"
-                            placeholder="dd-mm-yyyy"
-                        />
-                    </div>
+  const handleChange = (e) => {
+    const { name, value, type, checked } = e.target;
+    setFormData({
+      ...formData,
+      [name]: type === "checkbox" ? checked : value,
+    });
+  };
 
-                    <div className="col-md-6 mb-3">
-                        {/* <label style={{fontSize:'12px'}} className="form-label text-white mb-1 text-start w-100">Event Type</label> */}
-                        <select name="eventType" className="form-select rounded-4">
-                            <option>Select an Event Type</option>
-                            {/* Corporate Events */}
-                            <option>Corporate Management</option>
-                            <option>Inauguration Planners</option>
-                            <option>Conferences and Seminar Event</option>
-                            <option>Corporate Outdoor Events</option>
-                            <option>Hospitality and Wellness Management</option>
-                            <option>Award Ceremony</option>
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setMessage("");
 
-                            {/* Wedding & Personal Events */}
-                            <option>Wedding Planners</option>
-                            <option>Destination Wedding</option>
-                            <option>Engagement Planners</option>
-                            <option>Birthday Planners</option>
-                            <option>Baby Shower</option>
-                            <option>Wedding Anniversary</option>
-                            <option>Housewarming Event</option>
-                        </select>
-                    </div>
+    try {
+      const response = await axios.post(
+        "https://srsevent.com/api/submit-contact-us-form",
+        formData,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
-                    {/* Event Location */}
-                    <div className="col-md-6 mb-3">
-                        {/* <label style={{fontSize:'12px'}} className="form-label text-white mb-1 text-start w-100">Event Location</label> */}
-                        <input
-                            type="text"
-                            name="event_location"
-                            className="form-control rounded-4"
-                            placeholder="Enter your Event Location "
-                        />
-                    </div>
+      if (response.status === 200) {
+        setFormData({
+          full_name: "",
+          email: "",
+          phone_number: "",
+          date: "",
+          event_type: "",
+          event_location: "",
+          relation: "",
+          whatsapp: false,
+        });
+        navigate("/thank-you");
+      } else {
+        setMessage(`❌ Submission failed: ${response.data.message || "Try again."}`);
+      }
+    } catch (error) {
+      console.error("CORS/Network Error:", error);
+      setMessage("❌ Error submitting form. Please check your connection.");
+    } finally {
+      setLoading(false);
+    }
+  };
 
-                    {/* Relation */}
-                    <div className="col-md-12 mb-3">
-                        {/* <label style={{fontSize:'12px'}} className="form-label text-white mb-1 text-start w-100">Relation</label> */}
-                        <select name="relation" className="form-select rounded-4">
-                            <option>Select a Relation</option>
-                            <option>Friend</option>
-                            <option>Family</option>
-                            <option>Colleague</option>
-                            <option>Other</option>
-                        </select>
-                    </div>
+  return (
+    <>
+      <form onSubmit={handleSubmit} className="rounded">
+        <div className="row">
+          <div className="col-md-6 mb-3">
+            <input
+              type="text"
+              name="full_name"
+              value={formData.full_name}
+              onChange={handleChange}
+              className="form-control rounded-4"
+              placeholder="Enter your Full Name"
+              required
+            />
+          </div>
 
-                    {/* WhatsApp Checkbox */}
-                    <div className="col-md-12 mb-3">
-                        <div className="form-check">
-                            <input
-                                type="checkbox"
-                                className="form-check-input"
-                                id="whatsapp"
-                            />
-                            <label className="form-check-label text-start w-100 text-white" htmlFor="whatsapp">
-                                Send me updates on WhatsApp
-                            </label>
-                        </div>
-                    </div>
+          <div className="col-md-6 mb-3">
+            <input
+              type="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              className="form-control rounded-4"
+              placeholder="Enter your Email"
+              required
+            />
+          </div>
 
-                    {/* Submit Button */}
-                    <div className="col-md-12">
-                        <button type="submit" className="btn theme-btn bg-black w-100">
-                            Submit
-                        </button>
-                    </div>
-                </div>
-            </form>
-        </>
-    );
+          <div className="col-md-6 mb-3">
+            <input
+              type="text"
+              name="phone_number"
+              value={formData.phone_number}
+              onChange={handleChange}
+              className="form-control rounded-4"
+              placeholder="Enter Phone Number"
+              required
+            />
+          </div>
+
+          <div className="col-md-6 mb-3">
+            <input
+              type="date"
+              name="date"
+              value={formData.date}
+              onChange={handleChange}
+              className="form-control rounded-4"
+              required
+            />
+          </div>
+
+          <div className="col-md-6 mb-3">
+            <select
+              name="event_type"
+              value={formData.event_type}
+              onChange={handleChange}
+              className="form-select rounded-4"
+              required
+            >
+              <option value="">Select an Event Type</option>
+              <option>Corporate Management</option>
+              <option>Inauguration Planners</option>
+              <option>Conferences and Seminar Event</option>
+              <option>Corporate Outdoor Events</option>
+              <option>Hospitality and Wellness Management</option>
+              <option>Award Ceremony</option>
+              <option>Wedding Planners</option>
+              <option>Destination Wedding</option>
+              <option>Engagement Planners</option>
+              <option>Birthday Planners</option>
+              <option>Baby Shower</option>
+              <option>Wedding Anniversary</option>
+              <option>Housewarming Event</option>
+            </select>
+          </div>
+
+          <div className="col-md-6 mb-3">
+            <input
+              type="text"
+              name="event_location"
+              value={formData.event_location}
+              onChange={handleChange}
+              className="form-control rounded-4"
+              placeholder="Enter your Event Location"
+              required
+            />
+          </div>
+
+          <div className="col-md-12 mb-3">
+            <select
+              name="relation"
+              value={formData.relation}
+              onChange={handleChange}
+              className="form-select rounded-4"
+              required
+            >
+              <option value="">Select a Relation</option>
+              <option>Friend</option>
+              <option>Family</option>
+              <option>Colleague</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div className="col-md-12 mb-3">
+            <div className="form-check">
+              <input
+                type="checkbox"
+                name="whatsapp"
+                checked={formData.whatsapp}
+                onChange={handleChange}
+                className="form-check-input"
+                id="whatsapp"
+              />
+              <label
+                className="form-check-label text-start w-100 text-white"
+                htmlFor="whatsapp"
+              >
+                Send me updates on WhatsApp
+              </label>
+            </div>
+          </div>
+          <div className="col-md-12">
+            <button
+              type="submit"
+              className="btn theme-btn bg-black w-100"
+              disabled={loading}
+            >
+              {loading ? "Submitting..." : "Submit"}
+            </button>
+          </div>
+          {message && (
+            <div className="col-md-12 mt-3">
+              <p className="text-center">{message}</p>
+            </div>
+          )}
+        </div>
+      </form>
+    </>
+  );
 };
 
 export default EnquiryFormEvent;
