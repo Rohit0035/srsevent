@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+import { postEnquiry } from "../services/api"; 
 
 const EnquiryFormEvent = () => {
   const navigate = useNavigate();
@@ -33,15 +33,7 @@ const EnquiryFormEvent = () => {
     setMessage("");
 
     try {
-      const response = await axios.post(
-        "https://srsevent.com/admin/api/submit-contact-us-form",
-        formData,
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      );
+      const response = await postEnquiry(formData); // ✅ call API service
 
       if (response.status === 200) {
         setFormData({
@@ -54,9 +46,11 @@ const EnquiryFormEvent = () => {
           relation: "",
           whatsapp: false,
         });
-        navigate("/thank-you");
+        navigate("/thankyou");
       } else {
-        setMessage(`❌ Submission failed: ${response.data.message || "Try again."}`);
+        setMessage(
+          `❌ Submission failed: ${response.data.message || "Try again."}`
+        );
       }
     } catch (error) {
       console.error("CORS/Network Error:", error);
