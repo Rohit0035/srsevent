@@ -34,7 +34,7 @@ const EnquiryFormEvent = () => {
 
     try {
       const response = await axios.post(
-        "https://srsevent.com/api/submit-contact-us-form",
+        "https://srsevent.com/admin/api/submit-contact-us-form",
         formData,
         {
           headers: {
