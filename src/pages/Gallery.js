@@ -12,6 +12,7 @@ import divider from "../assets/img/icon/divider.png";
 
 import { getGallery } from "../services/api";
 import GalleryTabs from "../components/GalleryTabs";
+import API_CONFIG from "../config/apiConfig";
 
 const Gallery = () => {
   const [open, setOpen] = useState(false);
@@ -38,7 +39,7 @@ const Gallery = () => {
 
   // ✅ Corrected Lightbox slides URL
   const slides = gallery.map((g) => ({
-    src: `https://srsevent.com/admin/storage/${g.image}`,
+    src: `${API_CONFIG.IMAGE_URL}/${g.image}`,
   }));
 
   const handleOpen = (i) => {
@@ -58,7 +59,7 @@ const Gallery = () => {
           name="keywords"
           content="SrsEvent gallery, event gallery, wedding gallery, birthday party gallery, corporate event photos, anniversary celebration images, event decoration gallery, event highlights, Bangalore event gallery"
         />
-        <link rel="canonical" href="https://srsevent.com/gallery" />
+        <link rel="canonical" href={`${API_CONFIG.WEBSITE_URL}/gallery`} />
       </Helmet>
 
       <Header />
@@ -116,7 +117,7 @@ const Gallery = () => {
                     {gallery.slice(0, 10).map((g, i) => (
                       <img
                         key={g.id}
-                        src={`https://srsevent.com/admin/storage/${g.image}`}
+                        src={`${API_CONFIG.IMAGE_URL}/${g.image}`}
                         className="rounded shadow gal-i"
                         alt=""
                         style={{ cursor: "pointer" }}
@@ -132,7 +133,7 @@ const Gallery = () => {
                     {gallery.slice(10).map((g, i) => (
                       <img
                         key={g.id}
-                        src={`https://srsevent.com/admin/storage/${g.image}`}
+                        src={`${API_CONFIG.IMAGE_URL}/${g.image}`}
                         className="rounded shadow gal-i"
                         alt=""
                         style={{ cursor: "pointer" }}

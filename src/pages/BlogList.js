@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet-async";
 import { getBlogs } from "../services/api"; // ✅ use service
+import API_CONFIG from "../config/apiConfig";
 
 const BlogList = () => {
   const [blogs, setBlogs] = useState([]);
@@ -48,7 +49,7 @@ const BlogList = () => {
           name="description"
           content="Explore wedding planner blogs covering venue management, floral décor, photography, videography, catering, bridal makeover, sounds & lights, furniture and fabrications."
         />
-        <link rel="canonical" href="https://srsevent.com/blog" />
+        <link rel="canonical" href={API_CONFIG.BASE_URL} />
       </Helmet>
 
       <Header />
@@ -75,7 +76,7 @@ const BlogList = () => {
                     <div className="blog-item bg-light p-2 h-100">
                       <div className="blog-item-img">
                         <img
-                          src={`https://srsevent.com/admin/storage/${post.image}`}
+                          src={`${API_CONFIG.IMAGE_URL}/${post.image}`}
                           alt={post.title}
                           className="img-fit2"
                         />
@@ -89,7 +90,7 @@ const BlogList = () => {
                           </ul>
                         </div>
                         <h4 className="blog-title blg-title">
-                          <Link to={`/blogdetail/${post.id}`}>{post.title}</Link>
+                          <Link to={`/blogdetail/${post.slug}`}>{post.title}</Link>
                         </h4>
                         <p
                           className="blog-desc"
@@ -97,7 +98,7 @@ const BlogList = () => {
                             __html: post.description.substring(0, 100) + "...",
                           }}
                         />
-                        <Link className="theme-btn" to={`/blogdetail/${post.id}`}>
+                        <Link className="theme-btn" to={`/blogdetail/${post.slug}`}>
                           Read More <i className="fas fa-arrow-right" />
                         </Link>
                       </div>

@@ -4,19 +4,24 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet-async";
 import axios from "axios";
+import { getBlogDetails } from "../services/api";
+import API_CONFIG from "../config/apiConfig";
 
 const BlogDetail = () => {
-  const { id } = useParams(); // blog id from URL
+  const { slug } = useParams(); // blog id from URL
   const [blog, setBlog] = useState(null);
+  const [categories,setCategories] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchBlog = async () => {
       try {
-        const response = await axios.get(
-          `https://srsevent.com/api/blogs/${id}`
-        );
-        setBlog(response.data); 
+        const response = await getBlogDetails(slug);
+        console.log(response)
+        if(response.data.success){
+          setBlog(response.data.data.blog); 
+          setCategories(response.data.data.categories); 
+        }
       } catch (error) {
         console.error("Error fetching blog:", error);
       } finally {
@@ -25,7 +30,7 @@ const BlogDetail = () => {
     };
 
     fetchBlog();
-  }, [id]);
+  }, [slug]);
 
   if (loading) {
     return (
@@ -46,10 +51,10 @@ const BlogDetail = () => {
   return (
     <>
       <Helmet>
-        <title>{blog.title} - SrsEvent</title>
-        <meta name="description" content={blog.meta_description || blog.content?.slice(0, 150)} />
-        <meta name="keywords" content={blog.meta_keywords || ""} />
-        <link rel="canonical" href={`https://srsevent.com/blogdetail/${id}`} />
+        <title>{blog?.title} - SrsEvent</title>
+        <meta name="description" content={blog?.meta_description || blog?.content?.slice(0, 150)} />
+        <meta name="keywords" content={blog?.meta_keywords || ""} />
+        <link rel="canonical" href={`${API_CONFIG.WEBSITE_URL}/blogdetail/${slug}`} />
       </Helmet>
 
       <Header />
@@ -62,22 +67,22 @@ const BlogDetail = () => {
                 <div className="blog-single-wrapper bg-white p-4 rounded shadow-sm">
                   {blog.image && (
                     <img
-                      src={blog.image}
-                      alt={blog.title}
+                      src={`${API_CONFIG.IMAGE_URL}/${blog?.image}`}
+                      alt={blog?.title}
                       className="img-fluid mb-4 rounded"
                     />
                   )}
-                  <h2 className="mb-3">{blog.title}</h2>
-                  <p className="text-muted">{blog.short_description}</p>
+                  <h2 className="mb-3">{blog?.title}</h2>
+                  {/* <p className="text-muted">{blog?.short_description}</p> */}
                   <div
-                    dangerouslySetInnerHTML={{ __html: blog.content }}
+                    dangerouslySetInnerHTML={{ __html: blog.description }}
                   ></div>
 
                   {/* Tags */}
-                  {blog.tags && blog.tags.length > 0 && (
+                  {blog.tags && (
                     <div className="mt-4">
                       <h6>Tags:</h6>
-                      {blog.tags.map((tag, index) => (
+                      {blog.tags.split(',').map((tag, index) => (
                         <span
                           key={index}
                           className="badge bg-dark text-white me-2 mb-2"
@@ -96,11 +101,13 @@ const BlogDetail = () => {
                   <div className="widget bg-white p-3 shadow-sm mb-4 rounded">
                     <h5>Categories</h5>
                     <ul className="list-unstyled">
-                      <li>Wedding Planning</li>
-                      <li>Destination Weddings</li>
-                      <li>Luxury Decor</li>
-                      <li>Bridal Styling</li>
-                      <li>Event Management</li>
+                      {
+                        categories.map((category, index) => (
+                          <li key={index}>
+                            <a href={`/blog`}>{category.name}</a>
+                          </li>
+                        ))
+                      }
                     </ul>
                   </div>
                 </aside>
