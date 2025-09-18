@@ -27,7 +27,7 @@ const Home = () => {
           name="keywords"
           content="event planner, wedding, birthday, Bangalore events"
         />
-        <link rel="canonical" href="https://srsevent.com/weddingplanners" />
+        <link rel="canonical" href="https://srsevent.com/wedding-planners-bangalores" />
       </Helmet>
 
       <Header />

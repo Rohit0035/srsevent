@@ -167,32 +167,32 @@ const Footer = () => {
                                         <div className="row">
                                             <div className="col-md-6">
                                                 <li>
-                                                    <a href="/corporatemanagement">
+                                                    <a href="/corporate-event-management-company-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Corporate Management
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/inaugurationplanners">
+                                                    <a href="/inauguration-event-organizers-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Inauguration Planners
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/">
+                                                    <a href="/conference-events-management-company-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Conferences and Seminar Event
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/">
+                                                    <a href="/corporate-outdoor-events-company-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Corporate Outdoor Events
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/">
+                                                    <a href="/hospitality-management-services-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Hospitality and Wellness Management
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/">
+                                                    <a href="/award-ceremony-organizers-in-bangalore">
                                                         <i className="fas fa-angle-double-right" />Award Ceremony
                                                     </a>
                                                 </li>
@@ -200,43 +200,43 @@ const Footer = () => {
 
                                             <div className="col-md-6">
                                                 <li>
-                                                    <a href="/weddingplanner">
+                                                    <a href="/wedding-planners-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Wedding Planners
                                                     </a>
                                                 </li>
 
                                                 <li>
-                                                    <a href="/destinationwedding">
+                                                    <a href="/destination-wedding-planner-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Destination Wedding
                                                     </a>
                                                 </li>
 
                                                 <li>
-                                                    <a href="/engagementplanners">
+                                                    <a href="/engagement-planners-bangalorers">
                                                         <i className="fas fa-angle-double-right" /> Engagement Planners
                                                     </a>
                                                 </li>
 
                                                 <li>
-                                                    <a href="/birthdayplanners">
+                                                    <a href="/birthday-party-organiser-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Birthday Planners
                                                     </a>
                                                 </li>
 
                                                 <li>
-                                                    <a href="/babyshower">
+                                                    <a href="/baby-shower-event-organisers-bangalore.">
                                                         <i className="fas fa-angle-double-right" /> Baby Shower
                                                     </a>
                                                 </li>
 
                                                 <li>
-                                                    <a href="/weddinganniversary">
+                                                    <a href="/wedding-anniversary-planners-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Wedding Anniversary
                                                     </a>
                                                 </li>
 
                                                 <li>
-                                                    <a href="/housewarming">
+                                                    <a href="/housewarming-event-planner-Bangalore">
                                                         <i className="fas fa-angle-double-right" /> Housewarming Event
                                                     </a>
                                                 </li>

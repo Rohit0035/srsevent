@@ -82,22 +82,22 @@ function App() {
 
         {/* events */}
         <Route path="/wedding" element={<Wedding />} />
-        <Route path="/corporatemanagement" element={<CorporateManagement />} />
+        <Route path="/corporate-event-management-company-bangalore" element={<CorporateManagement />} />
         <Route
-          path="/inaugurationplanners"
+          path="/inauguration-event-organizers-bangalore"
           element={<InaugurationPlanners />}
         />
-        <Route path="/conferencesseminar" element={<ConferencesSeminar />} />
-        <Route path="/corporateoutdoor" element={<CorporateOutdoor />} />
-        <Route path="/hospitalitywellness" element={<HospitalityWellness />} />
-        <Route path="/awardCeremony" element={<AwardCeremony />} />
-        <Route path="/weddingplanner" element={<WeddingPlanners />} />
-        <Route path="/destinationwedding" element={<DestinationWedding />} />
-        <Route path="/engagementplanne" element={<EngagementPlanne />} />
-        <Route path="/birthdayplanners" element={<BirthdayPlanners />} />
-        <Route path="/babyshower" element={<BabyShower />} />
-        <Route path="/housewarmingevent" element={<HousewarmingEvent />} />
-        <Route path="/weddinganniversary" element={<WeddingAnniversary />} />
+        <Route path="/conference-events-management-company-bangalore" element={<ConferencesSeminar />} />
+        <Route path="/corporate-outdoor-events-company-bangalore" element={<CorporateOutdoor />} />
+        <Route path="/hospitality-management-services-bangalore" element={<HospitalityWellness />} />
+        <Route path="/award-ceremony-organizers-in-bangalore" element={<AwardCeremony />} />
+        <Route path="/wedding-planners-bangalore" element={<WeddingPlanners />} />
+        <Route path="/destination-wedding-planner-bangalore" element={<DestinationWedding />} />
+        <Route path="/engagement-planners-bangalore" element={<EngagementPlanne />} />
+        <Route path="/birthday-party-organiser-bangalore" element={<BirthdayPlanners />} />
+        <Route path="/baby-shower-event-organisers-bangalore." element={<BabyShower />} />
+        <Route path="/housewarming-event-planner-Bangalore" element={<HousewarmingEvent />} />
+        <Route path="/wedding-anniversary-planners-bangalore" element={<WeddingAnniversary />} />
         <Route path="/blogdetail/:slug" element={<BlogDetail />} />
         <Route path="/blog" element={<BlogList />} />
         <Route path="/thankyou" element={<ThankYou />} />

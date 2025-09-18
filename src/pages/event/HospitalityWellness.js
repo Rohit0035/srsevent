@@ -144,7 +144,7 @@ const HospitalityWellness = () => {
           name="keywords"
           content="hospitality and event management, hospitality in event management, event management and hospitality, wellness event planners, corporate wellness events, yoga retreats, spa event organizers, wellness hospitality management, wellness retreats India, health and wellness event organizers"
         />
-        <link rel="canonical" href="https://srsevent.com/hospitalitywellness" />
+        <link rel="canonical" href="https://srsevent.com/hospitality-management-services-bangalore" />
       </Helmet>
 
       <Header />

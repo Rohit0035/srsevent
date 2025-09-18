@@ -144,7 +144,7 @@ const AwardCeremony = () => {
           name="keywords"
           content="Award Ceremony, Wedding Ceremony, Wedding Reception Decor, Wedding Haldi Ceremony, Ceremony Events, Corporate Award Nights, Annual Day Events, Graduation Ceremony, Gala Dinner, Cultural Events, Felicitation Ceremony, Celebrity Award Shows, SRS Event Management"
         />
-        <link rel="canonical" href="https://srsevent.com/award-ceremony" />
+        <link rel="canonical" href="https://srsevent.com/award-ceremony-organizers-in-bangalore" />
       </Helmet>
 
       <Header />

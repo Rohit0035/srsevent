@@ -154,7 +154,7 @@ const ConferencesSeminar = () => {
           name="keywords"
           content="management meetings, conference event management companies, event management conferences, world congress on engineering asset management, society for human resource management annual conference, international seminar organizers, corporate conference planning, MICE services"
         />
-        <link rel="canonical" href="https://srsevent.com/conferencesseminar" />
+        <link rel="canonical" href="https://srsevent.com/conference-events-management-company-bangalore" />
       </Helmet>
 
       <Header />

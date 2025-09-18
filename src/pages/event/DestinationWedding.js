@@ -154,7 +154,7 @@ const DestinationWedding = () => {
           name="keywords"
           content="destination wedding, destination wedding locations, destination wedding packages, destination wedding planner, best destination weddings, destination wedding cost, destination wedding venues, wedding resorts, luxury wedding resorts, venus wedding resort, udaivilas wedding cost for 3 days, udaivilas wedding cost, sangeet resort, palace wedding, luxury beach wedding, destination wedding India, international destination weddings"
         />
-        <link rel="canonical" href="https://srsevent.com/destinationwedding" />
+        <link rel="canonical" href="https://srsevent.com/destination-wedding-planner-bangalore" />
       </Helmet>
 
       <Header />

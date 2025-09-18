@@ -154,7 +154,7 @@ const WeddingPlanners = () => {
           name="keywords"
           content="wedding planners, wedding planners near me, wedding planning websites, wedding coordinator, day of wedding coordinator, wedding coordinator near me, wedding planning sites, wedding wardrobe planner, destination wedding planners, wedding and event management, Indian wedding planners, luxury wedding planners"
         />
-        <link rel="canonical" href="https://srsevent.com/weddingplanners" />
+        <link rel="canonical" href="https://srsevent.com/wedding-planners-bangalores" />
       </Helmet>
 
       <Header />

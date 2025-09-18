@@ -15,7 +15,7 @@ const HomeEvent = () => {
                     <div className="row g-4 mt-4">
                         {/* Wedding Event Management */}
                         <div className="col-md-4 mb-2">
-                            <a href="#" className="w-100 h-100">
+                            <a href="/wedding-planners-bangalore" className="w-100 h-100">
                                 <div className="border rounded-3 p-4 pb-3 h-100 position-relative st-height">
                                     <h5 className="fw-semibold text-pink text-start">Wedding Event </h5>
                                     <p className="text-muted text-start mt-2">
@@ -30,7 +30,7 @@ const HomeEvent = () => {
                         </div>
                         {/* Engagement Event Management */}
                         <div className="col-md-4 mb-2">
-                            <a href="#" className="w-100 h-100">
+                            <a href="/engagement-planners-bangalore" className="w-100 h-100">
                                 <div className="border rounded-3 p-4 pb-3 h-100 position-relative  st-height">
                                     <h5 className="fw-semibold text-pink text-start">
                                         Engagement Event{" "}
@@ -47,7 +47,7 @@ const HomeEvent = () => {
                         </div>
                         {/* Birthday Event Management */}
                         <div className="col-md-4 mb-2">
-                            <a href="#" className="w-100 h-100">
+                            <a href="/birthday-party-organiser-bangalore" className="w-100 h-100">
                                 <div className="border rounded-3 p-4 pb-3 h-100 position-relative  st-height">
                                     <h5 className="fw-semibold text-pink text-start">
                                         Birthday Event{" "}
@@ -64,7 +64,7 @@ const HomeEvent = () => {
                         </div>
                         {/* Anniversary Event Management */}
                         <div className="col-md-4 mb-2">
-                            <a href="#" className="w-100 h-100">
+                            <a href="/wedding-anniversary-planners-bangalore" className="w-100 h-100">
                                 <div className="border rounded-3 p-4 pb-3 h-100 position-relative  st-height">
                                     <h5 className="fw-semibold text-pink text-start">
                                         Anniversary Event{" "}
@@ -81,7 +81,7 @@ const HomeEvent = () => {
                         </div>
                         {/* Kids' Birthday Party Management */}
                         <div className="col-md-4 mb-2">
-                            <a href="#" className="w-100 h-100">
+                            <a href="/birthday-party-organiser-bangalore" className="w-100 h-100">
                                 <div className="border rounded-3 p-4 pb-3 h-100 position-relative  st-height">
                                     <h5 className="fw-semibold text-pink text-start">
                                         Kids' Birthday Party{" "}
@@ -97,7 +97,7 @@ const HomeEvent = () => {
                         </div>
                         {/* Corporate Event Management */}
                         <div className="col-md-4 mb-2">
-                            <a href="#" className="w-100 h-100">
+                            <a href="/corporate-event-management-company-bangalore" className="w-100 h-100">
                                 <div className="border rounded-3 p-4 pb-3 h-100 position-relative  st-height">
                                     <h5 className="fw-semibold text-pink text-start">
                                         Corporate Event{" "}

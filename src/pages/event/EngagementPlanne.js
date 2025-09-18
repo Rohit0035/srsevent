@@ -154,7 +154,7 @@ const EngagementPlanne = () => {
           name="keywords"
           content="engagement planners, engagement party planner, engagement event planner, engagement planner near me, engagement proposal planner, wedding engagement planner, marriage proposal agency, engagement wedding planner, engagement event organizer, marriage proposal services, engagement proposal ideas, engagement party organizer, proposal event planner, engagement celebration packages, proposal event organizer, engagement event management"
         />
-        <link rel="canonical" href="https://srsevent.com/engagementplanne" />
+        <link rel="canonical" href="https://srsevent.com/engagement-planners-bangalore" />
       </Helmet>
 
       <Header />

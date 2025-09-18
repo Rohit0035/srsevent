@@ -69,7 +69,7 @@ const BlogDetail = () => {
                     <img
                       src={`${API_CONFIG.IMAGE_URL}/${blog?.image}`}
                       alt={blog?.title}
-                      className="img-fluid mb-4 rounded"
+                      className="img-fluid mb-4 rounded img-fit"
                     />
                   )}
                   <h2 className="mb-3">{blog?.title}</h2>
@@ -99,7 +99,8 @@ const BlogDetail = () => {
               <div className="col-lg-4">
                 <aside className="sidebar">
                   <div className="widget bg-white p-3 shadow-sm mb-4 rounded">
-                    <h5>Categories</h5>
+                    <h5 className="mb-3">Categories</h5>
+                    <hr/>
                     <ul className="list-unstyled">
                       {
                         categories.map((category, index) => (

@@ -144,7 +144,7 @@ const CorporateOutdoor = () => {
           name="keywords"
           content="corporate outdoor events, canton trade show, auto expo, trade fairs, expo 2025, Pragati Maidan exhibition today, CMPL Expo, gift expo, renewable energy expo, construction equipment expo, IIJS exhibition, exhibition stand builders, expos near me, trade exhibition management, corporate event organisers"
         />
-        <link rel="canonical" href="https://srsevent.com/corporateoutdoor" />
+        <link rel="canonical" href="https://srsevent.com/corporate-outdoor-events-company-bangalore" />
       </Helmet>
 
       <Header />

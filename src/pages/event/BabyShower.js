@@ -148,7 +148,7 @@ const BabyShower = () => {
           name="keywords"
           content="baby shower, naming ceremony, baby shower invitations, baby shower gifts, baby shower decorations, baby shower ideas, baby bath seat, baby shower gift ideas, baby shower themes, best newborn gifts, babyshower gift, newborn bath seat, babyshower decorations, babyshower gift ideas, seemantham decoration, baby celebration planner, newborn celebration planner, baby party planning, baby naming ceremony planner, baby shower near me, newborn gifts ideas"
         />
-        <link rel="canonical" href="https://srsevent.com/babyshower" />
+        <link rel="canonical" href="https://srsevent.com/baby-shower-event-organisers-bangalore." />
       </Helmet>
 
       <Header />

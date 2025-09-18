@@ -154,7 +154,7 @@ const InaugurationPlanners = () => {
           name="keywords"
           content="bundelkhand expressway, inauguration, inauguration ceremony, samruddhi mahamarg, welcome speech for inaugural ceremony, new office inauguration, inauguration event, corporate inauguration services, ribbon-cutting ceremony, event organisers near me, event management companies in India"
         />
-        <link rel="canonical" href="https://srsevent.com/inaugurationplanners" />
+        <link rel="canonical" href="https://srsevent.com/inauguration-event-organizers-bangalore" />
       </Helmet>
 
       <Header />

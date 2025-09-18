@@ -165,7 +165,7 @@ const CorporateManagement = () => {
                     name="keywords"
                     content="crowd management services, destination management company, event arrangement, event management events, strategic meetings management, corporate bonding, event planning, event management companies, event organisers near me"
                 />
-                <link rel="canonical" href="https://srsevent.com/corporatemanagement" />
+                <link rel="canonical" href="https://srsevent.com/corporate-event-management-company-bangalore" />
             </Helmet>
 
             <Header />

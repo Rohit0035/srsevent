@@ -148,7 +148,7 @@ const WeddingAnniversary = () => {
           name="keywords"
           content="anniversary planners, wedding anniversary planners, anniversary event planner, 25th anniversary planner, 25th wedding anniversary planner, 50th anniversary party planner, 50th wedding anniversary planner, event management for anniversary, anniversary celebration ideas, anniversary party decoration, anniversary gifts, anniversary invitations, anniversary themes, anniversary near me, milestone anniversary planner, couple celebration planner, romantic anniversary planner"
         />
-        <link rel="canonical" href="https://srsevent.com/weddinganniversary" />
+        <link rel="canonical" href="https://srsevent.com/wedding-anniversary-planners-bangalore" />
       </Helmet>
 
       <Header />

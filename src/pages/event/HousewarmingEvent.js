@@ -148,7 +148,7 @@ const HousewarmingEvent = () => {
           name="keywords"
           content="house warming ceremony, naming ceremony, griha pravesh, barsa ceremony, cradle ceremony, griha pravesh ceremony, griha pravesh kalash, house opening ceremony, home warming ceremony, house warming function, naam karan, naming ceremony in telugu, house warming planner, naming ceremony planner, housewarming event management, griha pravesh planner, baby cradle ceremony, house blessing ceremony"
         />
-        <link rel="canonical" href="https://srsevent.com/housewarming" />
+        <link rel="canonical" href="https://srsevent.com/housewarming-event-planner-Bangalore" />
       </Helmet>
 
       <Header />

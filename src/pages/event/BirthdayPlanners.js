@@ -148,7 +148,7 @@ const BirthdayPlanners = () => {
           name="keywords"
           content="birthday party, birthday decorations, kids birthday party, 60th birthday decorations, 50th birthday decorations, mermaid party supplies, birthday party decorations, birthday parties near me, party supplies near me, birthday party supplies, 1st birthday decorations, 18th birthday decorations, birthday event planner, birthday planner near me, birthday themes, birthday party coordinator, birthday celebration packages, birthday event organizer"
         />
-        <link rel="canonical" href="https://srsevent.com/birthdayplanners" />
+        <link rel="canonical" href="https://srsevent.com/birthday-party-organiser-bangalore" />
       </Helmet>
 
       <Header />
