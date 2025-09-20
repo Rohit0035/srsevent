@@ -42,6 +42,8 @@ import HousewarmingEvent from "./pages/event/HousewarmingEvent";
 import BlogDetail from "./pages/BlogDetail";
 import BlogList from "./pages/BlogList";
 import ThankYou from "./pages/ThankYou";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsConditions from "./pages/TermsConditions";
 
 function App() {
   return (
@@ -101,6 +103,11 @@ function App() {
         <Route path="/blogdetail/:slug" element={<BlogDetail />} />
         <Route path="/blog" element={<BlogList />} />
         <Route path="/thankyou" element={<ThankYou />} />
+
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-condition" element={<TermsConditions />} />
+
+
       </Routes>
 
       {/* <Footer /> */}

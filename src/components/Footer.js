@@ -51,6 +51,16 @@ const Footer = () => {
                                                     <i className="fas fa-angle-double-right" /> Corporate
                                                 </a>
                                             </li>
+                                             <li>
+                                                <a href="/privacy-policy">
+                                                    <i className="fas fa-angle-double-right" /> Privacy Policy
+                                                </a>
+                                            </li>
+                                             <li>
+                                                <a href="/terms-condition">
+                                                    <i className="fas fa-angle-double-right" /> Terms & Conditions
+                                                </a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
