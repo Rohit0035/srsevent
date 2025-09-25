@@ -19,44 +19,37 @@ const Footer = () => {
                                         <h4 className="footer-widget-title">Quick Links</h4>
                                         <ul className='footer-list'>
                                             <li>
-                                                <a href="/contact">
-                                                    <i className="fas fa-angle-double-right" /> Wedding
+                                                <a href="/">
+                                                    <i className="fas fa-angle-double-right" /> Home
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/about">
+                                                    <i className="fas fa-angle-double-right" /> About
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/blog">
+                                                    <i className="fas fa-angle-double-right" /> Blog
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/gallery">
+                                                    <i className="fas fa-angle-double-right" /> Gallery
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="/contact">
-                                                    <i className="fas fa-angle-double-right" /> Engagement
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="/contact">
-                                                    <i className="fas fa-angle-double-right" /> Birthday
+                                                    <i className="fas fa-angle-double-right" /> Contact Us
 
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="/contact">
-                                                    <i className="fas fa-angle-double-right" /> Anniversary
-
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="/contact">
-                                                    <i className="fas fa-angle-double-right" /> Kids' Birthday Party
-
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="/contact">
-                                                    <i className="fas fa-angle-double-right" /> Corporate
-                                                </a>
-                                            </li>
-                                             <li>
                                                 <a href="/privacy-policy">
                                                     <i className="fas fa-angle-double-right" /> Privacy Policy
                                                 </a>
                                             </li>
-                                             <li>
+                                            <li>
                                                 <a href="/terms-condition">
                                                     <i className="fas fa-angle-double-right" /> Terms & Conditions
                                                 </a>
@@ -206,6 +199,50 @@ const Footer = () => {
                                                         <i className="fas fa-angle-double-right" />Award Ceremony
                                                     </a>
                                                 </li>
+
+                                                {/* Hyd events */}
+                                                <h6 className='py-2'>Hyderabad Events</h6>
+                                                <li>
+                                                    <a href="/corporate-event-management-company-hyderabad">
+                                                        <i className="fas fa-angle-double-right" />Corporate Management
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/inauguration-event-organizers-hyderabad">
+                                                        <i className="fas fa-angle-double-right" />Inauguration Planners
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/conference-events-management-company-hyderabad">
+                                                        <i className="fas fa-angle-double-right" />Conferences and Seminar Event
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/award-ceremony-organizers-in-hyderabad">
+                                                        <i className="fas fa-angle-double-right" />Award Ceremony
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/wedding-planners-hyderabad">
+                                                        <i className="fas fa-angle-double-right" /> Wedding Planners
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/engagement-planners-hyderabad">
+                                                        <i className="fas fa-angle-double-right" /> Engagement Planners
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/birthday-party-organiser-hyderabad">
+                                                        <i className="fas fa-angle-double-right" /> Birthday Planners
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/wedding-anniversary-planners-hyderabad">
+                                                        <i className="fas fa-angle-double-right" /> Wedding Anniversary
+                                                    </a>
+                                                </li>
+                                                {/* hyd Event close */}
                                             </div>
 
                                             <div className="col-md-6">
@@ -240,7 +277,7 @@ const Footer = () => {
                                                 </li>
 
                                                 <li>
-                                                    <a href="/wedding-anniversary-planners-bangalore">
+                                                    <a href="/wedding-anniversary-planners-hyderabad">
                                                         <i className="fas fa-angle-double-right" /> Wedding Anniversary
                                                     </a>
                                                 </li>
@@ -250,6 +287,52 @@ const Footer = () => {
                                                         <i className="fas fa-angle-double-right" /> Housewarming Event
                                                     </a>
                                                 </li>
+
+
+
+                                                {/* channai events */}
+                                                <h6 className='py-2'>Chennai Events</h6>
+                                                <li>
+                                                    <a href="/">
+                                                        <i className="fas fa-angle-double-right" />Corporate Management
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/">
+                                                        <i className="fas fa-angle-double-right" />Inauguration Planners
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/">
+                                                        <i className="fas fa-angle-double-right" />Conferences and Seminar Event
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/">
+                                                        <i className="fas fa-angle-double-right" />Award Ceremony
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/">
+                                                        <i className="fas fa-angle-double-right" /> Wedding Planners
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/">
+                                                        <i className="fas fa-angle-double-right" /> Engagement Planners
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/">
+                                                        <i className="fas fa-angle-double-right" /> Birthday Planners
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="/">
+                                                        <i className="fas fa-angle-double-right" /> Wedding Anniversary
+                                                    </a>
+                                                </li>
+                                                {/* channai Event close */}
                                             </div>
 
                                         </div>

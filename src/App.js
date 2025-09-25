@@ -44,6 +44,15 @@ import BlogList from "./pages/BlogList";
 import ThankYou from "./pages/ThankYou";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
+import HyderabadEvents from "./pages/event/HyderabadEvents";
+import HydCorporate from "./pages/hydevent/HydCorporate";
+import HydConference from "./pages/hydevent/HydConference";
+import HydInauguration from "./pages/hydevent/HydInauguration";
+import HydWeddingPlanners from "./pages/hydevent/HydWeddingPlanners";
+import HydAwardCeremony from "./pages/hydevent/HydAwardCeremony";
+import HydEngagementPlanners from "./pages/hydevent/HydEngagementPlanners";
+import HydBirthdayPlanners from "./pages/hydevent/HydBirthdayPlanners";
+import HydWeddingAnniversary from "./pages/hydevent/HydWeddingAnniversary";
 
 function App() {
   return (
@@ -106,6 +115,19 @@ function App() {
 
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-condition" element={<TermsConditions />} />
+
+        {/*event seprate for hydrabad */}
+        <Route path="/hyderabad-events" element={<HyderabadEvents />} />
+        <Route path="/corporate-event-management-company-hyderabad" element={<HydCorporate />} />
+        <Route path="/conference-events-management-company-hyderabad" element={<HydConference />} />
+        <Route path="/inauguration-event-organizers-hyderabad" element={<HydInauguration />} />
+        <Route path="/wedding-planners-hyderabad" element={<HydWeddingPlanners />} />
+        <Route path="/award-ceremony-organizers-in-hyderabad" element={<HydAwardCeremony />} />
+        <Route path="/birthday-party-organiser-hyderabad" element={<HydBirthdayPlanners />} />
+        <Route path="/wedding-anniversary-planners-hyderabad" element={<HydWeddingAnniversary />} />
+
+
+
 
 
       </Routes>
