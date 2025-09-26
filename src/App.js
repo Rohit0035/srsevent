@@ -53,6 +53,14 @@ import HydAwardCeremony from "./pages/hydevent/HydAwardCeremony";
 import HydEngagementPlanners from "./pages/hydevent/HydEngagementPlanners";
 import HydBirthdayPlanners from "./pages/hydevent/HydBirthdayPlanners";
 import HydWeddingAnniversary from "./pages/hydevent/HydWeddingAnniversary";
+import CheCorporateManagement from "./pages/chennai/CheCorporateManagement";
+import CheConference from "./pages/chennai/CheConference";
+import CheInaugurationPlanners from "./pages/chennai/CheInaugurationPlanners";
+import CheWeddingPlanners from "./pages/chennai/CheWeddingPlanners";
+import CheAwardCeremony from "./pages/chennai/CheAwardCeremony";
+import CheBirthdayPlanners from "./pages/chennai/CheBirthdayPlanners";
+import CheWeddingAnniversary from "./pages/chennai/CheWeddingAnniversary";
+import CheEngagementPlanners from "./pages/chennai/CheEngagementPlanners";
 
 function App() {
   return (
@@ -125,6 +133,18 @@ function App() {
         <Route path="/award-ceremony-organizers-in-hyderabad" element={<HydAwardCeremony />} />
         <Route path="/birthday-party-organiser-hyderabad" element={<HydBirthdayPlanners />} />
         <Route path="/wedding-anniversary-planners-hyderabad" element={<HydWeddingAnniversary />} />
+        <Route path="/engagement-planners-hyderabad" element={<HydEngagementPlanners />} />
+
+
+        {/* *event seprate for Chennai  */}
+        <Route path="/corporate-event-management-company-chennai" element={<CheCorporateManagement />} />
+        <Route path="/conference-events-management-company-chennai" element={<CheConference />} />
+        <Route path="/inauguration-event-organizers-chennai" element={<CheInaugurationPlanners />} />
+        <Route path="/wedding-planners-chennai" element={<CheWeddingPlanners />} />
+        <Route path="/engagement-planners-chennai" element={<CheEngagementPlanners />} />
+        <Route path="/award-ceremony-organizers-in-chennai" element={<CheAwardCeremony />} />
+        <Route path="/birthday-party-organiser-chennai" element={<CheBirthdayPlanners />} />
+        <Route path="/wedding-anniversary-planners-chennai" element={<CheWeddingAnniversary />} />
 
 
 

@@ -10,55 +10,99 @@ const Footer = () => {
                 <div className="footer-widget">
                     <div className="container">
                         <div className="row footer-widget-wrapper pt-5 pb-5">
+                            <div className='col-md-12 mb-5'>
+                                <h4 className="footer-widget-title">Locations</h4>
+                                <div className="explore-jd-collections">
+                                    <strong>Bangalore :</strong>
+                                    <span>
+                                        <a href="/corporate-event-management-company-bangalore" className='atag'>  Corporate Management Bangalore</a> |
+                                        <a href="/inauguration-event-organizers-bangalore" className='atag'>  Inauguration Planners Bangalore</a> |
+                                        <a href="/conference-events-management-company-bangalore" className='atag'>  Conferences and Seminar Event Bangalore</a> |
+                                        <a href="/award-ceremony-organizers-in-bangalore" className='atag'>  Award Ceremony Bangalore</a> |
+                                        <a href="/wedding-planners-bangalore" className='atag'>  Wedding Planners Bangalore</a> |
+                                        <a href="/engagement-planners-bangalore" className='atag'> Engagement Planners Bangalore</a> |
+                                        <a href="/birthday-party-organiser-bangalore" className='atag'>   Birthday Planners Bangalore</a> |
+                                        <a href="/wedding-anniversary-planners-bangalore"  className='atag'>Wedding Anniversary Bangalore</a>
+                                    </span>
+                                </div>
+                                <div className="explore-jd-collections">
+                                    <strong>Hyderabad :</strong>
+                                    <span>
+                                        <a href="/corporate-event-management-company-hyderabad" className='atag'>  Corporate Management Hyderabad</a> |
+                                        <a href="/inauguration-event-organizers-hyderabad" className='atag'>  Inauguration Planners Hyderabad</a> |
+                                        <a href="/conference-events-management-company-hyderabad" className='atag'>  Conferences and Seminar Event Hyderabad</a> |
+                                        <a href="/award-ceremony-organizers-in-hyderabad" className='atag'>  Award Ceremony Hyderabad</a> |
+                                        <a href="/wedding-planners-hyderabad" className='atag'>  Wedding Planners Hyderabad</a> |
+                                        <a href="/engagement-planners-hyderabad" className='atag'>  Engagement Planners Hyderabad</a> |
+                                        <a href="/birthday-party-organiser-hyderabad" className='atag'>  Birthday Planners Hyderabad</a> |
+                                        <a href="/wedding-anniversary-planners-hyderabad" className='atag'>  Wedding Anniversary Hyderabad</a>
+                                    </span>
+                                </div>
+                                <div className="explore-jd-collections">
+                                    <strong>Chennai :</strong>
+                                    <span>
+                                        <a href="/corporate-event-management-company-chennai" className='atag'>  Corporate Management Chennai</a> |
+                                        <a href="/inauguration-event-organizers-chennai" className='atag'>  Inauguration Planners Chennai</a> |
+                                        <a href="/conference-events-management-company-chennai" className='atag'>  Conferences and Seminar Event Chennai</a> |
+                                        <a href="/award-ceremony-organizers-in-chennai" className='atag'>  Award Ceremony Chennai</a> |
+                                        <a href="/wedding-planners-chennai" className='atag'>  Wedding Planners Chennai</a> |
+                                        <a href="/engagement-planners-chennai" className='atag' >Engagement Planners Chennai</a> |
+                                        <a href="/birthday-party-organiser-chennai" className='atag'>  Birthday Planners Chennai</a> |
+                                        <a href="/wedding-anniversary-planners-chennai" className='atag'>  Wedding Anniversary Chennai</a>
+                                    </span>
+                                </div>
+                            </div>
                             <div className="col-md-6 col-lg-2">
                                 <div className="footer-widget-box about-us">
                                     <a href="#" className="footer-logo">
                                         <img src={Logo} alt="" />
                                     </a>
-                                    <div className="footer-widget-box list">
-                                        <h4 className="footer-widget-title">Quick Links</h4>
-                                        <ul className='footer-list'>
-                                            <li>
-                                                <a href="/">
-                                                    <i className="fas fa-angle-double-right" /> Home
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="/about">
-                                                    <i className="fas fa-angle-double-right" /> About
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="/blog">
-                                                    <i className="fas fa-angle-double-right" /> Blog
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="/gallery">
-                                                    <i className="fas fa-angle-double-right" /> Gallery
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="/contact">
-                                                    <i className="fas fa-angle-double-right" /> Contact Us
-
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="/privacy-policy">
-                                                    <i className="fas fa-angle-double-right" /> Privacy Policy
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="/terms-condition">
-                                                    <i className="fas fa-angle-double-right" /> Terms & Conditions
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-lg-4">
+                            <div className="col-md-6 col-lg-2">
+                                <div className="footer-widget-box list">
+                                    <h4 className="footer-widget-title">Quick Links</h4>
+                                    <ul className='footer-list'>
+                                        <li>
+                                            <a href="/">
+                                                <i className="fas fa-angle-double-right" /> Home
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/about">
+                                                <i className="fas fa-angle-double-right" /> About
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/blog">
+                                                <i className="fas fa-angle-double-right" /> Blog
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/gallery">
+                                                <i className="fas fa-angle-double-right" /> Gallery
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/contact">
+                                                <i className="fas fa-angle-double-right" /> Contact Us
+
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/privacy-policy">
+                                                <i className="fas fa-angle-double-right" /> Privacy Policy
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/terms-condition">
+                                                <i className="fas fa-angle-double-right" /> Terms & Conditions
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-lg-6">
                                 <div className="footer-widget-box list">
                                     <h4 className="footer-widget-title">Our Services</h4>
                                     <ul className="footer-list">
@@ -157,182 +201,6 @@ const Footer = () => {
                                                         <i className="fas fa-angle-double-right" /> Ganga Aarti Ceremony
                                                     </a>
                                                 </li>
-                                            </div>
-
-                                        </div>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-md-6 col-lg-4">
-                                <div className="footer-widget-box list">
-                                    <h4 className="footer-widget-title">Our Events</h4>
-                                    <ul className="footer-list">
-                                        <div className="row">
-                                            <div className="col-md-6">
-                                                <li>
-                                                    <a href="/corporate-event-management-company-bangalore">
-                                                        <i className="fas fa-angle-double-right" /> Corporate Management
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/inauguration-event-organizers-bangalore">
-                                                        <i className="fas fa-angle-double-right" /> Inauguration Planners
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/conference-events-management-company-bangalore">
-                                                        <i className="fas fa-angle-double-right" /> Conferences and Seminar Event
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/corporate-outdoor-events-company-bangalore">
-                                                        <i className="fas fa-angle-double-right" /> Corporate Outdoor Events
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/hospitality-management-services-bangalore">
-                                                        <i className="fas fa-angle-double-right" /> Hospitality and Wellness Management
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/award-ceremony-organizers-in-bangalore">
-                                                        <i className="fas fa-angle-double-right" />Award Ceremony
-                                                    </a>
-                                                </li>
-
-                                                {/* Hyd events */}
-                                                <h6 className='py-2'>Hyderabad Events</h6>
-                                                <li>
-                                                    <a href="/corporate-event-management-company-hyderabad">
-                                                        <i className="fas fa-angle-double-right" />Corporate Management
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/inauguration-event-organizers-hyderabad">
-                                                        <i className="fas fa-angle-double-right" />Inauguration Planners
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/conference-events-management-company-hyderabad">
-                                                        <i className="fas fa-angle-double-right" />Conferences and Seminar Event
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/award-ceremony-organizers-in-hyderabad">
-                                                        <i className="fas fa-angle-double-right" />Award Ceremony
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/wedding-planners-hyderabad">
-                                                        <i className="fas fa-angle-double-right" /> Wedding Planners
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/engagement-planners-hyderabad">
-                                                        <i className="fas fa-angle-double-right" /> Engagement Planners
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/birthday-party-organiser-hyderabad">
-                                                        <i className="fas fa-angle-double-right" /> Birthday Planners
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/wedding-anniversary-planners-hyderabad">
-                                                        <i className="fas fa-angle-double-right" /> Wedding Anniversary
-                                                    </a>
-                                                </li>
-                                                {/* hyd Event close */}
-                                            </div>
-
-                                            <div className="col-md-6">
-                                                <li>
-                                                    <a href="/wedding-planners-bangalore">
-                                                        <i className="fas fa-angle-double-right" /> Wedding Planners
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="/destination-wedding-planner-bangalore">
-                                                        <i className="fas fa-angle-double-right" /> Destination Wedding
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="/engagement-planners-bangalorers">
-                                                        <i className="fas fa-angle-double-right" /> Engagement Planners
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="/birthday-party-organiser-bangalore">
-                                                        <i className="fas fa-angle-double-right" /> Birthday Planners
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="/baby-shower-event-organisers-bangalore.">
-                                                        <i className="fas fa-angle-double-right" /> Baby Shower
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="/wedding-anniversary-planners-hyderabad">
-                                                        <i className="fas fa-angle-double-right" /> Wedding Anniversary
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="/housewarming-event-planner-Bangalore">
-                                                        <i className="fas fa-angle-double-right" /> Housewarming Event
-                                                    </a>
-                                                </li>
-
-
-
-                                                {/* channai events */}
-                                                <h6 className='py-2'>Chennai Events</h6>
-                                                <li>
-                                                    <a href="/">
-                                                        <i className="fas fa-angle-double-right" />Corporate Management
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/">
-                                                        <i className="fas fa-angle-double-right" />Inauguration Planners
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/">
-                                                        <i className="fas fa-angle-double-right" />Conferences and Seminar Event
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/">
-                                                        <i className="fas fa-angle-double-right" />Award Ceremony
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/">
-                                                        <i className="fas fa-angle-double-right" /> Wedding Planners
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/">
-                                                        <i className="fas fa-angle-double-right" /> Engagement Planners
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/">
-                                                        <i className="fas fa-angle-double-right" /> Birthday Planners
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="/">
-                                                        <i className="fas fa-angle-double-right" /> Wedding Anniversary
-                                                    </a>
-                                                </li>
-                                                {/* channai Event close */}
                                             </div>
 
                                         </div>

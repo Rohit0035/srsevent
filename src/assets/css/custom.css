@@ -275,6 +275,40 @@ img.logo-st {
     background-color:#9c2356 !important;
 }
 
+
+.explore-jd-collections {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.explore-jd-collections strong {
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.explore-jd-collections span a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 8px;
+}
+
+.explore-jd-collections span a:hover {
+    text-decoration: underline;
+}
+
+.explore-jd-collections span::after {
+    content: "";
+}
+
+a.atag {
+    padding: 0 8px;
+}
+
+a.atag:hover {
+   color: #9c2356;
+}
+
 /* Optional: hide on small screens */
 @media (max-width: 768px) {
   .swiper-button-next,
