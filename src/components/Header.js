@@ -38,9 +38,9 @@ const Header = () => {
                   </li>
                   <li>
                     <div className="header-top-contact-info">
-                      <a href="">
-                        <i className="fas-envelope" />
-                        <span className="__cf_email__">Info@gmail.com</span>
+                      <a href="mailto:info@srsevent.com">
+                        <i className="fas fa-envelope" />
+                        <span className="__cf_email__">info@srsevent.com</span>
                       </a>
                     </div>
                   </li>

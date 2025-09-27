@@ -102,7 +102,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-lg-6">
+                            <div className="col-md-6 col-lg-5">
                                 <div className="footer-widget-box list">
                                     <h4 className="footer-widget-title">Our Services</h4>
                                     <ul className="footer-list">
@@ -207,66 +207,66 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-md-6 col-lg-2">
+                            <div className="col-md-6 col-lg-3">
                                 <div className="footer-widget-box list">
                                     <h4 className="footer-widget-title">Our Location </h4>
                                     <ul className="footer-contact">
-                                        <li>
+                                        <li className='mb-1'>
                                             <i className="fas fa-map-marker-alt" /> <b>DUBAI</b>
                                         </li>
-                                        <li>
+                                        <li className='mb-1'>
                                             <a href="tel:+971504418336">
                                                 <i className="fas fa-phone" />
                                                 +971 504418336
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="">
+                                        <li className='mb-1'>
+                                            <a href="mailto:dubai@srsevent.in">
                                                 <i className="fas fa-envelope" />
                                                 <span className="__cf_email__" data-cfemail="">
-                                                    info@gmail.com
+                                                   dubai@srsevent.in
                                                 </span>
                                             </a>
                                         </li>
                                     </ul>
                                     <hr />
                                     <ul className="footer-contact">
-                                        <li>
+                                        <li className='mb-1'>
                                             <i className="fas fa-map-marker-alt" />
                                             <b>BENGALURU</b>
                                         </li>
-                                        <li>
+                                        <li className='mb-1'>
                                             <a href="tel:+919036124720">
                                                 <i className="fas fa-phone" />
                                                 +91 9036124720
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="">
+                                        <li className='mb-1'>
+                                            <a href="mailto:bengaluru@srsevent.com">
                                                 <i className="fas fa-envelope" />
                                                 <span className="__cf_email__" data-cfemail="">
-                                                    info@gmail.com
+                                                   bengaluru@srsevent.com
                                                 </span>
                                             </a>
                                         </li>
                                     </ul>
                                     <hr />
                                     <ul className="footer-contact">
-                                        <li>
+                                        <li className='mb-1'>
                                             <i className="fas fa-map-marker-alt" />
                                             <b>CHENNAI</b>
                                         </li>
-                                        <li>
+                                        <li className='mb-1'>
                                             <a href="tel:++919036124720">
                                                 <i className="fas fa-phone" />
                                                 +91 9036124720
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="">
+                                        <li className='mb-1'>
+                                            <a href="mailto:chennai@srsevent.com">
                                                 <i className="fas fa-envelope" />
                                                 <span className="__cf_email__" data-cfemail="">
-                                                    info@gmail.com
+                                                   chennai@srsevent.com
                                                 </span>
                                             </a>
                                         </li>
