@@ -49,7 +49,7 @@ const BlogList = () => {
           name="description"
           content="Explore wedding planner blogs covering venue management, floral décor, photography, videography, catering, bridal makeover, sounds & lights, furniture and fabrications."
         />
-        <link rel="canonical" href={API_CONFIG.BASE_URL} />
+        <link rel="canonical" href={API_CONFIG.WEBSITE_URL.concat("/blogs")} />
       </Helmet>
 
       <Header />

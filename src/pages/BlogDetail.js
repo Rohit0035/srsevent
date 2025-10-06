@@ -51,9 +51,9 @@ const BlogDetail = () => {
   return (
     <>
       <Helmet>
-        <title>{blog?.title} - SrsEvent</title>
+        <title>{blog?.meta_title || blog?.title} - SrsEvent</title>
         <meta name="description" content={blog?.meta_description || blog?.content?.slice(0, 150)} />
-        <meta name="keywords" content={blog?.meta_keywords || ""} />
+        <meta name="keywords" content={blog?.meta_keywords || blog?.tags} />
         <link rel="canonical" href={`${API_CONFIG.WEBSITE_URL}/blogdetail/${slug}`} />
       </Helmet>
 

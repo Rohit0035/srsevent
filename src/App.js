@@ -101,55 +101,64 @@ function App() {
 
         {/* events */}
         <Route path="/wedding" element={<Wedding />} />
-        <Route path="/corporate-event-management-company-bangalore" element={<CorporateManagement />} />
+        <Route
+          path="/corporate-event-management-company-bangalore"
+          element={<CorporateManagement />}
+        />
         <Route
           path="/inauguration-event-organizers-bangalore"
           element={<InaugurationPlanners />}
         />
-        <Route path="/conference-events-management-company-bangalore" element={<ConferencesSeminar />} />
-        <Route path="/corporate-outdoor-events-company-bangalore" element={<CorporateOutdoor />} />
-        <Route path="/hospitality-management-services-bangalore" element={<HospitalityWellness />} />
-        <Route path="/award-ceremony-organizers-in-bangalore" element={<AwardCeremony />} />
-        <Route path="/wedding-planners-bangalore" element={<WeddingPlanners />} />
-        <Route path="/destination-wedding-planner-bangalore" element={<DestinationWedding />} />
-        <Route path="/engagement-planners-bangalore" element={<EngagementPlanne />} />
-        <Route path="/birthday-party-organiser-bangalore" element={<BirthdayPlanners />} />
-        <Route path="/baby-shower-event-organisers-bangalore." element={<BabyShower />} />
-        <Route path="/housewarming-event-planner-Bangalore" element={<HousewarmingEvent />} />
-        <Route path="/wedding-anniversary-planners-bangalore" element={<WeddingAnniversary />} />
+        <Route
+          path="/conference-events-management-company-bangalore"
+          element={<ConferencesSeminar />}
+        />
+        <Route
+          path="/corporate-outdoor-events-company-bangalore"
+          element={<CorporateOutdoor />}
+        />
+        <Route
+          path="/hospitality-management-services-bangalore"
+          element={<HospitalityWellness />}
+        />
+        <Route
+          path="/award-ceremony-organizers-in-bangalore"
+          element={<AwardCeremony />}
+        />
+        <Route
+          path="/wedding-planners-bangalore"
+          element={<WeddingPlanners />}
+        />
+        <Route
+          path="/destination-wedding-planner-bangalore"
+          element={<DestinationWedding />}
+        />
+        <Route
+          path="/engagement-planners-bangalore"
+          element={<EngagementPlanne />}
+        />
+        <Route
+          path="/birthday-party-organiser-bangalore"
+          element={<BirthdayPlanners />}
+        />
+        <Route
+          path="/baby-shower-event-organisers-bangalore."
+          element={<BabyShower />}
+        />
+        <Route
+          path="/housewarming-event-planner-Bangalore"
+          element={<HousewarmingEvent />}
+        />
+        <Route
+          path="/wedding-anniversary-planners-bangalore"
+          element={<WeddingAnniversary />}
+        />
         <Route path="/blogdetail/:slug" element={<BlogDetail />} />
         <Route path="/blog" element={<BlogList />} />
         <Route path="/thankyou" element={<ThankYou />} />
 
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-condition" element={<TermsConditions />} />
-
-        {/*event seprate for hydrabad */}
-        <Route path="/hyderabad-events" element={<HyderabadEvents />} />
-        <Route path="/corporate-event-management-company-hyderabad" element={<HydCorporate />} />
-        <Route path="/conference-events-management-company-hyderabad" element={<HydConference />} />
-        <Route path="/inauguration-event-organizers-hyderabad" element={<HydInauguration />} />
-        <Route path="/wedding-planners-hyderabad" element={<HydWeddingPlanners />} />
-        <Route path="/award-ceremony-organizers-in-hyderabad" element={<HydAwardCeremony />} />
-        <Route path="/birthday-party-organiser-hyderabad" element={<HydBirthdayPlanners />} />
-        <Route path="/wedding-anniversary-planners-hyderabad" element={<HydWeddingAnniversary />} />
-        <Route path="/engagement-planners-hyderabad" element={<HydEngagementPlanners />} />
-
-
-        {/* *event seprate for Chennai  */}
-        <Route path="/corporate-event-management-company-chennai" element={<CheCorporateManagement />} />
-        <Route path="/conference-events-management-company-chennai" element={<CheConference />} />
-        <Route path="/inauguration-event-organizers-chennai" element={<CheInaugurationPlanners />} />
-        <Route path="/wedding-planners-chennai" element={<CheWeddingPlanners />} />
-        <Route path="/engagement-planners-chennai" element={<CheEngagementPlanners />} />
-        <Route path="/award-ceremony-organizers-in-chennai" element={<CheAwardCeremony />} />
-        <Route path="/birthday-party-organiser-chennai" element={<CheBirthdayPlanners />} />
-        <Route path="/wedding-anniversary-planners-chennai" element={<CheWeddingAnniversary />} />
-
-
-
-
-
       </Routes>
 
       {/* <Footer /> */}
