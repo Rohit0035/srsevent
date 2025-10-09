@@ -90,7 +90,7 @@ const BlogList = () => {
                           </ul>
                         </div>
                         <h4 className="blog-title blg-title">
-                          <Link to={`/blogdetail/${post.slug}`}>{post.title}</Link>
+                          <Link className="blog-title" to={`/blogdetail/${post.slug}`}>{post.title}</Link>
                         </h4>
                         <p
                           className="blog-desc"

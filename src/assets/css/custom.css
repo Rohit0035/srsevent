@@ -252,7 +252,7 @@ p.service-text {
 }
 .blog-title {
   white-space: nowrap;
-  width: 95%;
+  width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;     
 }
