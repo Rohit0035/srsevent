@@ -100,6 +100,11 @@ const Footer = () => {
                                                 <i className="fas fa-angle-double-right" /> Terms & Conditions
                                             </a>
                                         </li>
+                                        <li>
+                                            <a href="/sitemap">
+                                                <i className="fas fa-angle-double-right" /> Sitemap
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>

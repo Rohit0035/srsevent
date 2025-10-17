@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // Pages
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Sitemap from "./pages/Sitemap";
 import WhyChooseUs from "./pages/WhyChooseUs";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
@@ -71,6 +72,7 @@ function App() {
         {/* Main pages */}
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/sitemap" element={<Sitemap />} />
         <Route path="/whyus" element={<WhyChooseUs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
