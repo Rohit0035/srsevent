@@ -150,7 +150,7 @@ const BlogDetail = () => {
                           </a>
                         </h5>
                         <small>
-                          October 14,2025
+                          October 14,2026
                         </small>
                       </div>
                     </div>
