@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../assets/img/common/logo.png'
 import { Link } from 'react-router-dom';
+import ReactFormWidget from './ReactFormWidget.jsx';
 
 const Footer = () => {
     return (
@@ -315,10 +316,13 @@ const Footer = () => {
             </footer>
             {/* footer area end */}
 
-            <a href="/contact" className="btn request-btn">Request a callback</a>
+            {/* <a href="/contact" className="btn request-btn">Request a callback</a> */}
             <a href="https://wa.me/919876543210" target="_blank" className="whatsapp-float">
                 <i className="fab fa-whatsapp"></i>
             </a>
+
+            <ReactFormWidget/>
+
         </>
 
     );

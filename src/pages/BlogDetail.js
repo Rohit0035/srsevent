@@ -6,11 +6,12 @@ import { Helmet } from "react-helmet-async";
 import axios from "axios";
 import { getBlogDetails } from "../services/api";
 import API_CONFIG from "../config/apiConfig";
+import imgblog from "../assets/img/common/b-1.jpg"
 
 const BlogDetail = () => {
   const { slug } = useParams(); // blog id from URL
   const [blog, setBlog] = useState(null);
-  const [categories,setCategories] = useState([]);
+  const [categories, setCategories] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -18,9 +19,9 @@ const BlogDetail = () => {
       try {
         const response = await getBlogDetails(slug);
         console.log(response)
-        if(response.data.success){
-          setBlog(response.data.data.blog); 
-          setCategories(response.data.data.categories); 
+        if (response.data.success) {
+          setBlog(response.data.data.blog);
+          setCategories(response.data.data.categories);
         }
       } catch (error) {
         console.error("Error fetching blog:", error);
@@ -100,7 +101,7 @@ const BlogDetail = () => {
                 <aside className="sidebar">
                   <div className="widget bg-white p-3 shadow-sm mb-4 rounded">
                     <h5 className="mb-3">Categories</h5>
-                    <hr/>
+                    <hr />
                     <ul className="list-unstyled">
                       {
                         categories.map((category, index) => (
@@ -110,6 +111,49 @@ const BlogDetail = () => {
                         ))
                       }
                     </ul>
+                  </div>
+
+                  <div className="widget bg-white p-3 shadow-sm mb-4 rounded">
+                    <h5 className="mb-3">Recent Posts</h5>
+                    <hr />
+                    <div className="row mb-3">
+                      <div className="col-4">
+                        <img
+                          src={imgblog}
+                          className="img-fluid mb-0 rounded img-fit"
+                          style={{ height: '80px' }}
+                        />
+                      </div>
+                      <div className="col-8 ps-0">
+                        <h5>
+                          <a href="" className="blog-title mb-0 fs-6">
+                            10 Award Night Themes and Execution Ideas That Wow Employees & Clients
+                          </a>
+                        </h5>
+                        <small>
+                          October 14,2025
+                        </small>
+                      </div>
+                    </div>
+                    <div className="row mb-3">
+                      <div className="col-4">
+                        <img
+                          src={imgblog}
+                          className="img-fluid mb-0 rounded img-fit"
+                          style={{ height: '80px' }}
+                        />
+                      </div>
+                      <div className="col-8 ps-0">
+                        <h5>
+                          <a href="" className="blog-title mb-0 fs-6">
+                            10 Award Night Themes and Execution Ideas That Wow Employees & Clients
+                          </a>
+                        </h5>
+                        <small>
+                          October 14,2025
+                        </small>
+                      </div>
+                    </div>
                   </div>
                 </aside>
               </div>

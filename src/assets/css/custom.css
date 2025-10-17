@@ -201,7 +201,7 @@ p.service-text {
 .whatsapp-float {
   position: fixed;
   top: 80%;
-  right: 2px;
+  right: 30px;
   transform: translateY(-50%);
   background-color: #25d366;
   color: #fff;
@@ -307,6 +307,129 @@ a.atag {
 
 a.atag:hover {
    color: #9c2356;
+}
+
+
+/* ========== BASE STYLES ========== */
+.rfw-button {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  background-color: #2563eb;
+  color: #fff;
+  font-size: 22px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.rfw-button:hover {
+  background-color: #1e40af;
+}
+
+/* ========== WIDGET BOX ========== */
+.rfw-widget {
+  position: fixed;
+  bottom: 30px;
+  right: 6px;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e5e7eb;
+  z-index: 999;
+}
+
+/* ========== HEADER ========== */
+.rfw-header {
+  background-color: #9c2356;
+  color: #fff;
+  padding: 16px;
+}
+
+.rfw-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.rfw-header p {
+  margin: 4px 0 0;
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+/* ========== BODY ========== */
+.rfw-body {
+  padding: 16px;
+  background-color: #9c2356;
+}
+
+.rfw-form-group {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rfw-form-group label {
+  font-size:12px;
+  color: #374151;
+  margin-bottom: 4px;
+}
+
+.rfw-form-group input,
+.rfw-form-group textarea {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 12px;
+  outline: none;
+  transition: border-color 0.2s ease;
+  padding: 5px 10px;
+}
+
+.rfw-form-group input:focus,
+.rfw-form-group textarea:focus {
+  border-color: #2563eb;
+}
+
+/* ========== SUBMIT BUTTON ========== */
+.rfw-submit {
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rfw-submit:hover {
+  background-color: #1e40af;
+}
+
+/* ========== ANIMATION ========== */
+@keyframes slide-up {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.35s ease-out;
 }
 
 /* Optional: hide on small screens */
