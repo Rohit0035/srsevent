@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet-async";
@@ -12,6 +12,7 @@ const BlogDetail = () => {
   const { slug } = useParams(); // blog id from URL
   const [blog, setBlog] = useState(null);
   const [categories, setCategories] = useState([]);
+  const [recentBlogs, setRecentBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -21,7 +22,8 @@ const BlogDetail = () => {
         console.log(response)
         if (response.data.success) {
           setBlog(response.data.data.blog);
-          setCategories(response.data.data.categories);
+          setCategories(response.data.data.categories || []);
+          setRecentBlogs(response.data.data.recentBlogs || []);
         }
       } catch (error) {
         console.error("Error fetching blog:", error);
@@ -116,7 +118,30 @@ const BlogDetail = () => {
                   <div className="widget bg-white p-3 shadow-sm mb-4 rounded">
                     <h5 className="mb-3">Recent Posts</h5>
                     <hr />
-                    <div className="row mb-3">
+                    {
+                      recentBlogs.map((blog, index) => (
+                        <div className="row mb-3" key={index}>
+                          <div className="col-4">
+                            <img
+                              src={`${API_CONFIG.IMAGE_URL}/${blog?.image}`}
+                              className="img-fluid mb-0 rounded img-fit"
+                              style={{ height: '80px' }}
+                            />
+                          </div>
+                          <div className="col-8 ps-0">
+                            <h5>
+                              <Link to={`/blogdetail/${blog.slug}`} className="blog-title mb-0 fs-6">
+                                {blog?.title}
+                              </Link>
+                            </h5>
+                            <small>
+                              {blog?.created_at}
+                            </small>
+                          </div>
+                        </div>
+                      ))
+                    }
+                    {/* <div className="row mb-3">
                       <div className="col-4">
                         <img
                           src={imgblog}
@@ -153,7 +178,7 @@ const BlogDetail = () => {
                           October 14,2026
                         </small>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </aside>
               </div>

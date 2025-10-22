@@ -11,6 +11,8 @@ const api = axios.create({
 // other APIs...
 
 export const postEnquiry = data => api.post("/submit-contact-us-form", data);
+export const postShortEnquiry = data =>
+  api.post("/submit-short-contact-us-form", data);
 export const getBlogs = () => api.get("/get-blogs");
 export const getBlogDetails = slug => api.get(`get-blog-details/${slug}`);
 export const getGalleryCategories = () => api.get("/get-gallery-categories");

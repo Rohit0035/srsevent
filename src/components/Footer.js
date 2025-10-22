@@ -322,7 +322,7 @@ const Footer = () => {
             {/* footer area end */}
 
             {/* <a href="/contact" className="btn request-btn">Request a callback</a> */}
-            <a href="https://wa.me/919876543210" target="_blank" className="whatsapp-float">
+            <a href="https://wa.me/919036124720" target="_blank" className="whatsapp-float">
                 <i className="fab fa-whatsapp"></i>
             </a>
 

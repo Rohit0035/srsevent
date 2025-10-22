@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { postEnquiry } from "../services/api"; 
+import Loader from "./Loader";
 
 const EnquiryFormEvent = () => {
   const navigate = useNavigate();
@@ -62,6 +63,11 @@ const EnquiryFormEvent = () => {
 
   return (
     <>
+    { 
+      loading ? (
+        <Loader />
+      ):
+    
       <form onSubmit={handleSubmit} className="rounded">
         <div className="row">
           <div className="col-md-6 mb-3">
@@ -197,6 +203,7 @@ const EnquiryFormEvent = () => {
           )}
         </div>
       </form>
+      }
     </>
   );
 };
