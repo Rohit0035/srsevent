@@ -27,16 +27,16 @@ const FloralDecor = () => {
     return (
         <>
             <Helmet>
-                <title>Floral Décor - SrsEvent</title>
+                <title>Custom Floral Décor & Stage Decoration in Bangalore | SRS Event</title>
                 <meta
                     name="description"
-                    content="Transform your celebrations with stunning floral décor by SrsEvent. From weddings to parties, we create breathtaking floral arrangements, stage backdrops, and thematic flower setups to make your event unforgettable."
+                    content="Elevate your celebration with SRS Event’s luxury floral décor & wedding stage decoration in Bangalore. Elegant, creative & unforgettable themes."
                 />
                 <meta
                     name="keywords"
                     content="floral décor, wedding decoration, flower arrangements, stage decoration, event decoration, SrsEvent floral services"
                 />
-                <link rel="canonical" href="https://srsevent.com/floraldecor" />
+                <link rel="canonical" href="https://www.srsevent.com/floral-decor-services-in-bangalore" />
             </Helmet>
             <Header />
             <main className="main">

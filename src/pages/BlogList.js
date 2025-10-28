@@ -44,12 +44,12 @@ const BlogList = () => {
   return (
     <>
       <Helmet>
-        <title>Blogs - SrsEvent</title>
+        <title>Event Planning Tips & Trends Blog | SRS Event Bangalore</title>
         <meta
           name="description"
-          content="Explore wedding planner blogs covering venue management, floral décor, photography, videography, catering, bridal makeover, sounds & lights, furniture and fabrications."
+          content="Stay updated with SRS Event’s blog — discover event planning tips, trending wedding themes & décor ideas from Bangalore’s top event experts."
         />
-        <link rel="canonical" href={API_CONFIG.WEBSITE_URL.concat("/blogs")} />
+        <link rel="canonical" href="https://www.srsevent.com/blog" />
       </Helmet>
 
       <Header />

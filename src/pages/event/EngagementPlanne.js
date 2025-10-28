@@ -145,16 +145,16 @@ const EngagementPlanne = () => {
   return (
     <>
       <Helmet>
-        <title>Engagement Planners & Proposal Event Planning | SRS Weddings</title>
+        <title>Engagement Party Planners in Bangalore | SRS Event</title>
         <meta
           name="description"
-          content="SRS Weddings provides expert engagement planners in India & abroad. Plan engagement parties, proposal events, wardrobe styling, and luxury engagement packages with professional event coordination."
+          content="Host a memorable engagement party in Bangalore with SRS Event — professional planners for décor, coordination & celebration perfection."
         />
         <meta
           name="keywords"
           content="engagement planners, engagement party planner, engagement event planner, engagement planner near me, engagement proposal planner, wedding engagement planner, marriage proposal agency, engagement wedding planner, engagement event organizer, marriage proposal services, engagement proposal ideas, engagement party organizer, proposal event planner, engagement celebration packages, proposal event organizer, engagement event management"
         />
-        <link rel="canonical" href="https://srsevent.com/engagement-planners-bangalore" />
+        <link rel="canonical" href="https://www.srsevent.com/engagement-party-planners-bangalore" />
       </Helmet>
 
       <Header />

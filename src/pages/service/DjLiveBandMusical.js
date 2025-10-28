@@ -26,16 +26,16 @@ const DjLiveBandMusical = () => {
     return (
         <>
             <Helmet>
-                <title>DJ, Live Band & Musical Arrangements - SrsEvent</title>
+                <title>Top DJs & Live Bands in Bangalore | SRS Event Entertainment</title>
                 <meta
                     name="description"
-                    content="Make your celebrations unforgettable with SrsEvent’s DJ, live band, and musical arrangement services. From soulful choral arrangements to electrifying DJ nights, we set the perfect mood for weddings, receptions, and special events."
+                    content="Book live bands & DJs from SRS Event — unmatched music, sound & energy for weddings, parties & corporate celebrations in Bangalore."
                 />
                 <meta
                     name="keywords"
                     content="DJ services, live band wedding, musical arrangements, wedding DJ, reception music, celebration DJ, choral arrangements, first night DJ, rendezvous music, zombie choir arrangement, see you again choral arrangement, silent night harp sheet music, simple gifts choral arrangement, singin in the rain mark hayes, acapella arrangement, wedding live music, party DJ, event music, corporate DJ, orchestra, traditional wedding music, cultural music shows"
                 />
-                <link rel="canonical" href="https://srsevent.com/djlivebandmusical" />
+                <link rel="canonical" href="https://www.srsevent.com/dj-live-band-musical-arrangements-in-bangalore" />
             </Helmet>
 
             <Header />

@@ -139,16 +139,16 @@ const BabyShower = () => {
   return (
     <>
       <Helmet>
-        <title>Baby Shower & Naming Ceremony Planners | SRS Events</title>
+        <title>Baby Shower Event Organisers in Bangalore | SRS Event</title>
         <meta
           name="description"
-          content="SRS Events provides expert baby shower and naming ceremony planners in India. Plan themed baby showers, newborn celebrations, gifts, invitations, and decorations with professional coordination."
+          content="Celebrate your baby shower in style with SRS Event — expert planners in Bangalore crafting themed décor, games & joyful memories."
         />
         <meta
           name="keywords"
           content="baby shower, naming ceremony, baby shower invitations, baby shower gifts, baby shower decorations, baby shower ideas, baby bath seat, baby shower gift ideas, baby shower themes, best newborn gifts, babyshower gift, newborn bath seat, babyshower decorations, babyshower gift ideas, seemantham decoration, baby celebration planner, newborn celebration planner, baby party planning, baby naming ceremony planner, baby shower near me, newborn gifts ideas"
         />
-        <link rel="canonical" href="https://srsevent.com/baby-shower-event-organisers-bangalore." />
+        <link rel="canonical" href="https://www.srsevent.com/baby-shower-event-organisers-bangalore" />
       </Helmet>
 
       <Header />

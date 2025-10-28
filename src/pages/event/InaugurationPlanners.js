@@ -145,16 +145,16 @@ const InaugurationPlanners = () => {
   return (
     <>
       <Helmet>
-        <title>Inauguration & Corporate Event Management Company - SRS Events</title>
+        <title>Inauguration Event Organisers in Bangalore | SRS Event</title>
         <meta
           name="description"
-          content="SRS Events is a leading inauguration and corporate event management company in India. We specialize in inauguration ceremony planning, welcome speeches, new office inaugurations, corporate launches, and government inauguration events."
+          content="Plan impactful inaugurations in Bangalore with SRS Event — expert organisers for showroom openings, corporate launches & ribbon-cutting ceremonies."
         />
         <meta
           name="keywords"
           content="bundelkhand expressway, inauguration, inauguration ceremony, samruddhi mahamarg, welcome speech for inaugural ceremony, new office inauguration, inauguration event, corporate inauguration services, ribbon-cutting ceremony, event organisers near me, event management companies in India"
         />
-        <link rel="canonical" href="https://srsevent.com/inauguration-event-organizers-bangalore" />
+        <link rel="canonical" href="https://www.srsevent.com/inauguration-event-organisers-bangalore" />
       </Helmet>
 
       <Header />

@@ -27,16 +27,16 @@ const Videography = () => {
   return (
     <>
       <Helmet>
-        <title>Professional Videography Services - SrsEvent</title>
+        <title>Cinematic Event Videography in Bangalore | SRS Event</title>
         <meta
           name="description"
-          content="SrsEvent offers professional videography for weddings, birthdays, conferences, and parties. Capture your big day with cinematic wedding videos, reception highlights, and creative storytelling."
+          content="Relive your celebrations with cinematic videography by SRS Event. Expert filming for weddings, birthdays & corporate functions in Bangalore."
         />
         <meta
           name="keywords"
           content="prom videography, videography conference, birthday videographer, wedding videography, party videographer, wedding night videographer, cinematography wedding video"
         />
-        <link rel="canonical" href="https://srsevent.com/videography" />
+        <link rel="canonical" href="https://www.srsevent.com/professional-videography-services-in-bangalore" />
       </Helmet>
 
       <Header />

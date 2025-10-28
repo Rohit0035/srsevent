@@ -139,16 +139,16 @@ const BirthdayPlanners = () => {
   return (
     <>
       <Helmet>
-        <title>Birthday Party Planners & Decorations | SRS Events</title>
+        <title>Birthday Party Organisers in Bangalore | SRS Event</title>
         <meta
           name="description"
-          content="SRS Events provides expert birthday party planners in India. Plan kids' birthdays, milestone celebrations, themed parties, decorations, and party supplies with professional coordination."
+          content="Make birthdays unforgettable with expert organisers in Bangalore. SRS Event brings creative themes, décor & fun-filled planning for every age."
         />
         <meta
           name="keywords"
           content="birthday party, birthday decorations, kids birthday party, 60th birthday decorations, 50th birthday decorations, mermaid party supplies, birthday party decorations, birthday parties near me, party supplies near me, birthday party supplies, 1st birthday decorations, 18th birthday decorations, birthday event planner, birthday planner near me, birthday themes, birthday party coordinator, birthday celebration packages, birthday event organizer"
         />
-        <link rel="canonical" href="https://srsevent.com/birthday-party-organiser-bangalore" />
+        <link rel="canonical" href="https://www.srsevent.com/birthday-party-organisers-bangalore" />
       </Helmet>
 
       <Header />

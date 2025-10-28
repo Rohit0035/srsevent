@@ -26,16 +26,16 @@ const GangaAarti = () => {
   return (
     <>
       <Helmet>
-        <title>Ganga Aarti Ceremony – Spiritual Evening Ritual on the Ganges</title>
+        <title>Ganga Aarti Ritual Setup in Bangalore | SRS Event</title>
         <meta
           name="description"
-          content="Experience the divine Ganga Aarti Ceremony on the banks of the Ganges. A soulful evening ritual with chanting, lamps, and prayers, connecting you to India’s spiritual heritage."
+          content="Experience spiritual bliss with SRS Event’s traditional Ganga Aarti setup in Bangalore — perfect for weddings & devotional ceremonies."
         />
         <meta
           name="keywords"
           content="Ganga Aarti, Varanasi Ganga Aarti, Ganga Aarti Haridwar, spiritual rituals India, evening prayer ceremony, Hindu rituals, Ganga river puja, Indian culture, spiritual travel, sacred river ceremony"
         />
-        <link rel="canonical" href="https://srsevent.com/gangaaarti" />
+        <link rel="canonical" href="https://www.srsevent.com/ganga-aarti-ceremony-ritual-setup-in-bangalore" />
       </Helmet>
 
       <Header />

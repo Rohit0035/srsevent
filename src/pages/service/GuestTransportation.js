@@ -27,16 +27,16 @@ const GuestTransportation = () => {
     return (
         <>
             <Helmet>
-                <title>Guest Transportation & Logistics - SrsEvent</title>
+                <title>Event Transportation & Logistics in Bangalore | SRS Event</title>
                 <meta
                     name="description"
-                    content="Ensure smooth travel for your wedding or event guests with SrsEvent’s guest transportation & logistics services. From luxury cars and shuttle buses to airport transfers and VIP logistics, we provide reliable solutions for hassle-free travel."
+                    content="Ensure seamless guest transfers with SRS Event’s transport & logistics services across Bangalore. Reliable, coordinated & stress-free."
                 />
                 <meta
                     name="keywords"
                     content="guest transportation wedding, wedding guest shuttle, event logistics services, wedding transportation services, guest pick up and drop, wedding car rental, guest shuttle service, destination wedding logistics, corporate event transportation, VIP guest logistics, bus rental for wedding guests, airport transfers for events, luxury car hire wedding, wedding transportation planning, event transportation management"
                 />
-                <link rel="canonical" href="https://srsevent.com/guesttransportation" />
+                <link rel="canonical" href="https://www.srsevent.com/guest-transportation-logistics-in-bangalore" />
             </Helmet>
 
             <Header />

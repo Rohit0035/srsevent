@@ -70,7 +70,7 @@ const Footer = () => {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="/about">
+                                            <a href="/about-us">
                                                 <i className="fas fa-angle-double-right" /> About
                                             </a>
                                         </li>
@@ -115,47 +115,47 @@ const Footer = () => {
                                         <div className="row">
                                             <div className="col-md-6">
                                                 <li>
-                                                    <a href="/venuemanagement">
+                                                    <a href="/venue-management-services-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Venue Management
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/floraldecor">
+                                                    <a href="/floral-decor-services-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Floral Décor
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/photography">
+                                                    <a href="/event-wedding-photography-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Photography
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/videography">
+                                                    <a href="/professional-videography-services-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Videography
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/catering">
+                                                    <a href="/catering-services-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Catering
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/bridalmakeover">
+                                                    <a href="/bridal-makeup-makeover-services-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Bridal Makeover
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/soundsLights">
+                                                    <a href="/event-sound-lighting-services-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Sounds &amp; Lights
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/furniturefabrications">
+                                                    <a href="/event-furniture-stage-fabrications-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Furniture &amp; Fabrications
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/guesttransportation">
+                                                    <a href="/guest-transportation-logistics-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Guest Transportation &amp; Logistics
                                                     </a>
                                                 </li>
@@ -163,47 +163,47 @@ const Footer = () => {
 
                                             <div className="col-md-6">
                                                 <li>
-                                                    <a href="/hospitalityguest">
+                                                    <a href="/hospitality-guest-welcome-services-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Hospitality &amp; Guest Welcome Services
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/weddinglive">
+                                                    <a href="/wedding-live-streaming-services-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Wedding Live Streaming
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/returngiftswedding">
+                                                    <a href="/return-gifts-wedding-favours-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Return Gifts &amp; Wedding Favours
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/trendingphoto">
+                                                    <a href="/photo-booth-setups-for-events-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Trending Photo Booth Setups
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/coldpyro">
+                                                    <a href="/cold-pyro-fog-confetti-firecracker-shows-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Cold Pyro, CO₂ Jet, Fog Effect, Confetti &amp; Firecracker Shows
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/djlivebandmusical">
+                                                    <a href="/dj-live-band-musical-arrangements-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> DJ, Live Band &amp; Musical Arrangements
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/livecanvaspainting">
+                                                    <a href="/live-painting-caricature-artists-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Live Canvas Painting, Sketching &amp; Caricature Artists
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/fungamesinteractive">
+                                                    <a href="/fun-games-interactive-activities-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Fun Games &amp; Interactive Activities
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/gangaaarti">
+                                                    <a href="/ganga-aarti-ceremony-ritual-setup-in-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Ganga Aarti Ceremony
                                                     </a>
                                                 </li>

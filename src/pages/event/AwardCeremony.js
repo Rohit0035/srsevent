@@ -135,16 +135,16 @@ const AwardCeremony = () => {
   return (
     <>
       <Helmet>
-        <title>Award Ceremony & Wedding Event Planners | SRS Event Management</title>
+        <title>Award Ceremony Organisers in Bangalore | SRS Event</title>
         <meta
           name="description"
-          content="SRS Events specializes in award ceremonies, wedding ceremonies, wedding reception decor, haldi events, corporate award nights, gala dinners, cultural events, and graduation ceremonies."
+          content="Celebrate success with SRS Event — Bangalore’s trusted award ceremony organisers for corporates, schools & institutions. Make your event unforgettable!"
         />
         <meta
           name="keywords"
           content="Award Ceremony, Wedding Ceremony, Wedding Reception Decor, Wedding Haldi Ceremony, Ceremony Events, Corporate Award Nights, Annual Day Events, Graduation Ceremony, Gala Dinner, Cultural Events, Felicitation Ceremony, Celebrity Award Shows, SRS Event Management"
         />
-        <link rel="canonical" href="https://srsevent.com/award-ceremony-organizers-in-bangalore" />
+        <link rel="canonical" href="https://www.srsevent.com/award-ceremony-organisers-bangalore" />
       </Helmet>
 
       <Header />

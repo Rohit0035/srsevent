@@ -145,16 +145,16 @@ const WeddingPlanners = () => {
   return (
     <>
       <Helmet>
-        <title>Wedding Planners & Wedding Event Management Company | SRS Weddings</title>
+        <title>Wedding Planners in Bangalore | SRS Event Experts</title>
         <meta
           name="description"
-          content="SRS Weddings is a leading wedding planning company in India. We provide wedding planners near you, day-of wedding coordinators, wardrobe planning, destination weddings, and complete wedding & event management services."
+          content="Create your dream wedding with Bangalore’s best planners — SRS Event handles décor, coordination & management for a stress-free celebration."
         />
         <meta
           name="keywords"
           content="wedding planners, wedding planners near me, wedding planning websites, wedding coordinator, day of wedding coordinator, wedding coordinator near me, wedding planning sites, wedding wardrobe planner, destination wedding planners, wedding and event management, Indian wedding planners, luxury wedding planners"
         />
-        <link rel="canonical" href="https://srsevent.com/wedding-planners-bangalores" />
+        <link rel="canonical" href="https://www.srsevent.com/wedding-planners-bangalore" />
       </Helmet>
 
       <Header />

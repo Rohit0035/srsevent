@@ -135,16 +135,16 @@ const HospitalityWellness = () => {
   return (
     <>
       <Helmet>
-        <title>Hospitality and Wellness Event Management | Wellness Retreats & Corporate Wellness Programs</title>
+        <title>Hospitality & Wellness Event Services Bangalore | SRS Event</title>
         <meta
           name="description"
-          content="SRS Events offers expert hospitality and wellness event management, including wellness retreats, corporate wellness programs, spa & yoga events, hospitality expos, and luxury guest experiences."
+          content="Elevate your hospitality & wellness events in Bangalore with SRS Event — expert planning for retreats, wellness days & guest experience programs."
         />
         <meta
           name="keywords"
           content="hospitality and event management, hospitality in event management, event management and hospitality, wellness event planners, corporate wellness events, yoga retreats, spa event organizers, wellness hospitality management, wellness retreats India, health and wellness event organizers"
         />
-        <link rel="canonical" href="https://srsevent.com/hospitality-management-services-bangalore" />
+        <link rel="canonical" href="https://www.srsevent.com/hospitality-wellness-events-bangalore" />
       </Helmet>
 
       <Header />

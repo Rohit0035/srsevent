@@ -27,20 +27,17 @@ const HospitalityGuest = () => {
     <>
       <Helmet>
         <title>
-          Hospitality and Event Management Course | SrsEvent 
+          Guest Welcome & Hospitality Services in Bangalore | SRS Event
         </title>
         <meta
           name="description"
-          content="Join SrsEvent’s professional Hospitality and Event Management program. Learn tourism, hotel operations, event planning, and global hospitality skills. Build your career in hospitality & event management."
+          content="Impress every guest with SRS Event’s warm hospitality & professional welcome services in Bangalore — weddings, parties & private events."
         />
         <meta
           name="keywords"
           content="hospitality and event management, hospitality & event management, event management and hospitality, tourism hospitality and event management, opleiding hospitality en evenementen management, hospitality management course, event management training, hospitality career opportunities, event planning degree, hotel and tourism management, best hospitality colleges, international hospitality program"
         />
-        <link
-          rel="canonical"
-          href="https://srsevent.com/hospitalityguest"
-        />
+        <link rel="canonical" href="https://www.srsevent.com/hospitality-guest-welcome-services-in-bangalore" />
       </Helmet>
 
       <Header />

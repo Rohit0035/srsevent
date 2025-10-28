@@ -27,16 +27,16 @@ const FurnitureFabrications = () => {
     return (
         <>
             <Helmet>
-                <title>Furniture & Fabrication for Events - SrsEvent</title>
+                <title>Event Furniture Rentals & Stage Setup in Bangalore | SRS Event</title>
                 <meta
                     name="description"
-                    content="Transform your wedding or party with premium furniture & fabrication services. From velvet tablecloths for weddings, round table linens, and wholesale party tablecloths to elegant event setups, SrsEvent has everything you need."
+                    content="Rent elegant furniture & custom stages from SRS Event in Bangalore — ideal for themed weddings, corporate events & gala functions."
                 />
                 <meta
                     name="keywords"
                     content="velvet tablecloth wedding, round table cloth for sale, party table linens wholesale, linens for 72 inch round table, cheap round table cloth, elegant round table cloth, round table linens bulk, round table linens cheap, white round table linens for sale, furniture & fabrication for event, event furniture setup, wedding table linens, party table cloth rental"
                 />
-                <link rel="canonical" href="https://srsevent.com/furniture-fabrication" />
+                <link rel="canonical" href="https://www.srsevent.com/event-furniture-stage-fabrications-in-bangalore" />
             </Helmet>
 
             <Header />

@@ -139,16 +139,16 @@ const HousewarmingEvent = () => {
   return (
     <>
       <Helmet>
-        <title>House Warming & Naming Ceremony Planners | SRS Events</title>
+        <title>Housewarming Event Planners in Bangalore | SRS Event</title>
         <meta
           name="description"
-          content="SRS Events provides expert house warming and naming ceremony planners in India. Plan griha pravesh, barsa, cradle, and naming ceremonies with themed décor, gifts, invitations, and professional coordination."
+          content="Celebrate your new home with SRS Event — expert housewarming planners in Bangalore for décor, catering & guest experience perfection."
         />
         <meta
           name="keywords"
           content="house warming ceremony, naming ceremony, griha pravesh, barsa ceremony, cradle ceremony, griha pravesh ceremony, griha pravesh kalash, house opening ceremony, home warming ceremony, house warming function, naam karan, naming ceremony in telugu, house warming planner, naming ceremony planner, housewarming event management, griha pravesh planner, baby cradle ceremony, house blessing ceremony"
         />
-        <link rel="canonical" href="https://srsevent.com/housewarming-event-planner-Bangalore" />
+        <link rel="canonical" href="https://www.srsevent.com/housewarming-event-planners-bangalore" />
       </Helmet>
 
       <Header />

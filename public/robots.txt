@@ -1,5 +1,5 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow: /
-
-Sitemap: https://srsevent.com/sitemap.xml
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /admin
+Sitemap: https://www.srsevent.com/sitemap.xml

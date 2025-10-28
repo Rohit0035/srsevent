@@ -27,16 +27,16 @@ const ColdCyro = () => {
     return (
         <>
             <Helmet>
-                <title>Cold Pyro, CO₂ Jet, Fog, Confetti & Firecracker Shows - SrsEvent</title>
+                <title>Cold Pyro & Confetti Effects in Bangalore | SRS Event</title>
                 <meta
                     name="description"
-                    content="Make your wedding or event unforgettable with Cold Pyro, CO₂ Jets, Fog Effects, Confetti Blasts, and Firecracker Shows by SrsEvent. Safe, stunning, and designed for magical moments."
+                    content="Add sparkle to your event with cold pyro, fog & confetti effects by SRS Event — Bangalore’s top team for safe, dazzling event effects."
                 />
                 <meta
                     name="keywords"
                     content="cold pyro, cold pyro rental, CO2 jet effect, CO2 jet rental, fog machine effect, fog effect for wedding, fog effect dance floor, confetti blast rental, confetti shower event, firecracker show, wedding fireworks, event special effects, stage pyro effects, event cold fireworks, indoor fireworks, wedding cold pyro, event effects rental near me"
                 />
-                <link rel="canonical" href="https://srsevent.com/coldcyro" />
+                <link rel="canonical" href="https://www.srsevent.com/cold-pyro-fog-confetti-firecracker-shows-in-bangalore" />
             </Helmet>
 
             <Header />

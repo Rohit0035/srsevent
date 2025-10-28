@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../assets/img/common/logo.png"
+import Logo from "../assets/img/common/logo.png";
 
 const Header = () => {
   const [isFixed, setIsFixed] = useState(false);
@@ -69,8 +69,9 @@ const Header = () => {
       </div>
       <div className="main-navigation">
         <nav
-          className={`navbar navbar-expand-lg ${isFixed ? "fixed-top shadow-sm" : ""
-            }`}
+          className={`navbar navbar-expand-lg ${isFixed
+            ? "fixed-top shadow-sm"
+            : ""}`}
         >
           <div className="container">
             {/* Logo */}
@@ -103,7 +104,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/about">
+                  <a className="nav-link" href="/about-us">
                     About
                   </a>
                 </li>
@@ -121,48 +122,63 @@ const Header = () => {
                         <li>
                           <a
                             className="dropdown-item"
-                            href="/venuemanagement"
+                            href="/venue-management-services-in-bangalore"
                           >
                             Venue Management
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/floraldecor">
+                          <a
+                            className="dropdown-item"
+                            href="/floral-decor-services-in-bangalore"
+                          >
                             Floral Décor
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/photography">
+                          <a
+                            className="dropdown-item"
+                            href="/event-wedding-photography-in-bangalore"
+                          >
                             Photography
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/videography">
+                          <a
+                            className="dropdown-item"
+                            href="/professional-videography-services-in-bangalore"
+                          >
                             Videography
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/catering">
+                          <a
+                            className="dropdown-item"
+                            href="/catering-services-in-bangalore"
+                          >
                             Catering
                           </a>
                         </li>
                         <li>
                           <a
                             className="dropdown-item"
-                            href="/bridalmakeover"
+                            href="/bridal-makeup-makeover-services-in-bangalore"
                           >
                             Bridal Makeover
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/soundsLights">
+                          <a
+                            className="dropdown-item"
+                            href="/event-sound-lighting-services-in-bangalore"
+                          >
                             Sounds &amp; Lights
                           </a>
                         </li>
                         <li>
                           <a
                             className="dropdown-item"
-                            href="/furniturefabrications"
+                            href="/event-furniture-stage-fabrications-in-bangalore"
                           >
                             Furniture &amp; Fabrications
                           </a>
@@ -170,7 +186,7 @@ const Header = () => {
                         <li>
                           <a
                             className="dropdown-item"
-                            href="/guesttransportation"
+                            href="/guest-transportation-logistics-in-bangalore"
                           >
                             Guest Transportation &amp; Logistics
                           </a>
@@ -178,47 +194,76 @@ const Header = () => {
                       </div>
                       <div className="col-md-6">
                         <li>
-                          <a className="dropdown-item" href="/hospitalityguest">
+                          <a
+                            className="dropdown-item"
+                            href="/hospitality-guest-welcome-services-in-bangalore"
+                          >
                             Hospitality &amp; Guest Welcome Services
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/weddinglive">
+                          <a
+                            className="dropdown-item"
+                            href="/wedding-live-streaming-services-in-bangalore"
+                          >
                             Wedding Live Streaming
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/returngiftswedding">
+                          <a
+                            className="dropdown-item"
+                            href="/return-gifts-wedding-favours-in-bangalore"
+                          >
                             Return Gifts &amp; Wedding Favours
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/trendingphoto">
+                          <a
+                            className="dropdown-item"
+                            href="/photo-booth-setups-for-events-in-bangalore"
+                          >
                             Trending Photo Booth Setups
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/coldpyro">
-                            Cold Pyro, CO₂ Jet, Fog Effect, Confetti &amp; Firecracker Shows
+                          <a
+                            className="dropdown-item"
+                            href="/cold-pyro-fog-confetti-firecracker-shows-in-bangalore"
+                          >
+                            Cold Pyro, CO₂ Jet, Fog Effect, Confetti &amp;
+                            Firecracker Shows
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/djlivebandmusical">
+                          <a
+                            className="dropdown-item"
+                            href="/dj-live-band-musical-arrangements-in-bangalore"
+                          >
                             DJ, Live Band &amp; Musical Arrangements
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/livecanvaspainting">
-                            Live Canvas Painting, Sketching &amp; Caricature Artists
+                          <a
+                            className="dropdown-item"
+                            href="/live-painting-caricature-artists-in-bangalore"
+                          >
+                            Live Canvas Painting, Sketching &amp; Caricature
+                            Artists
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/fungamesinteractive">
+                          <a
+                            className="dropdown-item"
+                            href="/fun-games-interactive-activities-in-bangalore"
+                          >
                             Fun Games &amp; Interactive Activities
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/gangaaarti">
+                          <a
+                            className="dropdown-item"
+                            href="/ganga-aarti-ceremony-ritual-setup-in-bangalore"
+                          >
                             Ganga Aarti Ceremony
                           </a>
                         </li>
@@ -238,35 +283,56 @@ const Header = () => {
                     <div className="row">
                       {/* Corporate Events */}
                       <div className="col-md-6 mb-2">
-                        <h4 className="mb-0 text-pink p-2"> <i className="fas fa-briefcase "></i>  Corporate Events</h4>
+                        <h4 className="mb-0 text-pink p-2">
+                          {" "}<i className="fas fa-briefcase " /> Corporate
+                          Events
+                        </h4>
                         <hr className="mt-2 mb-2" />
                         <li>
-                          <a className="dropdown-item" href="/corporate-event-management-company-bangalore">
+                          <a
+                            className="dropdown-item"
+                            href="/corporate-event-management-bangalore"
+                          >
                             Corporate Management
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/inauguration-event-organizers-bangalore">
+                          <a
+                            className="dropdown-item"
+                            href="/inauguration-event-organisers-bangalore"
+                          >
                             Inauguration Planners
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/conference-events-management-company-bangalore">
+                          <a
+                            className="dropdown-item"
+                            href="/conference-seminar-event-bangalore"
+                          >
                             Conferences and Seminar Event
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/corporate-outdoor-events-company-bangalore">
+                          <a
+                            className="dropdown-item"
+                            href="/corporate-outdoor-events-bangalore"
+                          >
                             Corporate Outdoor Events
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/hospitality-management-services-bangalore">
+                          <a
+                            className="dropdown-item"
+                            href="/hospitality-wellness-events-bangalore"
+                          >
                             Hospitality and Wellness Management
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/award-ceremony-organizers-in-bangalore">
+                          <a
+                            className="dropdown-item"
+                            href="/award-ceremony-organisers-bangalore"
+                          >
                             Award Ceremony
                           </a>
                         </li>
@@ -274,40 +340,64 @@ const Header = () => {
 
                       {/* Personal Events */}
                       <div className="col-md-6">
-                        <h4 className="mb-0 text-pink p-2"> <i className="fas fa-birthday-cake "></i> Personal Events</h4>
+                        <h4 className="mb-0 text-pink p-2">
+                          {" "}<i className="fas fa-birthday-cake " /> Personal
+                          Events
+                        </h4>
                         <hr className="mt-2 mb-2" />
                         <li>
-                          <a className="dropdown-item" href="/wedding-planners-bangalore">
+                          <a
+                            className="dropdown-item"
+                            href="/wedding-planners-bangalore"
+                          >
                             Wedding Planners
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/destination-wedding-planner-bangalore">
+                          <a
+                            className="dropdown-item"
+                            href="/destination-wedding-planners-bangalore"
+                          >
                             Destination Wedding
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/engagement-planners-bangalore">
+                          <a
+                            className="dropdown-item"
+                            href="/engagement-party-planners-bangalore"
+                          >
                             Engagement Planners
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/birthday-party-organiser-bangalore">
+                          <a
+                            className="dropdown-item"
+                            href="/birthday-party-organisers-bangalore"
+                          >
                             Birthday Planners
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/baby-shower-event-organisers-bangalore.">
+                          <a
+                            className="dropdown-item"
+                            href="/baby-shower-event-organisers-bangalore"
+                          >
                             Baby Shower
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/wedding-anniversary-planners-bangalore">
+                          <a
+                            className="dropdown-item"
+                            href="/wedding-anniversary-planners-bangalore"
+                          >
                             Wedding Anniversary
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/housewarming-event-planner-Bangalore">
+                          <a
+                            className="dropdown-item"
+                            href="/housewarming-event-planner-Bangalore"
+                          >
                             Housewarming Event
                           </a>
                         </li>
@@ -317,7 +407,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="/blog">
-                     Blog
+                    Blog
                   </a>
                 </li>
                 <li className="nav-item">
@@ -348,11 +438,7 @@ const Header = () => {
             >
               <div className="offcanvas-header">
                 <h5 className="offcanvas-title" id="offcanvasNavLabel">
-                  <img
-                    src={Logo}
-                    alt="logo"
-                    className="logo-st"
-                  />
+                  <img src={Logo} alt="logo" className="logo-st" />
                 </h5>
                 <button
                   type="button"
@@ -383,10 +469,7 @@ const Header = () => {
                     </a>
                     <ul className="dropdown-menu fade-down border-0">
                       <li>
-                        <a
-                          className="dropdown-item"
-                          href="/venuemanagement"
-                        >
+                        <a className="dropdown-item" href="/venuemanagement">
                           Venue Management
                         </a>
                       </li>
@@ -411,10 +494,7 @@ const Header = () => {
                         </a>
                       </li>
                       <li>
-                        <a
-                          className="dropdown-item"
-                          href="/bridalmakeover"
-                        >
+                        <a className="dropdown-item" href="/bridalmakeover">
                           Bridal Makeover
                         </a>
                       </li>
@@ -461,8 +541,8 @@ const Header = () => {
                       </li>
                       <li>
                         <a className="dropdown-item" href="/coldpyro">
-                          Cold Pyro, CO₂ Jet, Fog Effect, Confetti &amp; Firecracker
-                          Shows
+                          Cold Pyro, CO₂ Jet, Fog Effect, Confetti &amp;
+                          Firecracker Shows
                         </a>
                       </li>
                       <li>
@@ -472,11 +552,15 @@ const Header = () => {
                       </li>
                       <li>
                         <a className="dropdown-item" href="/livecanvaspainting">
-                          Live Canvas Painting, Sketching &amp; Caricature Artists
+                          Live Canvas Painting, Sketching &amp; Caricature
+                          Artists
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="/fungamesinteractive">
+                        <a
+                          className="dropdown-item"
+                          href="/fungamesinteractive"
+                        >
                           Fun Games &amp; Interactive Activities
                         </a>
                       </li>
@@ -502,32 +586,50 @@ const Header = () => {
                           <h5 className="mb-0 text-pink">Corporate Events</h5>
                           <hr className="mt-2" />
                           <li>
-                            <a className="dropdown-item" href="/corporate-event-management-company-bangalore">
+                            <a
+                              className="dropdown-item"
+                              href="/corporate-event-management-company-bangalore"
+                            >
                               Corporate Management
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="/inauguration-event-organizers-bangalore">
+                            <a
+                              className="dropdown-item"
+                              href="/inauguration-event-organizers-bangalore"
+                            >
                               Inauguration Planners
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="/conference-events-management-company-bangalore">
+                            <a
+                              className="dropdown-item"
+                              href="/conference-events-management-company-bangalore"
+                            >
                               Conferences and Seminar Event
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="/corporate-outdoor-events-company-bangalore">
+                            <a
+                              className="dropdown-item"
+                              href="/corporate-outdoor-events-company-bangalore"
+                            >
                               Corporate Outdoor Events
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="/hospitality-management-services-bangalore">
+                            <a
+                              className="dropdown-item"
+                              href="/hospitality-management-services-bangalore"
+                            >
                               Hospitality and Wellness Management
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="/award-ceremony-organizers-in-bangalore">
+                            <a
+                              className="dropdown-item"
+                              href="/award-ceremony-organizers-in-bangalore"
+                            >
                               Award Ceremony
                             </a>
                           </li>
@@ -536,37 +638,58 @@ const Header = () => {
                           <h5 className="mb-0 text-pink">Personal Events</h5>
                           <hr className="mt-2" />
                           <li>
-                            <a className="dropdown-item" href="/wedding-planners-bangalore">
+                            <a
+                              className="dropdown-item"
+                              href="/wedding-planners-bangalore"
+                            >
                               Wedding Planners
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="/destination-wedding-planner-bangalore">
+                            <a
+                              className="dropdown-item"
+                              href="/destination-wedding-planner-bangalore"
+                            >
                               Destination Wedding
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="/engagement-planners-bangalore">
+                            <a
+                              className="dropdown-item"
+                              href="/engagement-planners-bangalore"
+                            >
                               Engagement Planners
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="/birthday-party-organiser-bangalore">
+                            <a
+                              className="dropdown-item"
+                              href="/birthday-party-organiser-bangalore"
+                            >
                               Birthday Planners
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="/baby-shower-event-organisers-bangalore.">
+                            <a
+                              className="dropdown-item"
+                              href="/baby-shower-event-organisers-bangalore."
+                            >
                               Baby Shower
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="/wedding-anniversary-planners-bangalore">
+                            <a
+                              className="dropdown-item"
+                              href="/wedding-anniversary-planners-bangalore"
+                            >
                               Wedding Anniversary
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="/housewarming-event-planner-Bangalore">
+                            <a
+                              className="dropdown-item"
+                              href="/housewarming-event-planners-bangalore"
+                            >
                               Housewarming Event
                             </a>
                           </li>
@@ -576,7 +699,7 @@ const Header = () => {
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/blog">
-                       Blog
+                      Blog
                     </a>
                   </li>
                   <li className="nav-item">
@@ -601,7 +724,6 @@ const Header = () => {
         </nav>
       </div>
     </header>
-
   );
 };
 

@@ -50,16 +50,16 @@ const Gallery = () => {
   return (
     <>
       <Helmet>
-        <title>Gallery - SrsEvent</title>
+        <title>Event Gallery | Wedding & Party Highlights by SRS Event Bangalore</title>
         <meta
           name="description"
-          content="Explore the SrsEvent Gallery and relive the beautiful weddings, birthdays, corporate events, and celebrations we have organized. See how we turn moments into lasting memories."
+          content="Explore our gallery of stunning weddings, parties & corporate events in Bangalore — beautifully designed & executed by the SRS Event team."
         />
         <meta
           name="keywords"
           content="SrsEvent gallery, event gallery, wedding gallery, birthday party gallery, corporate event photos, anniversary celebration images, event decoration gallery, event highlights, Bangalore event gallery"
         />
-        <link rel="canonical" href={`${API_CONFIG.WEBSITE_URL}/gallery`} />
+        <link rel="canonical" href="https://www.srsevent.com/gallery" />
       </Helmet>
 
       <Header />

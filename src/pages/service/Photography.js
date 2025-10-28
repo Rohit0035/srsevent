@@ -27,16 +27,16 @@ const Photography = () => {
     return (
         <>
             <Helmet>
-                <title>Wedding Photography - SrsEvent</title>
+                <title>Hire the Best Event Photographers in Bangalore | SRS Event</title>
                 <meta
                     name="description"
-                    content="Capture your most cherished memories with SrsEvent’s professional wedding photography services. From pre-wedding shoots to reception coverage, we deliver timeless photos that tell your love story."
+                    content="Capture every moment perfectly with SRS Event’s professional photographers in Bangalore — weddings, parties & corporate shoots. Book today!"
                 />
                 <meta
                     name="keywords"
                     content="photography event, wedding photos, photography wedding packages, wedding shoot, top wedding photographers, wedding villa photos, wedding event photos, reception wedding photos"
                 />
-                <link rel="canonical" href="https://srsevent.com/photography" />
+                <link rel="canonical" href="https://www.srsevent.com/event-wedding-photography-in-bangalore" />
             </Helmet>
 
             <Header />

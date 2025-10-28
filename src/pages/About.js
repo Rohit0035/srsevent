@@ -12,16 +12,16 @@ const About = () => {
 
         <>
             <Helmet>
-                <title>About Us - SrsEvent</title>
+                <title>About SRS Event | Leading Event Management Company in Bangalore</title>
                 <meta
                     name="description"
-                    content="Discover the story of SrsEvent, a trusted event management company dedicated to creating unforgettable weddings, corporate events, birthdays, and celebrations. Learn about our values, vision, and passionate team that makes every event unique."
+                    content="Learn about SRS Event — Bangalore’s trusted event management company. Our expert planners create unforgettable weddings, parties & corporate experiences."
                 />
                 <meta
                     name="keywords"
                     content="SrsEvent, about SrsEvent, event management company, wedding planner, corporate event organizer, birthday party planner, anniversary celebration planner, engagement event management, kids party organizer, event decoration services, Bangalore event management, premium event planner, celebration organizer"
                 />
-                <link rel="canonical" href="https://srsevent.com/about" />
+                <link rel="canonical" href="https://www.srsevent.com/about-us" />
                 <link rel="icon" type="image/x-icon" href="assets/img/common/favicon.jpg" />
             </Helmet>
             <Header />

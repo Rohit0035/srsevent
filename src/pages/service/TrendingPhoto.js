@@ -27,16 +27,16 @@ const TrendingPhoto = () => {
   return (
     <>
       <Helmet>
-        <title>Photo Booth Rental - 360, Mirror & Selfie Booths | SrsEvent</title>
+        <title>Stylish Photo Booth Setups in Bangalore | SRS Event Ideas</title>
         <meta
           name="description"
-          content="Book premium photo booth rentals with SrsEvent – 360 photo booth, mirror photo booth, selfie booth, and magic mirror booths for weddings, birthdays, women's day, and corporate events."
+          content="Make your party fun & shareable with trendy photo booth setups by SRS Event — perfect for weddings, birthdays & social gatherings."
         />
         <meta
           name="keywords"
           content="photo booth, 360 photo booth, photo booth rental, photobooth, mirror photo booth, photo booth near me, selfie booth, magic mirror photo booth, selfie mirror, women's day photo booth, birthday photo booth, corporate photo booth"
         />
-        <link rel="canonical" href="https://srsevent.com/trendingphoto" />
+        <link rel="canonical" href="https://www.srsevent.com/photo-booth-setups-for-events-in-bangalore" />
       </Helmet>
 
       <Header />

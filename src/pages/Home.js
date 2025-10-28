@@ -18,16 +18,16 @@ const Home = () => {
     <>
 
       <Helmet>
-        <title>SrsEvent – Your Celebration, Your Style</title>
+        <title>Top Event Planners & Organisers in Bangalore | SRS Event</title>
         <meta
           name="description"
-          content="SrsEvent – Your Celebration, Your Style. Plan your perfect event with us."
+          content="Discover the best event planners in Bangalore with SRS Event — expert organisers for weddings, parties & corporate functions. Book your dream event today!"
         />
         <meta
           name="keywords"
           content="event planner, wedding, birthday, Bangalore events"
         />
-        <link rel="canonical" href="https://srsevent.com/wedding-planners-bangalores" />
+        <link rel="canonical" href="https://www.srsevent.com/" />
       </Helmet>
 
       <Header />

@@ -27,16 +27,16 @@ const SoundsLights = () => {
     return (
         <>
             <Helmet>
-                <title>Sound & Light Services for Events - SrsEvent</title>
+                <title>Professional Sound & Lighting Setup in Bangalore | SRS Event</title>
                 <meta
                     name="description"
-                    content="Enhance your events with SrsEvent’s professional sound and light services. From DJ speakers with lights to full-stage lighting and audio setup, we deliver the perfect atmosphere for weddings, parties, and corporate events."
+                    content="Transform your event with premium DJ sound systems & lighting setups by SRS Event — perfect for weddings, concerts & private parties."
                 />
                 <meta
                     name="keywords"
                     content="DJ speakers with lights, sound to light disco lights, events sound and light, night sound and light, sounds & lights event, party sound system, wedding lighting setup, stage lights rental, event sound system hire, professional DJ setup, live concert sound and lights, corporate event audio visual, dance floor lights, LED event lighting, sound and light decoration"
                 />
-                <link rel="canonical" href="https://srsevent.com/sounds-lights" />
+                <link rel="canonical" href="https://www.srsevent.com/event-sound-lighting-services-in-bangalore" />
             </Helmet>
 
             <Header />

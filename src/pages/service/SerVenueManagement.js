@@ -27,16 +27,16 @@ const SerVenueManagement = () => {
     return (
         <>
             <Helmet>
-                <title>Venue Management - SrsEvent</title>
+                <title>Top Venue Management in Bangalore | SRS Event Planners</title>
                 <meta
                     name="description"
-                    content="Experience flawless Venue Management with SrsEvent. From booking to décor, seating, and arrangements, we ensure your event venue is perfectly managed for weddings, parties, and corporate events."
+                    content="Find and manage ideal event venues across Bangalore — from Koramangala to Whitefield. SRS Event handles booking, décor & coordination. Book now!"
                 />
                 <meta
                     name="keywords"
                     content="venue management, event venue setup, wedding venue Bangalore, corporate venue, birthday party venue, SrsEvent services"
                 />
-                <link rel="canonical" href="https://srsevent.com/venuemanagement" />
+                <link rel="canonical" href="https://www.srsevent.com/venue-management-services-in-bangalore" />
             </Helmet>
             <Header />
             <main className="main">

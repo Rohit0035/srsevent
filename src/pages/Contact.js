@@ -8,16 +8,16 @@ const Contact = () => {
     return (
         <>
             <Helmet>
-                <title>Contact Us - SrsEvent</title>
+                <title>Contact SRS Event | Best Event Planners in Bangalore Near You</title>
                 <meta
                     name="description"
-                    content="Get in touch with SrsEvent for wedding planning, corporate events, birthdays, and celebration management in Bangalore. Reach out today to discuss your event requirements and book a free consultation."
+                    content="Contact SRS Event for expert event planning in Bangalore — weddings, parties & corporate events made easy. Call +91 9036124720 or message us today!"
                 />
                 <meta
                     name="keywords"
                     content="contact SrsEvent, event management contact, book event planner, wedding planner Bangalore, corporate event inquiry, birthday party booking, event consultation, celebration planner Bangalore, event services contact, event organizer support"
                 />
-                <link rel="canonical" href="https://srsevent.com/contact" />
+                <link rel="canonical" href="https://www.srsevent.com/contact" />
                 <link rel="icon" type="image/x-icon" href="assets/img/common/favicon.jpg" />
 
             </Helmet>

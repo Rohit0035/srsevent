@@ -145,16 +145,16 @@ const DestinationWedding = () => {
   return (
     <>
       <Helmet>
-        <title>Destination Wedding Planners & Luxury Wedding Packages | SRS Weddings</title>
+        <title>Destination Wedding Planner in Bangalore | SRS Event</title>
         <meta
           name="description"
-          content="SRS Weddings offers complete destination wedding planning in India & abroad. Explore destination wedding locations, venues, luxury resorts, palace weddings, beach weddings, Udaivilas wedding cost, and personalized packages."
+          content="Plan stunning destination weddings with SRS Event — expert planners in Bangalore for exotic venues, travel coordination & perfect celebrations."
         />
         <meta
           name="keywords"
           content="destination wedding, destination wedding locations, destination wedding packages, destination wedding planner, best destination weddings, destination wedding cost, destination wedding venues, wedding resorts, luxury wedding resorts, venus wedding resort, udaivilas wedding cost for 3 days, udaivilas wedding cost, sangeet resort, palace wedding, luxury beach wedding, destination wedding India, international destination weddings"
         />
-        <link rel="canonical" href="https://srsevent.com/destination-wedding-planner-bangalore" />
+        <link rel="canonical" href="https://www.srsevent.com/destination-wedding-planners-bangalore" />
       </Helmet>
 
       <Header />

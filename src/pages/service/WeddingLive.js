@@ -27,16 +27,16 @@ const WeddingLive = () => {
     return (
         <>
             <Helmet>
-                <title>Wedding Live Streaming Services | SrsEvent</title>
+                <title>HD Wedding Live Streaming Online in Bangalore | SRS Event</title>
                 <meta
                     name="description"
-                    content="SrsEvent offers professional wedding live streaming services. From harga jasa live streaming wedding to destination wedding live broadcasts, we ensure your special day is shared with loved ones anywhere in the world via Zoom, YouTube, or Facebook."
+                    content="Stream your wedding live in HD with expert setup from SRS Event in Bangalore — flawless broadcast for every guest worldwide. Book now!"
                 />
                 <meta
                     name="keywords"
                     content="harga jasa live streaming wedding, live stream videographer, wedding live streaming, livestream wedding live, live stream wedding, live streaming pernikahan, stream wedding on zoom, live stream your wedding free, affordable wedding live stream, best wedding live streaming service, professional wedding videography live, virtual wedding streaming, destination wedding live stream"
                 />
-                <link rel="canonical" href="https://srsevent.com/weddinglive" />
+                <link rel="canonical" href="https://www.srsevent.com/wedding-live-streaming-services-in-bangalore" />
             </Helmet>
 
             <Header />

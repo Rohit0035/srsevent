@@ -156,16 +156,16 @@ const CorporateManagement = () => {
     return (
         <>
             <Helmet>
-                <title>Corporate Event Management Company - SRS Events</title>
+                <title>Corporate Event Management Company in Bangalore | SRS Event</title>
                 <meta
                     name="description"
-                    content="SRS Events is a leading corporate event management company in India. We specialize in event planning, crowd management services, destination events, strategic meetings management, and corporate bonding activities."
+                    content="Expert corporate event management in Bangalore by SRS Event — from conferences to annual meets, we ensure seamless planning and execution. Book now!"
                 />
                 <meta
                     name="keywords"
                     content="crowd management services, destination management company, event arrangement, event management events, strategic meetings management, corporate bonding, event planning, event management companies, event organisers near me"
                 />
-                <link rel="canonical" href="https://srsevent.com/corporate-event-management-company-bangalore" />
+                <link rel="canonical" href="https://www.srsevent.com/corporate-event-management-bangalore" />
             </Helmet>
 
             <Header />

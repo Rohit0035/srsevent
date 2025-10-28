@@ -26,16 +26,16 @@ const Catering = () => {
   return (
     <>
       <Helmet>
-        <title>Catering Services - SrsEvent</title>
+        <title>Delicious Catering Services in Bangalore | SRS Event Planners</title>
         <meta
           name="description"
-          content="SrsEvent offers professional catering services for weddings, birthdays, parties, and corporate events. Explore our catering menus, food platters, and personalized stall catering options near you."
+          content="Impress guests with custom wedding & corporate catering by SRS Event in Bangalore — taste, style & service beyond expectations. Call us now!"
         />
         <meta
           name="keywords"
           content="caterers, food caterer, wedding catering, wedding catering services, near catering services, food party platters, home catering services near me, stall catering, marriage catering, catering for events, catering menus, catering for birthday party"
         />
-        <link rel="canonical" href="https://srsevent.com/catering" />
+        <link rel="canonical" href="https://www.srsevent.com/catering-services-in-bangalore" />
       </Helmet>
 
       <Header />

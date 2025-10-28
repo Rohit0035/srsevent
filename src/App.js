@@ -71,60 +71,108 @@ function App() {
       <Routes>
         {/* Main pages */}
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about-us" element={<About />} />
         <Route path="/sitemap" element={<Sitemap />} />
         <Route path="/whyus" element={<WhyChooseUs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
 
         {/* services */}
-        <Route path="/venuemanagement" element={<SerVenueManagement />} />
-        <Route path="/floraldecor" element={<FloralDecor />} />
-        <Route path="/bridalmakeover" element={<BridalMakeover />} />
-        <Route path="/catering" element={<Catering />} />
         <Route
-          path="/furniturefabrications"
+          path="/venue-management-services-in-bangalore"
+          element={<SerVenueManagement />}
+        />
+        <Route
+          path="/floral-decor-services-in-bangalore"
+          element={<FloralDecor />}
+        />
+        <Route
+          path="/bridal-makeup-makeover-services-in-bangalore"
+          element={<BridalMakeover />}
+        />
+        <Route path="/catering-services-in-bangalore" element={<Catering />} />
+        <Route
+          path="/event-furniture-stage-fabrications-in-bangalore"
           element={<FurnitureFabrications />}
         />
-        <Route path="/guesttransportation" element={<GuestTransportation />} />
-        <Route path="/photography" element={<Photography />} />
-        <Route path="/soundsLights" element={<SoundsLights />} />
-        <Route path="/videography" element={<Videography />} />
+        <Route
+          path="/guest-transportation-logistics-in-bangalore"
+          element={<GuestTransportation />}
+        />
+        <Route
+          path="/event-wedding-photography-in-bangalore"
+          element={<Photography />}
+        />
+        <Route
+          path="/event-sound-lighting-services-in-bangalore"
+          element={<SoundsLights />}
+        />
+        <Route
+          path="/professional-videography-services-in-bangalore"
+          element={<Videography />}
+        />
 
-        <Route path="/hospitalityguest" element={<HospitalityGuest />} />
-        <Route path="/weddinglive" element={<WeddingLive />} />
-        <Route path="/returngiftswedding" element={<ReturnGiftsWedding />} />
-        <Route path="/trendingphoto" element={<TrendingPhoto />} />
-        <Route path="/coldpyro" element={<ColdCyro />} />
-        <Route path="/djlivebandmusical" element={<DjLiveBandMusical />} />
-        <Route path="/livecanvaspainting" element={<LiveCanvasPainting />} />
-        <Route path="/fungamesinteractive" element={<FunGamesInteractive />} />
-        <Route path="/gangaaarti" element={<GangaAarti />} />
+        <Route
+          path="/hospitality-guest-welcome-services-in-bangalore"
+          element={<HospitalityGuest />}
+        />
+        <Route
+          path="/wedding-live-streaming-services-in-bangalore"
+          element={<WeddingLive />}
+        />
+        <Route
+          path="/return-gifts-wedding-favours-in-bangalore"
+          element={<ReturnGiftsWedding />}
+        />
+        <Route
+          path="/photo-booth-setups-for-events-in-bangalore"
+          element={<TrendingPhoto />}
+        />
+        <Route
+          path="/cold-pyro-fog-confetti-firecracker-shows-in-bangalore"
+          element={<ColdCyro />}
+        />
+        <Route
+          path="/dj-live-band-musical-arrangements-in-bangalore"
+          element={<DjLiveBandMusical />}
+        />
+        <Route
+          path="/live-painting-caricature-artists-in-bangalore"
+          element={<LiveCanvasPainting />}
+        />
+        <Route
+          path="/fun-games-interactive-activities-in-bangalore"
+          element={<FunGamesInteractive />}
+        />
+        <Route
+          path="/ganga-aarti-ceremony-ritual-setup-in-bangalore"
+          element={<GangaAarti />}
+        />
 
         {/* events */}
         <Route path="/wedding" element={<Wedding />} />
         <Route
-          path="/corporate-event-management-company-bangalore"
+          path="/corporate-event-management-bangalore"
           element={<CorporateManagement />}
         />
         <Route
-          path="/inauguration-event-organizers-bangalore"
+          path="/inauguration-event-organisers-bangalore"
           element={<InaugurationPlanners />}
         />
         <Route
-          path="/conference-events-management-company-bangalore"
+          path="/conference-seminar-event-bangalore"
           element={<ConferencesSeminar />}
         />
         <Route
-          path="/corporate-outdoor-events-company-bangalore"
+          path="/corporate-outdoor-events-bangalore"
           element={<CorporateOutdoor />}
         />
         <Route
-          path="/hospitality-management-services-bangalore"
+          path="/hospitality-wellness-events-bangalore"
           element={<HospitalityWellness />}
         />
         <Route
-          path="/award-ceremony-organizers-in-bangalore"
+          path="/award-ceremony-organisers-bangalore"
           element={<AwardCeremony />}
         />
         <Route
@@ -132,23 +180,23 @@ function App() {
           element={<WeddingPlanners />}
         />
         <Route
-          path="/destination-wedding-planner-bangalore"
+          path="/destination-wedding-planners-bangalore"
           element={<DestinationWedding />}
         />
         <Route
-          path="/engagement-planners-bangalore"
+          path="/engagement-party-planners-bangalore"
           element={<EngagementPlanne />}
         />
         <Route
-          path="/birthday-party-organiser-bangalore"
+          path="/birthday-party-organisers-bangalore"
           element={<BirthdayPlanners />}
         />
         <Route
-          path="/baby-shower-event-organisers-bangalore."
+          path="/baby-shower-event-organisers-bangalore"
           element={<BabyShower />}
         />
         <Route
-          path="/housewarming-event-planner-Bangalore"
+          path="/housewarming-event-planners-bangalore"
           element={<HousewarmingEvent />}
         />
         <Route

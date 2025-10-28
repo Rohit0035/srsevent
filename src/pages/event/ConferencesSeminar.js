@@ -145,16 +145,16 @@ const ConferencesSeminar = () => {
   return (
     <>
       <Helmet>
-        <title>Conference & Seminar Event Management Company - SRS Events</title>
+        <title>Conference & Seminar Event Management Bangalore | SRS Event</title>
         <meta
           name="description"
-          content="SRS Events is a leading conference and seminar event management company in India. We specialize in management meetings, corporate conferences, academic seminars, workshops, and international congress planning."
+          content="Manage conferences & seminars professionally with SRS Event — Bangalore’s trusted planners for corporate meetings, workshops & networking events."
         />
         <meta
           name="keywords"
           content="management meetings, conference event management companies, event management conferences, world congress on engineering asset management, society for human resource management annual conference, international seminar organizers, corporate conference planning, MICE services"
         />
-        <link rel="canonical" href="https://srsevent.com/conference-events-management-company-bangalore" />
+        <link rel="canonical" href="https://www.srsevent.com/conference-seminar-event-bangalore" />
       </Helmet>
 
       <Header />

@@ -139,16 +139,16 @@ const WeddingAnniversary = () => {
   return (
     <>
       <Helmet>
-        <title>Wedding Anniversary Planners | SRS Events</title>
+        <title>Wedding Anniversary Planners in Bangalore | SRS Event</title>
         <meta
           name="description"
-          content="SRS Events provides expert wedding anniversary planners in India. Plan 25th, 50th, and milestone anniversary celebrations with themed décor, gifts, invitations, catering, and professional coordination."
+          content="Relive your love story with SRS Event — elegant anniversary planners in Bangalore creating timeless celebrations & romantic memories."
         />
         <meta
           name="keywords"
           content="anniversary planners, wedding anniversary planners, anniversary event planner, 25th anniversary planner, 25th wedding anniversary planner, 50th anniversary party planner, 50th wedding anniversary planner, event management for anniversary, anniversary celebration ideas, anniversary party decoration, anniversary gifts, anniversary invitations, anniversary themes, anniversary near me, milestone anniversary planner, couple celebration planner, romantic anniversary planner"
         />
-        <link rel="canonical" href="https://srsevent.com/wedding-anniversary-planners-bangalore" />
+        <link rel="canonical" href="https://www.srsevent.com/wedding-anniversary-planners-bangalore" />
       </Helmet>
 
       <Header />

@@ -26,16 +26,16 @@ const LiveCanvasPainting = () => {
     return (
         <>
             <Helmet>
-                <title>Live Canvas Painting, Sketching & Caricature Artists - SrsEvent</title>
+                <title>Live Wedding Artists & Caricature Sketches in Bangalore | SRS Event</title>
                 <meta
                     name="description"
-                    content="Add a touch of creativity to your event with live canvas painting, sketching, and caricature artists by SrsEvent. Perfect for weddings, receptions, corporate events, birthdays, and cultural celebrations."
+                    content="Add a creative touch to your event with live painting & caricature artists by SRS Event — interactive, fun & personalized for guests."
                 />
                 <meta
                     name="keywords"
                     content="live canvas painting, sketch artist for wedding, caricature artist for events, wedding live painting, birthday caricature, corporate sketch artist, live portrait artist, event caricature drawing, personalized caricature, wedding sketch art, live wedding painter, party caricature artist, live art performance, cultural event sketching, caricature wedding favors, hand-drawn portraits for events"
                 />
-                <link rel="canonical" href="https://srsevent.com/livecanvaspainting" />
+                <link rel="canonical" href="https://www.srsevent.com/live-painting-caricature-artists-in-bangalore" />
             </Helmet>
 
             <Header />

@@ -135,16 +135,16 @@ const CorporateOutdoor = () => {
   return (
     <>
       <Helmet>
-        <title>Corporate Outdoor Event Management | Trade Shows, Expos & Exhibitions</title>
+        <title>Corporate Outdoor Event Company in Bangalore | SRS Event</title>
         <meta
           name="description"
-          content="SRS Events specializes in corporate outdoor events, trade shows, expos, Auto Expo, renewable energy fairs, IIJS exhibitions, Pragati Maidan events, and Expo 2025. Trusted exhibition stand builders and event managers."
+          content="Host engaging outdoor corporate events in Bangalore with SRS Event — experts in team building, retreats, and open-air brand experiences."
         />
         <meta
           name="keywords"
           content="corporate outdoor events, canton trade show, auto expo, trade fairs, expo 2025, Pragati Maidan exhibition today, CMPL Expo, gift expo, renewable energy expo, construction equipment expo, IIJS exhibition, exhibition stand builders, expos near me, trade exhibition management, corporate event organisers"
         />
-        <link rel="canonical" href="https://srsevent.com/corporate-outdoor-events-company-bangalore" />
+        <link rel="canonical" href="https://www.srsevent.com/corporate-outdoor-events-bangalore" />
       </Helmet>
 
       <Header />

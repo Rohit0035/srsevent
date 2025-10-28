@@ -26,16 +26,16 @@ const FunGamesInteractive = () => {
   return (
     <>
       <Helmet>
-        <title>Fun Games & Interactive Activities - SrsEvent</title>
+        <title>Fun Games & Activities for Events in Bangalore | SRS Event</title>
         <meta
           name="description"
-          content="Engage your guests with SrsEvent’s fun games and interactive activities. Perfect for weddings, receptions, birthdays, family gatherings, and corporate events to add laughter, excitement, and unforgettable memories."
+          content="Engage your guests with exciting games & interactive activities by SRS Event — great for weddings, team events & private parties."
         />
         <meta
           name="keywords"
           content="fun games for wedding, interactive activities for events, party games ideas, corporate team building activities, birthday fun activities, wedding entertainment games, kids and family games, icebreaker activities, group interactive games, reception fun ideas, family engagement games, outdoor party games, cultural event activities, indoor fun activities, unique wedding entertainment, team bonding games"
         />
-        <link rel="canonical" href="https://srsevent.com/fungamesinteractive" />
+        <link rel="canonical" href="https://www.srsevent.com/fun-games-interactive-activities-in-bangalore" />
       </Helmet>
 
       <Header />

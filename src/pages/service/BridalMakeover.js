@@ -28,16 +28,16 @@ const BridalMakeover = () => {
     return (
         <>
             <Helmet>
-                <title>Best Bridal Makeup Services - SrsEvent</title>
+                <title>Best Bridal Makeup Artist in Bangalore | SRS Event</title>
                 <meta
                     name="description"
-                    content="Get the perfect bridal makeup for your wedding day with SrsEvent’s professional bridal makeup specialists. Explore bridal makeup packages, prices, and services near you."
+                    content="Get your dream bridal look with SRS Event’s expert makeup artists in Bangalore — flawless, elegant & long-lasting results. Book your slot!"
                 />
                 <meta
                     name="keywords"
                     content="bridal makeup, bridal makeup price, bridal makeup charges, bridal makeup rates, bridal makeup near me, bridal makeup specialist, bridal makeup hindu wedding, beauty bridal makeup, wedding bridal makeup, best bridal makeup"
                 />
-                <link rel="canonical" href="https://srsevent.com/bridalmakeup" />
+                <link rel="canonical" href="https://www.srsevent.com/bridal-makeup-makeover-services-in-bangalore" />
             </Helmet>
 
             <Header />

@@ -27,16 +27,16 @@ const ReturnGiftsWedding = () => {
     return (
         <>
             <Helmet>
-                <title>Return Gift Ideas for Wedding, Birthday & Housewarming | SrsEvent</title>
+                <title>Personalized Wedding Return Gifts in Bangalore | SRS Event</title>
                 <meta
                     name="description"
-                    content="Discover the best return gift ideas for weddings, birthday parties, and housewarming. From affordable return gifts under 50 rs to unique and elegant return gifts for adults and kids."
+                    content="Discover elegant & custom wedding return gifts in Bangalore by SRS Event — thoughtful, memorable & beautifully packaged for your guests."
                 />
                 <meta
                     name="keywords"
                     content="return gift, return gift ideas, return gifts for birthday party, birthday return gift ideas, return gifts for birthday, wedding return gifts, return gifts for housewarming, return gift ideas for adults, birthday return gift ideas for 50 rs, return gift ideas for housewarming, unique return gift ideas for birthday, written gifts, best return gifts online, affordable return gifts, creative return gift ideas"
                 />
-                <link rel="canonical" href="https://srsevent.com/returngiftswedding" />
+                <link rel="canonical" href="https://www.srsevent.com/return-gifts-wedding-favours-in-bangalore" />
             </Helmet>
 
             <Header />
