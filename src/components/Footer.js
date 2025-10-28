@@ -203,7 +203,7 @@ const Footer = () => {
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/ganga-aarti-ceremony-ritual-setup-in-bangalore">
+                                                    <a href="/ganga-aarti-ceremony-bangalore">
                                                         <i className="fas fa-angle-double-right" /> Ganga Aarti Ceremony
                                                     </a>
                                                 </li>

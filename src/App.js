@@ -145,7 +145,7 @@ function App() {
           element={<FunGamesInteractive />}
         />
         <Route
-          path="/ganga-aarti-ceremony-ritual-setup-in-bangalore"
+          path="/ganga-aarti-ceremony-bangalore"
           element={<GangaAarti />}
         />
 
