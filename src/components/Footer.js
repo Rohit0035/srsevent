@@ -16,40 +16,40 @@ const Footer = () => {
                                 <div className="explore-jd-collections">
                                     <strong>Bangalore :</strong>
                                     <span>
-                                        <a href="/corporate-event-management-company-bangalore" className='atag'>  Corporate Management Bangalore</a> |
-                                        <a href="/inauguration-event-organizers-bangalore" className='atag'>  Inauguration Planners Bangalore</a> |
-                                        <a href="/conference-events-management-company-bangalore" className='atag'>  Conferences and Seminar Event Bangalore</a> |
-                                        <a href="/award-ceremony-organizers-in-bangalore" className='atag'>  Award Ceremony Bangalore</a> |
+                                        <a href="/corporate-event-management-bangalore" className='atag'>  Corporate Management Bangalore</a> |
+                                        <a href="/inauguration-event-organisers-bangalore" className='atag'>  Inauguration Planners Bangalore</a> |
+                                        <a href="/conference-seminar-event-bangalore" className='atag'>  Conferences and Seminar Event Bangalore</a> |
+                                        <a href="/award-ceremony-organisers-bangalore" className='atag'>  Award Ceremony Bangalore</a> |
                                         <a href="/wedding-planners-bangalore" className='atag'>  Wedding Planners Bangalore</a> |
-                                        <a href="/engagement-planners-bangalore" className='atag'> Engagement Planners Bangalore</a> |
-                                        <a href="/birthday-party-organiser-bangalore" className='atag'>   Birthday Planners Bangalore</a> |
+                                        <a href="/engagement-party-planners-bangalore" className='atag'> Engagement Planners Bangalore</a> |
+                                        <a href="/birthday-party-organisers-bangalore" className='atag'>   Birthday Planners Bangalore</a> |
                                         <a href="/wedding-anniversary-planners-bangalore"  className='atag'>Wedding Anniversary Bangalore</a>
                                     </span>
                                 </div>
                                 <div className="explore-jd-collections">
                                     <strong>Hyderabad :</strong>
                                     <span>
-                                        <a href="/corporate-event-management-company-hyderabad" className='atag'>  Corporate Management Hyderabad</a> |
-                                        <a href="/inauguration-event-organizers-hyderabad" className='atag'>  Inauguration Planners Hyderabad</a> |
-                                        <a href="/conference-events-management-company-hyderabad" className='atag'>  Conferences and Seminar Event Hyderabad</a> |
-                                        <a href="/award-ceremony-organizers-in-hyderabad" className='atag'>  Award Ceremony Hyderabad</a> |
+                                        <a href="/corporate-event-management-hyderabad" className='atag'>  Corporate Management Hyderabad</a> |
+                                        <a href="/inauguration-event-organisers-hyderabad" className='atag'>  Inauguration Planners Hyderabad</a> |
+                                        <a href="/conference-seminar-event-hyderabad" className='atag'>  Conferences and Seminar Event Hyderabad</a> |
+                                        <a href="/award-ceremony-organisers-hyderabad" className='atag'>  Award Ceremony Hyderabad</a> |
                                         <a href="/wedding-planners-hyderabad" className='atag'>  Wedding Planners Hyderabad</a> |
-                                        <a href="/engagement-planners-hyderabad" className='atag'>  Engagement Planners Hyderabad</a> |
-                                        <a href="/birthday-party-organiser-hyderabad" className='atag'>  Birthday Planners Hyderabad</a> |
-                                        <a href="/wedding-anniversary-planners-hyderabad" className='atag'>  Wedding Anniversary Hyderabad</a>
+                                        <a href="/engagement-party-planners-hyderabad" className='atag'> Engagement Planners Hyderabad</a> |
+                                        <a href="/birthday-party-organisers-hyderabad" className='atag'>   Birthday Planners Hyderabad</a> |
+                                        <a href="/wedding-anniversary-planners-hyderabad"  className='atag'>Wedding Anniversary Hyderabad</a>
                                     </span>
                                 </div>
                                 <div className="explore-jd-collections">
                                     <strong>Chennai :</strong>
                                     <span>
-                                        <a href="/corporate-event-management-company-chennai" className='atag'>  Corporate Management Chennai</a> |
-                                        <a href="/inauguration-event-organizers-chennai" className='atag'>  Inauguration Planners Chennai</a> |
-                                        <a href="/conference-events-management-company-chennai" className='atag'>  Conferences and Seminar Event Chennai</a> |
-                                        <a href="/award-ceremony-organizers-in-chennai" className='atag'>  Award Ceremony Chennai</a> |
+                                        <a href="/corporate-event-management-chennai" className='atag'>  Corporate Management Chennai</a> |
+                                        <a href="/inauguration-event-organisers-chennai" className='atag'>  Inauguration Planners Chennai</a> |
+                                        <a href="/conference-seminar-event-chennai" className='atag'>  Conferences and Seminar Event Chennai</a> |
+                                        <a href="/award-ceremony-organisers-chennai" className='atag'>  Award Ceremony Chennai</a> |
                                         <a href="/wedding-planners-chennai" className='atag'>  Wedding Planners Chennai</a> |
-                                        <a href="/engagement-planners-chennai" className='atag' >Engagement Planners Chennai</a> |
-                                        <a href="/birthday-party-organiser-chennai" className='atag'>  Birthday Planners Chennai</a> |
-                                        <a href="/wedding-anniversary-planners-chennai" className='atag'>  Wedding Anniversary Chennai</a>
+                                        <a href="/engagement-party-planners-chennai" className='atag'> Engagement Planners Chennai</a> |
+                                        <a href="/birthday-party-organisers-chennai" className='atag'>   Birthday Planners Chennai</a> |
+                                        <a href="/wedding-anniversary-planners-chennai"  className='atag'>Wedding Anniversary Chennai</a>
                                     </span>
                                 </div>
                             </div>

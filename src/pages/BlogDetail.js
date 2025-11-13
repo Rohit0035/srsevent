@@ -14,14 +14,28 @@ const BlogDetail = () => {
   const [categories, setCategories] = useState([]);
   const [recentBlogs, setRecentBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [faqs, setFaqs] = useState([]);
 
   useEffect(() => {
     const fetchBlog = async () => {
       try {
         const response = await getBlogDetails(slug);
-        console.log(response)
         if (response.data.success) {
-          setBlog(response.data.data.blog);
+          const fetchedBlog = response.data.data.blog;
+          setBlog(fetchedBlog);
+
+          // Safely parse FAQs
+          let parsedFaqs = [];
+          try {
+            const parsed = JSON.parse(fetchedBlog?.faqs || "[]");
+            parsedFaqs = Array.isArray(parsed)
+              ? parsed
+              : Object.keys(parsed).map((key) => parsed[key]);
+          } catch (err) {
+            console.error("Invalid FAQ JSON:", err);
+          }
+
+          setFaqs(parsedFaqs);
           setCategories(response.data.data.categories || []);
           setRecentBlogs(response.data.data.recentBlogs || []);
         }
@@ -34,6 +48,7 @@ const BlogDetail = () => {
 
     fetchBlog();
   }, [slug]);
+
 
   if (loading) {
     return (
@@ -55,10 +70,40 @@ const BlogDetail = () => {
     <>
       <Helmet>
         <title>{blog?.meta_title || blog?.title} - SrsEvent</title>
-        <meta name="description" content={blog?.meta_description || blog?.content?.slice(0, 150)} />
-        <meta name="keywords" content={blog?.meta_keywords || blog?.tags} />
-        <link rel="canonical" href={`${API_CONFIG.WEBSITE_URL}/blogdetail/${slug}`} />
+        <meta
+          name="description"
+          content={blog?.meta_description || blog?.content?.slice(0, 150)}
+        />
+        <meta
+          name="keywords"
+          content={blog?.meta_keywords || blog?.tags}
+        />
+        <link
+          rel="canonical"
+          href={`${API_CONFIG.WEBSITE_URL}/blogdetail/${slug}`}
+        />
+
+        {/* ✅ Dynamic FAQ Schema for Google Rich Results */}
+        {/* {faqs.length > 0 && ( */}
+        <script type="application/ld+json">
+          {`
+            ${JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((faq) => ({
+                "@type": "Question",
+                name: faq.question,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: faq.answer,
+                },
+              })),
+            })}
+          `}
+        </script>
+        {/* )} */}
       </Helmet>
+
 
       <Header />
       <main className="main">
@@ -95,6 +140,56 @@ const BlogDetail = () => {
                       ))}
                     </div>
                   )}
+
+                  {/* FAQs */}
+                  {faqs.length > 0 && (
+                    <div className="mt-3">
+                      <h6 className="mb-2 fs-6 fw-semibold">FAQs:</h6>
+                      <div
+                        className="accordion"
+                        id={`faqAccordion-${blog.id}`}
+                        style={{ fontSize: '0.9rem', lineHeight: '1.4' }} // smaller text overall
+                      >
+                        {faqs.map((faq, index) => (
+                          <div className="accordion-item border-0 mb-1" key={index}>
+                            <h2 className="accordion-header" id={`heading-${index}`}>
+                              <button
+                                className={`accordion-button py-2 px-3 ${index !== 0 ? 'collapsed' : ''
+                                  } fs-6`}
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target={`#collapse-${index}`}
+                                aria-expanded={index === 0 ? 'true' : 'false'}
+                                aria-controls={`collapse-${index}`}
+                                style={{
+                                  fontSize: '0.9rem',
+                                  paddingTop: '0.4rem',
+                                  paddingBottom: '0.4rem',
+                                }}
+                              >
+                                {faq.question}
+                              </button>
+                            </h2>
+                            <div
+                              id={`collapse-${index}`}
+                              className={`accordion-collapse collapse ${index === 0 ? 'show' : ''}`}
+                              aria-labelledby={`heading-${index}`}
+                              data-bs-parent={`#faqAccordion-${blog.id}`}
+                            >
+                              <div
+                                className="accordion-body py-2 px-3 text-muted"
+                                style={{ fontSize: '0.85rem', lineHeight: '1.5' }}
+                              >
+                                {faq.answer}
+                              </div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+
                 </div>
               </div>
 

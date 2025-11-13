@@ -45,6 +45,7 @@ import BlogList from "./pages/BlogList";
 import ThankYou from "./pages/ThankYou";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
+
 import HyderabadEvents from "./pages/event/HyderabadEvents";
 import HydCorporate from "./pages/hydevent/HydCorporate";
 import HydConference from "./pages/hydevent/HydConference";
@@ -54,6 +55,7 @@ import HydAwardCeremony from "./pages/hydevent/HydAwardCeremony";
 import HydEngagementPlanners from "./pages/hydevent/HydEngagementPlanners";
 import HydBirthdayPlanners from "./pages/hydevent/HydBirthdayPlanners";
 import HydWeddingAnniversary from "./pages/hydevent/HydWeddingAnniversary";
+
 import CheCorporateManagement from "./pages/chennai/CheCorporateManagement";
 import CheConference from "./pages/chennai/CheConference";
 import CheInaugurationPlanners from "./pages/chennai/CheInaugurationPlanners";
@@ -149,7 +151,7 @@ function App() {
           element={<GangaAarti />}
         />
 
-        {/* events */}
+        {/* events in bengalore */}
         <Route path="/wedding" element={<Wedding />} />
         <Route
           path="/corporate-event-management-bangalore"
@@ -203,6 +205,115 @@ function App() {
           path="/wedding-anniversary-planners-bangalore"
           element={<WeddingAnniversary />}
         />
+
+        {/* events in Hyderabad */}
+        <Route
+          path="/corporate-event-management-hyderabad"
+          element={<HydCorporate />}
+        />
+        <Route
+          path="/inauguration-event-organisers-hyderabad"
+          element={<HydInauguration />}
+        />
+        <Route
+          path="/conference-seminar-event-hyderabad"
+          element={<ConferencesSeminar />}
+        />
+        <Route
+          path="/corporate-outdoor-events-hyderabad"
+          element={<CorporateOutdoor />}
+        />
+        <Route
+          path="/hospitality-wellness-events-hyderabad"
+          element={<HospitalityWellness />}
+        />
+        <Route
+          path="/award-ceremony-organisers-hyderabad"
+          element={<HydAwardCeremony />}
+        />
+        <Route
+          path="/wedding-planners-hyderabad"
+          element={<HydWeddingPlanners />}
+        />
+        <Route
+          path="/destination-wedding-planners-hyderabad"
+          element={<DestinationWedding />}
+        />
+        <Route
+          path="/engagement-party-planners-hyderabad"
+          element={<HydEngagementPlanners />}
+        />
+        <Route
+          path="/birthday-party-organisers-hyderabad"
+          element={<HydBirthdayPlanners />}
+        />
+        <Route
+          path="/baby-shower-event-organisers-hyderabad"
+          element={<BabyShower />}
+        />
+        <Route
+          path="/housewarming-event-planners-hyderabad"
+          element={<HousewarmingEvent />}
+        />
+        <Route
+          path="/wedding-anniversary-planners-hyderabad"
+          element={<HydWeddingAnniversary />}
+        />
+
+        {/* events in chennai */}
+        <Route
+          path="/corporate-event-management-chennai"
+          element={<CheCorporateManagement />}
+        />
+        <Route
+          path="/inauguration-event-organisers-chennai"
+          element={<CheInaugurationPlanners />}
+        />
+        <Route
+          path="/conference-seminar-event-chennai"
+          element={<CheConference />}
+        />
+        <Route
+          path="/corporate-outdoor-events-chennai"
+          element={<CorporateOutdoor />}
+        />
+        <Route
+          path="/hospitality-wellness-events-chennai"
+          element={<HospitalityWellness />}
+        />
+        <Route
+          path="/award-ceremony-organisers-chennai"
+          element={<CheAwardCeremony />}
+        />
+        <Route
+          path="/wedding-planners-chennai"
+          element={<CheWeddingPlanners />}
+        />
+        <Route
+          path="/destination-wedding-planners-chennai"
+          element={<DestinationWedding />}
+        />
+        <Route
+          path="/engagement-party-planners-chennai"
+          element={<CheEngagementPlanners />}
+        />
+        <Route
+          path="/birthday-party-organisers-chennai"
+          element={<CheBirthdayPlanners />}
+        />
+        <Route
+          path="/baby-shower-event-organisers-chennai"
+          element={<BabyShower />}
+        />
+        <Route
+          path="/housewarming-event-planners-chennai"
+          element={<HousewarmingEvent />}
+        />
+        <Route
+          path="/wedding-anniversary-planners-chennai"
+          element={<CheWeddingAnniversary />}
+        />
+
         <Route path="/blogdetail/:slug" element={<BlogDetail />} />
         <Route path="/blog" element={<BlogList />} />
         <Route path="/thankyou" element={<ThankYou />} />

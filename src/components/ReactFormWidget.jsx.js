@@ -102,9 +102,9 @@ const ReactFormWidget = () => {
 
               <div className="rfw-form-group">
                 <input 
-                  type="email"
+                  type="text"
                   name="email" 
-                  placeholder="Email" 
+                  placeholder="Email/phone" 
                   required 
                   value={formData.email}
                   onChange={handleChange}
