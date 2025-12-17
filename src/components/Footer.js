@@ -294,22 +294,22 @@ const Footer = () => {
                             <div className="col-md-6 align-self-center">
                                 <ul className="footer-social">
                                     <li>
-                                        <a href="#">
+                                        <a href="https://www.facebook.com/profile.php?id=61583675061590&ref=pl_edit_xav_ig_profile_page_web">
                                             <i className="fab fa-facebook-f" />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <i className="fab fa-twitter" />
+                                        <a href="https://www.instagram.com/srs.event/">
+                                            <i className="fab fa-instagram" />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <i className="fab fa-linkedin-in" />
+                                        <a href="https://www.threads.com/@srs.event">
+                                            <i className="fab fa-google-wallet" />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="https://www.youtube.com/">
                                             <i className="fab fa-youtube" />
                                         </a>
                                     </li>
