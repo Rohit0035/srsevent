@@ -39,11 +39,16 @@ const Contact = () => {
                                         <h3 className="mb-3">Our Locations</h3>
                                         <hr />
                                         <ul className="footer-contact">
-                                            <li className='mb-1'>
-                                                <i className="fas fa-map-marker-alt" /> <b>DUBAI</b>
+                                            <li className='mb-1 '>
+                                                <div className='d-flex w-100'>
+                                                    <span><i className="fas fa-map-marker-alt me-3" /> </span>
+                                                    <div>
+                                                        <p className='small mb-0'><b>DUBAI Office</b>: 112, 1st floor, Discovery Gardens, Dubai, UAE</p>
+                                                    </div>
+                                                </div>
                                             </li>
                                             <li className='mb-1'>
-                                                <a href="tel:+971504418336">
+                                                <a href="tel:+971563543020">
                                                     <i className="fas fa-phone" />
                                                     +97 1504418336
                                                 </a>
@@ -52,7 +57,7 @@ const Contact = () => {
                                                 <a href="mailto:dubai@srsevent.in">
                                                     <i className="fas fa-envelope" />
                                                     <span className="__cf_email__" data-cfemail="">
-                                                      dubai@srsevent.in
+                                                        dubai@srsevent.in
                                                     </span>
                                                 </a>
                                             </li>
@@ -94,7 +99,7 @@ const Contact = () => {
                                                 <a href="mailto:chennai@srsevent.com">
                                                     <i className="fas fa-envelope" />
                                                     <span className="__cf_email__" data-cfemail="">
-                                                       chennai@srsevent.com
+                                                        chennai@srsevent.com
                                                     </span>
                                                 </a>
                                             </li>

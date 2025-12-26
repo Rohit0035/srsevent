@@ -26,8 +26,8 @@ const Header = () => {
                 <ul>
                   <li>
                     <div className="header-top-contact-info">
-                      <a href="tel:+971504418336">
-                        <i className="fas fa-mobile-alt" /> +971504418336
+                      <a href="tel:+971563543020">
+                        <i className="fas fa-mobile-alt" /> +971563543020
                       </a>
                       ,
                       <a href="tel:+9190361 24720">

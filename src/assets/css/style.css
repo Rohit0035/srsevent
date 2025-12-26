@@ -5968,6 +5968,10 @@ body.rtl-mode .price-wrapper {
   justify-content: end;
 }
 
+.footer-social li {
+  list-style: none;
+}
+
 .footer-social li a i {
   height: 38px;
   width: 38px;

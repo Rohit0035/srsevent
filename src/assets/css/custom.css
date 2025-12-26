@@ -1,3 +1,4 @@
+
 .logo{
     width:120px;
 }
@@ -118,6 +119,10 @@ p.service-text {
   background-image: url(../img/common/ser-arrti.jpg);
 }
 
+ul.footer-list li {
+    list-style: none !important;
+}
+
 .animate-marquee {
         display: inline-flex;
         animation: marquee 25s linear infinite;
@@ -201,7 +206,7 @@ p.service-text {
 .whatsapp-float {
   position: fixed;
   top: 80%;
-  right: 30px;
+  left: 30px;
   transform: translateY(-50%);
   background-color: #25d366;
   color: #fff;

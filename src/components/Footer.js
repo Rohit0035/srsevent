@@ -23,7 +23,7 @@ const Footer = () => {
                                         <a href="/wedding-planners-bangalore" className='atag'>  Wedding Planners Bangalore</a> |
                                         <a href="/engagement-party-planners-bangalore" className='atag'> Engagement Planners Bangalore</a> |
                                         <a href="/birthday-party-organisers-bangalore" className='atag'>   Birthday Planners Bangalore</a> |
-                                        <a href="/wedding-anniversary-planners-bangalore"  className='atag'>Wedding Anniversary Bangalore</a>
+                                        <a href="/wedding-anniversary-planners-bangalore" className='atag'>Wedding Anniversary Bangalore</a>
                                     </span>
                                 </div>
                                 <div className="explore-jd-collections">
@@ -36,7 +36,7 @@ const Footer = () => {
                                         <a href="/wedding-planners-hyderabad" className='atag'>  Wedding Planners Hyderabad</a> |
                                         <a href="/engagement-party-planners-hyderabad" className='atag'> Engagement Planners Hyderabad</a> |
                                         <a href="/birthday-party-organisers-hyderabad" className='atag'>   Birthday Planners Hyderabad</a> |
-                                        <a href="/wedding-anniversary-planners-hyderabad"  className='atag'>Wedding Anniversary Hyderabad</a>
+                                        <a href="/wedding-anniversary-planners-hyderabad" className='atag'>Wedding Anniversary Hyderabad</a>
                                     </span>
                                 </div>
                                 <div className="explore-jd-collections">
@@ -49,7 +49,7 @@ const Footer = () => {
                                         <a href="/wedding-planners-chennai" className='atag'>  Wedding Planners Chennai</a> |
                                         <a href="/engagement-party-planners-chennai" className='atag'> Engagement Planners Chennai</a> |
                                         <a href="/birthday-party-organisers-chennai" className='atag'>   Birthday Planners Chennai</a> |
-                                        <a href="/wedding-anniversary-planners-chennai"  className='atag'>Wedding Anniversary Chennai</a>
+                                        <a href="/wedding-anniversary-planners-chennai" className='atag'>Wedding Anniversary Chennai</a>
                                     </span>
                                 </div>
                             </div>
@@ -217,20 +217,25 @@ const Footer = () => {
                                 <div className="footer-widget-box list">
                                     <h4 className="footer-widget-title">Our Location </h4>
                                     <ul className="footer-contact">
-                                        <li className='mb-1'>
-                                            <i className="fas fa-map-marker-alt" /> <b>DUBAI</b>
+                                        <li className='mb-1 '>
+                                            <div className='d-flex w-100'>
+                                                <span><i className="fas fa-map-marker-alt me-3" /> </span>
+                                                <div>
+                                                    <p className='small mb-0'><b>DUBAI Office</b>: 112, 1st floor, Discovery Gardens, Dubai, UAE</p>
+                                                </div>
+                                            </div>
                                         </li>
                                         <li className='mb-1'>
-                                            <a href="tel:+971504418336">
+                                            <a href="tel:+971563543020">
                                                 <i className="fas fa-phone" />
-                                                +971 504418336
+                                                +971 563543020
                                             </a>
                                         </li>
                                         <li className='mb-1'>
                                             <a href="mailto:dubai@srsevent.in">
                                                 <i className="fas fa-envelope" />
                                                 <span className="__cf_email__" data-cfemail="">
-                                                   dubai@srsevent.in
+                                                    dubai@srsevent.in
                                                 </span>
                                             </a>
                                         </li>
@@ -251,7 +256,7 @@ const Footer = () => {
                                             <a href="mailto:bengaluru@srsevent.com">
                                                 <i className="fas fa-envelope" />
                                                 <span className="__cf_email__" data-cfemail="">
-                                                   bengaluru@srsevent.com
+                                                    bengaluru@srsevent.com
                                                 </span>
                                             </a>
                                         </li>
@@ -272,7 +277,7 @@ const Footer = () => {
                                             <a href="mailto:chennai@srsevent.com">
                                                 <i className="fas fa-envelope" />
                                                 <span className="__cf_email__" data-cfemail="">
-                                                   chennai@srsevent.com
+                                                    chennai@srsevent.com
                                                 </span>
                                             </a>
                                         </li>
@@ -326,7 +331,7 @@ const Footer = () => {
                 <i className="fab fa-whatsapp"></i>
             </a>
 
-            <ReactFormWidget/>
+            <ReactFormWidget />
 
         </>
 

@@ -116,7 +116,7 @@ const PrivacyPolicy = () => {
                         </p>
                         <p>
                             📧 <a href="mailto:info@gmail.com">info@gmail.com</a> <br />
-                            📞 <a href="tel:+971504418336">+971 504418336</a>,{' '}
+                            📞 <a href="tel:+971563543020">+971 563543020</a>,{' '}
                             <a href="tel:+919036124720">+91 90361 24720</a>
                         </p>
                     </div>
