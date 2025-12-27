@@ -205,8 +205,8 @@ ul.footer-list li {
 }
 .whatsapp-float {
   position: fixed;
-  top: 80%;
-  left: 30px;
+  top: 85%;
+  left: 15px;
   transform: translateY(-50%);
   background-color: #25d366;
   color: #fff;
@@ -437,6 +437,18 @@ a.atag:hover {
   animation: slide-up 0.35s ease-out;
 }
 
+
+
+
+/* dubai css */
+.st-db-bg{
+  background: linear-gradient(to bottom left, #9c2356 0%, #22c2eb 100%);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
 /* Optional: hide on small screens */
 @media (max-width: 768px) {
   .swiper-button-next,
@@ -499,6 +511,11 @@ a.atag:hover {
   .blog-de-sec {
     padding-top: 150px !important;
   }
+  .st-db-bg{
+   padding-top: 130px;
+   padding-bottom: 50px;
+ }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

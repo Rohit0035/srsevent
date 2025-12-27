@@ -12,7 +12,7 @@ const Counter = () => {
                     <div className="container">
                         <div className="row text-center">
                             {/* Projects Done */}
-                            <div className="col-lg-3 col-sm-6">
+                            <div className="col-lg-3 col-sm-6 col-6">
                                 <div className="counter-box">
                                     <div className="icon text-white mb-2">
                                         <i className="fas fa-clipboard-check " />
@@ -31,7 +31,7 @@ const Counter = () => {
                                 </div>
                             </div>
                             {/* Happy Clients */}
-                            <div className="col-lg-3 col-sm-6">
+                            <div className="col-lg-3 col-sm-6 col-6">
                                 <div className="counter-box">
                                     <div className="icon text-white mb-2">
                                         <i className="fas fa-smile-beam " />
@@ -50,7 +50,7 @@ const Counter = () => {
                                 </div>
                             </div>
                             {/* Expert Planners */}
-                            <div className="col-lg-3 col-sm-6">
+                            <div className="col-lg-3 col-sm-6 col-6">
                                 <div className="counter-box">
                                     <div className="icon text-white mb-2">
                                         <i className="fas fa-users-cog" />
@@ -69,7 +69,7 @@ const Counter = () => {
                                 </div>
                             </div>
                             {/* Event Locations */}
-                            <div className="col-lg-3 col-sm-6">
+                            <div className="col-lg-3 col-sm-6 col-6">
                                 <div className="counter-box">
                                     <div className="icon text-white mb-2">
                                         <i className="fas fa-map-marker-alt" />

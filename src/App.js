@@ -64,6 +64,14 @@ import CheAwardCeremony from "./pages/chennai/CheAwardCeremony";
 import CheBirthdayPlanners from "./pages/chennai/CheBirthdayPlanners";
 import CheWeddingAnniversary from "./pages/chennai/CheWeddingAnniversary";
 import CheEngagementPlanners from "./pages/chennai/CheEngagementPlanners";
+import DuCorporateManagement from "./pages/dubai/DuCorporateManagement";
+import DuInaugurationPlanners from "./pages/dubai/DuInaugurationPlanners";
+import DuConference from "./pages/dubai/DuConference";
+import DuAwardCeremony from "./pages/dubai/DuAwardCeremony";
+import DuWeddingPlanners from "./pages/dubai/DuWeddingPlanners";
+import DuBirthdayPlanners from "./pages/dubai/DuBirthdayPlanners";
+import DuWeddingAnniversary from "./pages/dubai/DuWeddingAnniversary";
+import DuEngagementPlanners from "./pages/dubai/DuEngagementPlanners";
 
 function App() {
   return (
@@ -312,6 +320,40 @@ function App() {
         <Route
           path="/wedding-anniversary-planners-chennai"
           element={<CheWeddingAnniversary />}
+        />
+
+        {/* event dubai */}
+        <Route
+          path="/corporate-event-management-dubai"
+          element={<DuCorporateManagement />}
+        />
+        <Route
+          path="/inauguration-event-organisers-dubai"
+          element={<DuInaugurationPlanners />}
+        />
+        <Route
+          path="/conference-seminar-event-dubai"
+          element={<DuConference />}
+        />
+        <Route
+          path="/award-ceremony-organisers-dubai"
+          element={<DuAwardCeremony />}
+        />
+        <Route
+          path="/wedding-planners-dubai"
+          element={<DuWeddingPlanners />}
+        />
+        <Route
+          path="/engagement-party-planners-dubai"
+          element={<DuEngagementPlanners />}
+        />
+        <Route
+          path="/birthday-party-organisers-dubai"
+          element={<DuBirthdayPlanners />}
+        />
+        <Route
+          path="/wedding-anniversary-planners-dubai"
+          element={<DuWeddingAnniversary />}
         />
 
         <Route path="/blogdetail/:slug" element={<BlogDetail />} />

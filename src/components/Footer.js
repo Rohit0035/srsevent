@@ -14,6 +14,19 @@ const Footer = () => {
                             <div className='col-md-12 mb-5'>
                                 <h4 className="footer-widget-title">Locations</h4>
                                 <div className="explore-jd-collections">
+                                    <strong>Dubai :</strong>
+                                    <span>
+                                        <a href="/corporate-event-management-dubai" className="atag"> Corporate Management Dubai</a> |
+                                        <a href="/inauguration-event-organisers-dubai" className="atag"> Inauguration Planners Dubai</a> |
+                                        <a href="/conference-seminar-event-dubai" className="atag"> Conferences and Seminar Event Dubai</a> |
+                                        <a href="/award-ceremony-organisers-dubai" className="atag"> Award Ceremony Dubai</a> |
+                                        <a href="/wedding-planners-dubai" className="atag"> Wedding Planners Dubai</a> |
+                                        <a href="/engagement-party-planners-dubai" className="atag"> Engagement Planners Dubai</a> |
+                                        <a href="/birthday-party-organisers-dubai" className="atag"> Birthday Planners Dubai</a> |
+                                        <a href="/wedding-anniversary-planners-dubai" className="atag"> Wedding Anniversary Dubai</a>
+                                    </span>
+                                </div>
+                                <div className="explore-jd-collections">
                                     <strong>Bangalore :</strong>
                                     <span>
                                         <a href="/corporate-event-management-bangalore" className='atag'>  Corporate Management Bangalore</a> |

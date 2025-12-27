@@ -9,7 +9,7 @@ const HomeFeature = () => {
                     <div className="feature-wrapper">
                         <div className="row">
                             {/* Feature 1 */}
-                            <div className="col-md-6 col-lg-3 mb-3">
+                            <div className="col-6 col-md-6 col-lg-3 mb-3">
                                 <div
                                     className="feature-item wow fadeInUp h-100 mb-3"
                                     data-wow-duration="1s"
@@ -26,7 +26,7 @@ const HomeFeature = () => {
                                 </div>
                             </div>
                             {/* Feature 2 */}
-                            <div className="col-md-6 col-lg-3 mb-3">
+                            <div className="col-6 col-md-6 col-lg-3 mb-3">
                                 <div
                                     className="feature-item wow fadeInUp h-100 mb-3"
                                     data-wow-duration="1s"
@@ -43,7 +43,7 @@ const HomeFeature = () => {
                                 </div>
                             </div>
                             {/* Feature 3 */}
-                            <div className="col-md-6 col-lg-3 mb-3">
+                            <div className="col-6 col-md-6 col-lg-3 mb-3">
                                 <div
                                     className="feature-item wow fadeInUp h-100 mb-3"
                                     data-wow-duration="1s"
@@ -60,7 +60,7 @@ const HomeFeature = () => {
                                 </div>
                             </div>
                             {/* Feature 4 */}
-                            <div className="col-md-6 col-lg-3 mb-3">
+                            <div className="col-6 col-md-6 col-lg-3 mb-3">
                                 <div
                                     className="feature-item wow fadeInUp h-100 mb-3"
                                     data-wow-duration="1s"

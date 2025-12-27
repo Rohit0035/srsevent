@@ -2697,12 +2697,13 @@ button.navbar-toggler:focus {
 }
 
 .feature-item {
-  padding: 50px 10px;
+  padding: 20px 10px;
   position: relative;
   background: #9c2356;
   text-align: center;
   margin-bottom: 25px;
   transition: all .5s ease-in-out;
+  border-radius: 10px;
 }
 
 .feature-item:hover {
@@ -2710,7 +2711,7 @@ button.navbar-toggler:focus {
 }
 
 .feature-icon {
-  font-size: 70px;
+  font-size: 42px;
   color: #fff;
   line-height: 0;
   margin-bottom: 15px;
