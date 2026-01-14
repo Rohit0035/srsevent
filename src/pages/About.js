@@ -82,9 +82,9 @@ const About = () => {
                                     />
                                 </div>
                                 <div className="about-experience">
-                                    <h1>
+                                    <h2>
                                         25 <span>+</span>
-                                    </h1>
+                                    </h2>
                                     <span className="about-experience-text">Years Of Experience</span>
                                 </div>
                                 <div className="about-img-shape">
