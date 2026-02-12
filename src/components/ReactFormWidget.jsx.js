@@ -30,8 +30,8 @@ const ReactFormWidget = () => {
   
       try {
         const response = await postShortEnquiry(formData); // ✅ call API service
-  
-        if (response.status === 200) {
+        
+        if (response.status == 200) {
           setFormData({
             full_name: "",
             email: "",
@@ -40,8 +40,10 @@ const ReactFormWidget = () => {
           // setIsOpen(false)
           toast.success('Data submitted successfully')
           setIsDataSubmited(true)
-          setIsOpen(false)
           setMessage('Data submitted successfully')
+          setTimeout(() => {
+            setIsOpen(false)
+          }, 3000);
         } else {
           setMessage(
             `❌ Submission failed: ${response.data.message || "Try again."}`
@@ -81,6 +83,13 @@ const ReactFormWidget = () => {
             </div>
           </div>
           <div className="rfw-body">
+            {
+              message && (
+                <div style={{ color: "#fff", textAlign: "center", height: "100px", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                  {message}
+                </div>
+              )
+            }
             {
               loading ? (
                 <div style={{ color: "#fff", textAlign: "center", height: "100px", display: "flex", justifyContent: "center", alignItems: "center" }}>
